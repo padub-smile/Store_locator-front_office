@@ -1,0 +1,9 @@
+# IDE files
+.idea
+.buildpath
+.project
+.settings/
+
+# Front-end dependecies
+node_modules/
+.sass-cache/
