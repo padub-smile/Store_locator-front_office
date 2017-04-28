@@ -64,6 +64,12 @@ cd /home/smile/[project]/src/
 npm run build
 ```
 
+Running unit tests :
+```shell
+cd /home/smile/[project]/src/
+npm test
+```
+
 
 
 ## Delivery

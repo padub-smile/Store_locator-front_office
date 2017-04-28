@@ -91,5 +91,5 @@ nvm install node
 
 Install commands globally with npm :
 ```shell
-npm install -g doctoc getstorybook
+npm install -g doctoc getstorybook create-react-app
 ```
