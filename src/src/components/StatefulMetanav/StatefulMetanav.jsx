@@ -1,40 +1,29 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import fetch from 'isomorphic-fetch';
+import { connect } from 'react-redux'
 
+import { fetchMetanav } from '../../actions/metanav';
 import Metanav from 'ui-kit/dist/Metanav/Metanav';
 
 class StatefulMetanav extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: {}
-    };
-    this.init();
-  }
-
-  init() {
-    fetch('/fixtures/metanav.json')
-      .then(response => {
-        if (response.status >= 400) {
-          throw new Error('Bad response from server');
-        }
-        return response.json();
-      })
-      .then(data => this.setState({data}));
+  componentDidMount() {
+    this.props.fetchMetanav();
   }
 
   render() {
-    return (<Metanav triggerCallback={this.props.triggerCallback} data={this.state.data} />);
+    return (<Metanav triggerCallback={this.props.triggerCallback} data={this.props.data} />);
   }
 }
 
-StatefulMetanav.propTypes = {
-  triggerCallback: PropTypes.func
+const mapStateToProps = (state) => {
+  return {
+    data: state.metanav
+  }
 };
 
-StatefulMetanav.defaultProps = {
-  triggerCallback: () => {}
+const mapDispatchToProps = (dispatch) => {
+  return {
+    fetchMetanav: fetchMetanav.bind(null, dispatch)
+  }
 };
 
-export default StatefulMetanav;
+export default connect(mapStateToProps, mapDispatchToProps)(StatefulMetanav);
