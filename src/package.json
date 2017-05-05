@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.1.4",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "ui-kit": "git+ssh://git@git.smile.fr:dior/store-locator_ui-kit.git"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
