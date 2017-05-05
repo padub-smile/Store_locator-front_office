@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import 'ui-kit/dist/styles/ui-kit.css';
 
-import StatefulHeader from './components/StatefulHeader/StatefulHeader.jsx';
+import StatefulHeader from '../StatefulHeader/StatefulHeader.jsx';
 
 class App extends Component {
   render() {
