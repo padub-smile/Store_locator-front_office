@@ -58,6 +58,8 @@ cd /home/smile/[project]/src/
 npm start
 ```
 
+Then go to http://store_locator.lxc:3000/
+
 Building for production :
 ```shell
 cd /home/smile/[project]/src/
