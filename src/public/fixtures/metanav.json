@@ -1,0 +1,82 @@
+{
+  "home": {
+    "url": "https:\/\/preprod.dior.com\/home\/fr_fr",
+    "data-track-object": []
+  },
+  "main": {
+    "fashion-accessories": [
+      {
+        "title": "Mode Femme",
+        "url": "https:\/\/preprod.dior.com\/couture\/fr_fr\/mode-femme",
+        "identifier": "womens-fashion",
+        "data-track-object": []
+      },
+      {
+        "title": "Mode Homme",
+        "url": "https:\/\/preprod.dior.com\/couture\/fr_fr\/mode-homme",
+        "identifier": "mens-fashion",
+        "data-track-object": []
+      },
+      {
+        "title": "mode enfant",
+        "url": "https:\/\/preprod.dior.com\/couture\/fr_fr\/mode-enfant",
+        "identifier": "childrens-fashion",
+        "data-track-object": []
+      }
+    ],
+    "fragrance-beauty": [
+      {
+        "title": "Parfum",
+        "url": "https:\/\/www.dior.com\/beauty\/fr_fr\/parfum-et-beaute\/parfum\/axe-fragrance-parfum.html",
+        "identifier": "",
+        "data-track-object": []
+      },
+      {
+        "title": "Maquillage",
+        "url": "",
+        "identifier": "",
+        "data-track-object": []
+      },
+      {
+        "title": "Soin",
+        "url": "https:\/\/www.dior.com\/beauty\/fr_fr\/parfum-et-beaute\/soin\/axe-skincare-soin.html",
+        "identifier": "",
+        "data-track-object": []
+      }
+    ],
+    "jewellery-timepieces": [
+      {
+        "title": "Joaillerie",
+        "url": "https:\/\/preprod.dior.com\/couture\/fr_fr\/joaillerie",
+        "identifier": "jewellery",
+        "data-track-object": []
+      },
+      {
+        "title": "Horlogerie",
+        "url": "https:\/\/preprod.dior.com\/couture\/fr_fr\/horlogerie",
+        "identifier": "timepieces",
+        "data-track-object": []
+      }
+    ]
+  },
+  "news": {
+    "title": "Actualit\u00e9s",
+    "list": [
+      {
+        "title": "DIORMAG",
+        "url": "https:\/\/www.dior.com\/diormag\/fr_fr",
+        "data-track-object": []
+      },
+      {
+        "title": "DiorTV",
+        "url": "https:\/\/www.dior.com\/diortv\/fr_fr\/ ",
+        "data-track-object": []
+      },
+      {
+        "title": "La maison Dior",
+        "url": "https:\/\/preprod.dior.com\/couture\/fr_fr\/la-maison-dior",
+        "data-track-object": []
+      }
+    ]
+  }
+}
