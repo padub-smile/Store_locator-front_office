@@ -1,21 +1,11 @@
-import React, { Component } from 'react';
-import Cookie from 'js-cookie';
+import { connect } from 'react-redux'
 
 import NavAccount from 'ui-kit/dist/NavAccount/NavAccount';
 
-const cookieName = 'userData';
-
-class StatefulNavAccount extends Component {
-  render() {
-    let isConnected = false;
-    let cookieData = Cookie.get(cookieName);
-    if (cookieData) {
-      cookieData = JSON.parse(cookieData);
-      isConnected = !!cookieData.name;
-    }
-
-    return (<NavAccount isConnected={isConnected} />);
+const mapStateToProps = (state) => {
+  return {
+    isConnected: state.account.isConnected
   }
-}
+};
 
-export default StatefulNavAccount;
+export default connect(mapStateToProps)(NavAccount);

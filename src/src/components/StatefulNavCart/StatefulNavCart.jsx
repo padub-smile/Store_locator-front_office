@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
-import Cookie from 'js-cookie';
+import { connect } from 'react-redux'
 
 import NavCart from 'ui-kit/dist/NavCart/NavCart';
 
-const cookieName = 'cdc_cart_items_count';
-
-class StatefulNavCart extends Component {
-  render() {
-    const itemCount = +Cookie.get(cookieName);
-    return (<NavCart itemCount={itemCount} />);
+const mapStateToProps = (state) => {
+  return {
+    itemCount: state.cart.itemCount
   }
-}
+};
 
-export default StatefulNavCart;
+export default connect(mapStateToProps)(NavCart);
