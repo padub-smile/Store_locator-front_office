@@ -16,7 +16,7 @@ class StatefulMetanav extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    data: state.metanav
+    data: state.metanav.data
   }
 };
 
