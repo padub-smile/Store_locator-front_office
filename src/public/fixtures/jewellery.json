@@ -1,0 +1,265 @@
+[
+  {
+    "title": "Haute Joaillerie",
+    "subtitle": "Accueil Haute Joaillerie",
+    "identifier": "HauteJoaillerie",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie",
+    "type": "sous_univers",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022High jewellery\u0022}",
+    "list": [
+      {
+        "title": "Les collections",
+        "list": {
+          "default-image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/dior-et-dopales\/11642471-16-fre-FR\/dior-et-dopales.jpg",
+          "illustrated-left": [
+            {
+              "title": "Dior et d\u0027Opales",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/dior-et-dopales",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - Dior et d\u0027Opales\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/dior-et-dopales\/11642471-16-fre-FR\/dior-et-dopales.jpg"
+            },
+            {
+              "title": "Dior \u00e0 Versailles",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/dior-a-versailles",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - Dior \\u00e0 Versailles\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/dior-a-versailles\/11642401-89-fre-FR\/dior-a-versailles.jpg"
+            },
+            {
+              "title": "SOIE DIOR",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/soie-dior",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - SOIE DIOR\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/soie-dior\/11638199-278-fre-FR\/soie-dior.jpg"
+            },
+            {
+              "title": "ARCHI DIOR",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/archi-dior",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - ARCHI DIOR\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/archi-dior\/11638463-233-fre-FR\/archi-dior.jpg"
+            },
+            {
+              "title": "CHER DIOR",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/cher-dior",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - CHER DIOR\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/cher-dior\/11640541-203-fre-FR\/cher-dior.jpg"
+            },
+            {
+              "title": "PR\u00c9CIEUSES",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/precieuses",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - PRECIEUSES\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/precieuses\/11638871-777-fre-FR\/precieuses.jpg"
+            }
+          ],
+          "all": []
+        }
+      },
+      {
+        "title": "",
+        "list": {
+          "default-image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/rose-dior-bagatelle\/11639255-200-fre-FR\/rose-dior-bagatelle.jpg",
+          "illustrated-left": [
+            {
+              "title": "ROSE DIOR BAGATELLE",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/rose-dior-bagatelle",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog -  - ROSE DIOR BAGATELLE\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/rose-dior-bagatelle\/11639255-200-fre-FR\/rose-dior-bagatelle.jpg"
+            },
+            {
+              "title": "COUTURE",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/couture",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog -  - COUTURE\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/couture\/11639471-148-fre-FR\/couture.jpg"
+            },
+            {
+              "title": "MA BAGUE",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/ma-bague",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog -  - MA BAGUE\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/ma-bague\/11639831-152-fre-FR\/ma-bague.jpg"
+            },
+            {
+              "title": "INCROYABLES \u0026 MERVEILLEUSES",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/incroyables-merveilleuses",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog -  - INCROYABLES \u0026 MERVEILLEUSES\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/incroyables-merveilleuses\/11640347-176-fre-FR\/incroyables-merveilleuses.jpg"
+            }
+          ],
+          "all": []
+        }
+      }
+    ],
+    "blocs": {
+      "frame": {
+        "title": "S\u00e9lection",
+        "list": [
+          {
+            "title": "BAGUE \u00ab PETIT PANACHE OPALE \u00bb",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/selection\/40048-bague-\u00ab-petit-panache-opale-\u00bb-ref-jplm93006_0000\/11702399-1-fre-FR\/40048-bague-\u00ab-petit-panache-opale-\u00bb-ref-jplm93006_0000.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/dior-et-dopales\/bague-petit-panache-opale-1-40048",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - Selection - BAGUE \\u00ab PETIT PANACHE OPALE \\u00bb\u0022}"
+          },
+          {
+            "title": "COLLIER DIOR \u00c0 VERSAILLES\n\u00ab GALERIE DES GLACES \u00bb",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/selection\/32131-collier-\u00ab-galerie-des-glaces-\u00bb-ref-jver93021_0000_u\/11702335-2-fre-FR\/32131-collier-\u00ab-galerie-des-glaces-\u00bb-ref-jver93021_0000_u.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/dior-a-versailles\/collier-galerie-des-glaces-1-32131",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - Selection - COLLIER DIOR \\u00c0 VERSAILLES\\n\\u00ab GALERIE DES GLACES \\u00bb\u0022}"
+          },
+          {
+            "title": "BOUCLES D\u0027OREILLES ARCHI DIOR\n\u00ab COCOTTE SAPHIR ROSE \u00bb",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/haute-joaillerie\/selection\/28845-boucles-doreilles-archi-dior-\u00ab-cocotte-saphir-rose-\u00bb-ref-jcou93029_0000_u\/11702337-2-fre-FR\/28845-boucles-doreilles-archi-dior-\u00ab-cocotte-saphir-rose-\u00bb-ref-jcou93029_0000_u.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/haute-joaillerie\/archi-dior\/boucles-d-oreilles-archi-dior-cocotte-saphir-rose-1-28845",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - Selection - BOUCLES D\u0027OREILLES ARCHI DIOR\\n\\u00ab COCOTTE SAPHIR ROSE \\u00bb\u0022}"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Collections joailli\u00e8res",
+    "subtitle": "Accueil Collections joailli\u00e8res",
+    "identifier": "CollectionsJoailli\u00e8res",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres",
+    "type": "sous_univers",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Jewellery collections\u0022}",
+    "list": [
+      {
+        "title": "Les collections",
+        "list": {
+          "default-image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/archi-dior\/11578876-250-fre-FR\/archi-dior.jpg",
+          "illustrated-left": [
+            {
+              "title": "Archi Dior",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/archi-dior",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - Archi Dior\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/archi-dior\/11578876-250-fre-FR\/archi-dior.jpg"
+            },
+            {
+              "title": "Rose des vents",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/rose-des-vents",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - Rose des vents\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/rose-des-vents\/11576344-553-fre-FR\/rose-des-vents.jpg"
+            },
+            {
+              "title": "Diorama pr\u00e9cieuse",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/diorama-precieuse",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - Diorama pr\\u00e9cieuse\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/diorama-precieuse\/11576092-305-fre-FR\/diorama-precieuse.jpg"
+            },
+            {
+              "title": "My Dior",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/my-dior",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - My Dior\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/my-dior\/11565613-308-fre-FR\/my-dior.jpg"
+            },
+            {
+              "title": "Bois de Rose",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/bois-de-rose",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - Bois de Rose\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/bois-de-rose\/11565853-248-fre-FR\/bois-de-rose.jpg"
+            },
+            {
+              "title": "Rose Dior Bagatelle",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/rose-dior-bagatelle",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - Rose Dior Bagatelle\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/rose-dior-bagatelle\/11572921-259-fre-FR\/rose-dior-bagatelle.jpg"
+            },
+            {
+              "title": "Rose Dior Pr\u00e9 Catelan",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/rose-dior-pre-catelan",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - Rose Dior Pr\\u00e9 Catelan\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/rose-dior-pre-catelan\/11566321-249-fre-FR\/rose-dior-pre-catelan.jpg"
+            },
+            {
+              "title": "Jardin de Milly-la-For\u00eat",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/jardin-de-milly-la-foret",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - Jardin de Milly-la-For\\u00eat\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/jardin-de-milly-la-foret\/11566969-211-fre-FR\/jardin-de-milly-la-foret.jpg"
+            },
+            {
+              "title": "Oui",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/oui",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - Oui\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/oui\/11573330-246-fre-FR\/oui.jpg"
+            },
+            {
+              "title": "Signature",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/signature",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Collections - Signature\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/signature\/11618637-39-fre-FR\/signature.jpg"
+            }
+          ],
+          "all": []
+        }
+      },
+      {
+        "title": "Les bijoux",
+        "list": {
+          "default-image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/bagues\/11588593-209-fre-FR\/bagues.jpg",
+          "illustrated-left": [
+            {
+              "title": "Bagues",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/bagues",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Fashion Jewellery - Rings\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/bagues\/11588593-209-fre-FR\/bagues.jpg"
+            },
+            {
+              "title": "Bracelets",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/bracelets",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Fashion Jewellery - Bracelets\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/bracelets\/11589013-164-fre-FR\/bracelets.jpg"
+            },
+            {
+              "title": "Boucles d\u0027oreilles",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/boucles-doreilles",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Fashion Jewellery - Earrings\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/boucles-doreilles\/11589277-189-fre-FR\/boucles-doreilles.jpg"
+            },
+            {
+              "title": "Colliers",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/colliers",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Fashion Jewellery - Necklaces\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/colliers\/11589685-211-fre-FR\/colliers.jpg"
+            }
+          ],
+          "all": [
+            {
+              "title": "Toutes les pi\u00e8ces",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/toutes-les-pieces",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Fashion Jewellery - All pieces\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/toutes-les-pieces\/11617095-13-fre-FR\/toutes-les-pieces.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "blocs": {
+      "line": {
+        "title": "A la une",
+        "list": [
+          {
+            "title": "La nouvelle collection Rose des vents",
+            "subtitle": "",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/a-la-une\/la-nouvelle-collection-rose-des-vents\/11702166-1-fre-FR\/la-nouvelle-collection-rose-des-vents.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/rose-des-vents",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - A la une - The new Rose des vents collection\u0022}"
+          }
+        ]
+      },
+      "frame": {
+        "title": "S\u00e9lection",
+        "list": [
+          {
+            "title": "BAGUE ARCHI DIOR  \u00ab MILIEU DU SI\u00c8CLE \u00bb\nOR ROSE 750\/1000e ET DIAMANTS",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/selection\/33667-bague-archi-dior-\u00ab-milieu-du-siecle-\u00bb-or-rose-750-1000e-et-diamants-ref-jmds95001_0000\/11702177-1-fre-FR\/33667-bague-archi-dior-\u00ab-milieu-du-siecle-\u00bb-or-rose-750-1000e-et-diamants-ref-jmds95001_0000.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/archi-dior\/bague-archi-dior-milieu-du-siecle-or-rose-750-1000e-et-diamants-1-33667",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - Selection - BAGUE ARCHI DIOR  \\u00ab MILIEU DU SI\\u00c8CLE \\u00bb\\nOR ROSE 750\\\/1000e ET DIAMANTS\u0022}"
+          },
+          {
+            "title": "BAGUE OUI\nOR JAUNE 750\/1000e ET DIAMANT",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/joaillerie\/collections-joaillieres\/selection\/3020-bague-oui-or-jaune-750-1000e-et-diamant-ref-joui95001_0000\/11702179-1-fre-FR\/3020-bague-oui-or-jaune-750-1000e-et-diamant-ref-joui95001_0000.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie\/collections-joaillieres\/oui\/bague-oui-or-jaune-750-1000e-et-diamant-1-3020",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - Selection - BAGUE OUI\\nOR JAUNE 750\\\/1000e ET DIAMANT\u0022}"
+          }
+        ]
+      }
+    }
+  }
+]

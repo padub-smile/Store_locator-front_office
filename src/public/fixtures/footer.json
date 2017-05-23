@@ -1,0 +1,277 @@
+{
+  "customer-service": {
+    "title": "Service Client",
+    "list": [
+      {
+        "title": "Nous Contacter",
+        "url": "http:\/\/www.dior.com\/couture\/fr_fr\/contact-choice",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Footer\u0022,\u0022eventLabel\u0022:\u0022CONTACT US\u0022}"
+      },
+      {
+        "title": "Livraison \u0026 suivi",
+        "url": "http:\/\/www.dior.com\/couture\/fr_fr\/faq#anchor28175",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Footer\u0022,\u0022eventLabel\u0022:\u0022DELIVERY \u0026 FOLLOW-UP\u0022}"
+      },
+      {
+        "title": "Retours",
+        "url": "http:\/\/www.dior.com\/couture\/fr_fr\/faq#anchor28179",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Footer\u0022,\u0022eventLabel\u0022:\u0022RETURNS\u0022}"
+      },
+      {
+        "title": "FAQ",
+        "url": "http:\/\/www.dior.com\/couture\/fr_fr\/faq",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Footer\u0022,\u0022eventLabel\u0022:\u0022FAQ\u0022}"
+      }
+    ]
+  },
+  "country": {
+    "title": "Pays",
+    "list": [
+      {
+        "zone": "Europe",
+        "list": [
+          {
+            "country": "Belgique",
+            "language-country": "fr_be",
+            "eco": false,
+            "eco-pcd": false
+          },
+          {
+            "country": "Belgium",
+            "language-country": "en_be",
+            "eco": false,
+            "eco-pcd": false
+          },
+          {
+            "country": "Deutschland (EUR\u20ac)",
+            "language-country": "de_de",
+            "eco": true,
+            "eco-pcd": false
+          },
+          {
+            "country": "Espa\u00f1a (EUR\u20ac)",
+            "language-country": "es_es",
+            "eco": true,
+            "eco-pcd": true
+          },
+          {
+            "country": "France (EUR\u20ac)",
+            "language-country": "fr_fr",
+            "eco": true,
+            "eco-pcd": true
+          },
+          {
+            "country": "Italia (EUR\u20ac)",
+            "language-country": "it_it",
+            "eco": true,
+            "eco-pcd": true
+          },
+          {
+            "country": "\u0420\u043e\u0441\u0441\u0438\u044f",
+            "language-country": "ru_ru",
+            "eco": false,
+            "eco-pcd": false
+          },
+          {
+            "country": "United Kingdom (UK\u00a3)",
+            "language-country": "en_gb",
+            "eco": true,
+            "eco-pcd": true
+          }
+        ]
+      },
+      {
+        "zone": "North America",
+        "list": [
+          {
+            "country": "United States (US$)",
+            "language-country": "en_us",
+            "eco": false,
+            "eco-pcd": true
+          }
+        ]
+      },
+      {
+        "zone": "South America",
+        "list": [
+          {
+            "country": "Brasil",
+            "language-country": "pt_br",
+            "eco": false,
+            "eco-pcd": false
+          },
+          {
+            "country": "Latin America",
+            "language-country": "es_sam",
+            "eco": false,
+            "eco-pcd": false
+          }
+        ]
+      },
+      {
+        "zone": "Asia - Oceania",
+        "list": [
+          {
+            "country": "\u4e2d\u56fd (CNY\u00a5)",
+            "language-country": "zh_cn",
+            "eco": false,
+            "eco-pcd": true
+          },
+          {
+            "country": "\u9999\u6e2f",
+            "language-country": "zh_hk",
+            "eco": false,
+            "eco-pcd": false
+          },
+          {
+            "country": "Hong Kong",
+            "language-country": "en_hk",
+            "eco": false,
+            "eco-pcd": false
+          },
+          {
+            "country": "\u65e5\u672c (JPY\u00a5)",
+            "language-country": "ja_jp",
+            "eco": false,
+            "eco-pcd": true
+          },
+          {
+            "country": "\ud55c\uad6d (KRW\u20a9)",
+            "language-country": "ko_kr",
+            "eco": true,
+            "eco-pcd": false
+          },
+          {
+            "country": "\u53f0\u7063",
+            "language-country": "zh_tw",
+            "eco": false,
+            "eco-pcd": false
+          }
+        ]
+      },
+      {
+        "zone": "International",
+        "list": [
+          {
+            "country": "International version",
+            "language-country": "en_int",
+            "eco": false,
+            "eco-pcd": false
+          }
+        ]
+      }
+    ]
+  },
+  "practical-information": {
+    "title": "Informations Pratiques",
+    "list": [
+      {
+        "title": "Trouver un point de vente",
+        "url": "http:\/\/fr.store.dior.com\/?origin=CDC\u0026codeLanguage=fr_fr",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Footer\u0022,\u0022eventLabel\u0022:\u0022Boutiques\u0022}"
+      },
+      {
+        "title": "Carri\u00e8res",
+        "url": "https:\/\/www.dior.com\/couture\/minisite\/carrieres\/index.php?vs=fr_fr",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Footer\u0022,\u0022eventLabel\u0022:\u0022Careers\u0022}"
+      },
+      {
+        "title": "Mentions l\u00e9gales",
+        "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mentions-legales",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Footer\u0022,\u0022eventLabel\u0022:\u0022LEGAL TERMS AND CONDITIONS\u0022}"
+      },
+      {
+        "title": "Protection des donn\u00e9es",
+        "url": "http:\/\/www.dior.com\/couture\/fr_fr\/donnees-personnelles",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Footer\u0022,\u0022eventLabel\u0022:\u0022DATA PROTECTION\u0022}"
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "Newsletter",
+    "subtitle": "Recevez en avant premi\u00e8re les derni\u00e8res nouveaut\u00e9s \u0026 exclusivit\u00e9s",
+    "form": {
+      "placeholder": "Saisissez votre e-mail",
+      "data-error": "Votre email n\u0027est pas valide",
+      "data-required": "Votre email n\u0027est pas valide",
+      "button": "OK",
+      "data-track-object": ""
+    },
+    "popin": {
+      "title": "Recevez notre newsletter",
+      "fields": {
+        "title": {
+          "title": "Civilit\u00e9",
+          "type": "select",
+          "data-empty": "Select is required",
+          "options": {
+            "Mme": "Mme",
+            "Mlle": "Mlle",
+            "Mr": "M."
+          }
+        },
+        "lastName": {
+          "title": "Nom",
+          "type": "text",
+          "data-empty": "Veuillez indiquer votre adresse e-mail"
+        },
+        "firstName": {
+          "title": "Pr\u00e9nom",
+          "type": "text",
+          "data-empty": "Veuillez indiquer votre adresse e-mail"
+        },
+        "email": {
+          "title": "E-mail",
+          "type": "email",
+          "data-empty": "Votre email n\u0027est pas valide"
+        },
+        "optin": {
+          "title": "Newsletter Dior",
+          "data-empty": "At least one newsletter is required",
+          "options": {
+            "beauty": {
+              "title": "Je souhaite recevoir l\u0027actualit\u00e9 Parfum \u0026 Beaut\u00e9",
+              "value": "on"
+            },
+            "couture": {
+              "title": "Je souhaite recevoir l\u0027actualit\u00e9 Mode \u0026 Accessoires",
+              "value": "on"
+            }
+          }
+        }
+      },
+      "button": "Valider",
+      "action": "http:\/\/www.dior.com\/couture\/ecommerce\/newsletter\/index\/subscribeHeader?___store=default",
+      "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Footer\u0022,\u0022eventLabel\u0022:\u0022Newsletter - CDC\u0022}"
+    }
+  },
+  "follow-us": {
+    "title": "Nous Suivre",
+    "list": [
+      {
+        "title": "Facebook",
+        "identifier": "facebook",
+        "url": "https:\/\/www.facebook.com\/Dior",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Follow us\u0022,\u0022eventLabel\u0022:\u0022Facebook\u0022}"
+      },
+      {
+        "title": "Twitter",
+        "identifier": "twitter",
+        "url": "https:\/\/twitter.com\/#!\/DIOR",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Follow us\u0022,\u0022eventLabel\u0022:\u0022Twitter\u0022}"
+      },
+      {
+        "title": "Tumblr",
+        "identifier": "tumblr",
+        "url": "https:\/\/dior.tumblr.com\/",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Follow us\u0022,\u0022eventLabel\u0022:\u0022Tumblr\u0022}"
+      },
+      {
+        "title": "Instagram",
+        "identifier": "instagram",
+        "url": "https:\/\/www.instagram.com\/dior#",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom\u0022,\u0022eventAction\u0022:\u0022Follow us\u0022,\u0022eventLabel\u0022:\u0022Instagram\u0022}"
+      }
+    ]
+  }
+}

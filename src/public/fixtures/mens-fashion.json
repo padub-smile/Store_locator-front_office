@@ -1,0 +1,560 @@
+[
+  {
+    "title": "",
+    "subtitle": "",
+    "identifier": "",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/le-costume",
+    "type": "home_pap_collection",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022\u0022}"
+  },
+  {
+    "title": "Nouveaut\u00e9s",
+    "subtitle": "",
+    "identifier": "Nouveaut\u00e9s",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/nouveautes2",
+    "type": "home_collection",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022New items\u0022}"
+  },
+  {
+    "title": "Pr\u00eat-\u00e0-porter",
+    "subtitle": "Accueil Pr\u00eat-\u00e0-porter",
+    "identifier": "Pr\u00eat-\u00e0-porter",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter",
+    "type": "sous_univers",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Ready-to-wear\u0022}",
+    "list": [
+      {
+        "title": "Les cat\u00e9gories",
+        "list": {
+          "default-image": "",
+          "links": [
+            {
+              "title": "Vestes",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/vestes",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Suit Jackets\u0022}"
+            },
+            {
+              "title": "Blousons \u0026 Manteaux",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/blousons-manteaux",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Jackets \u0026 Coats\u0022}"
+            },
+            {
+              "title": "Pulls \u0026 Sweatshirts",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/pulls-sweatshirts",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Sweaters \u0026 Sweatshirts\u0022}"
+            },
+            {
+              "title": "Chemises",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/chemises",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Shirts\u0022}"
+            },
+            {
+              "title": "Polos \u0026 T-Shirts",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/polos-t-shirts",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Polo shirts \u0026 T-shirts\u0022}"
+            },
+            {
+              "title": "Jeans",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/jeans",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Jeans\u0022}"
+            },
+            {
+              "title": "Pantalons",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/pantalons",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Trousers\u0022}"
+            }
+          ],
+          "all": [
+            {
+              "title": "Tout le pr\u00eat-\u00e0-porter",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/tout-le-pret-a-porter",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - All Ready-to-Wear\u0022}"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Les collections",
+        "list": {
+          "default-image": "",
+          "links": [
+            {
+              "title": "Fall 2017",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/fall-2017",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - The collections - Fall 2017\u0022}"
+            },
+            {
+              "title": "Summer 2017",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/summer-2017",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - The collections - Summer 2017\u0022}"
+            },
+            {
+              "title": "Les intemporels",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/les-intemporels",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - The collections - The Foundations\u0022}"
+            }
+          ],
+          "all": []
+        }
+      }
+    ],
+    "blocs": {
+      "line": {
+        "title": "\u00c0 la une",
+        "list": [
+          {
+            "title": "Collection Fall 2017",
+            "subtitle": "",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/pret-a-porter\/a-la-une\/collection-fall-2017\/12079878-2-fre-FR\/collection-fall-2017.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/fall-2017",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - \\u00c0 la une - Fall 2017 Collection\u0022}"
+          }
+        ]
+      },
+      "frame": {
+        "title": "Nouveaut\u00e9s \u0026 S\u00e9lection",
+        "list": [
+          {
+            "title": "CHEMISE, IMPRIM\u00c9 PLAC\u00c9, COTON BLANC  ",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/pret-a-porter\/nouveautes-selection\/43328-imprime-place-coton-blanc-ref-433c529i7880_c089\/11701341-4-fre-FR\/43328-imprime-place-coton-blanc-ref-433c529i7880_c089.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/chemises\/imprime-place-coton-blanc-1-43328",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - New items \u0026 Selection - CHEMISE, IMPRIM\\u00c9 PLAC\\u00c9, COTON BLANC  \u0022}"
+          },
+          {
+            "title": "SWEATSHIRT, IMPRIM\u00c9 PLAC\u00c9 ET PATCH, COTON NOIR  ",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/pret-a-porter\/nouveautes-selection\/43742-imprime-place-et-patch-coton-noir-ref-733j621i9124_c980\/11701343-5-fre-FR\/43742-imprime-place-et-patch-coton-noir-ref-733j621i9124_c980.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/pret-a-porter\/pulls-sweatshirts\/imprime-place-et-patch-coton-noir-1-43742",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - New items \u0026 Selection - SWEATSHIRT, IMPRIM\\u00c9 PLAC\\u00c9 ET PATCH, COTON NOIR  \u0022}"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Maroquinerie",
+    "subtitle": "Accueil Maroquinerie",
+    "identifier": "Maroquinerie",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie",
+    "type": "sous_univers",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Leather goods\u0022}",
+    "list": [
+      {
+        "title": "Les sacs",
+        "list": {
+          "default-image": "",
+          "links": [
+            {
+              "title": "Porte-documents",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/porte-documents",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Bags - Briefcases\u0022}"
+            },
+            {
+              "title": "Sacs bandouli\u00e8res",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/sacs-bandoulieres",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Bags - Shoulder bags\u0022}"
+            },
+            {
+              "title": "Cabas",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/cabas",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Bags - Shopping bags\u0022}"
+            },
+            {
+              "title": "Sacs \u00e0 dos",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/sacs-a-dos",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Bags - Backpacks\u0022}"
+            },
+            {
+              "title": "Sacs de voyage",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/sacs-de-voyage",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Bags - Travel Bags\u0022}"
+            }
+          ],
+          "all": [
+            {
+              "title": "Tous les sacs",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/tous-les-sacs",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Bags - All the bags\u0022}"
+            }
+          ]
+        }
+      },
+      {
+        "title": "La petite maroquinerie",
+        "list": {
+          "default-image": "",
+          "links": [
+            {
+              "title": "Portefeuilles",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/portefeuilles",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Small leather goods - Wallets\u0022}"
+            },
+            {
+              "title": "Porte-cartes",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/porte-cartes",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Small leather goods - Card Holders\u0022}"
+            },
+            {
+              "title": "Pochettes",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/pochettes",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Small leather goods - Pouches\u0022}"
+            },
+            {
+              "title": "Porte-passeports",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/porte-passeports",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Small leather goods - Passport Holders\u0022}"
+            }
+          ],
+          "all": [
+            {
+              "title": "Toute la petite maroquinerie",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/toute-la-petite-maroquinerie",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Small leather goods - All small leather goods\u0022}"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Les collections",
+        "list": {
+          "default-image": "",
+          "links": [
+            {
+              "title": "Fall 2017",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/fall-2017",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - The collections - Fall 2017\u0022}"
+            },
+            {
+              "title": "Summer 2017",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/summer-2017",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - The collections - Summer 2017\u0022}"
+            },
+            {
+              "title": "Les intemporels",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/les-intemporels",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - The collections - The Foundations\u0022}"
+            }
+          ],
+          "all": []
+        }
+      }
+    ],
+    "blocs": {
+      "line": {
+        "title": "\u00c0 la une",
+        "list": [
+          {
+            "title": "Collection Fall 2017",
+            "subtitle": "",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/maroquinerie\/a-la-une\/collection-fall-2017\/12079810-1-fre-FR\/collection-fall-2017.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/fall-2017",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - \\u00c0 la une - Fall 2017 Collection\u0022}"
+          }
+        ]
+      },
+      "frame": {
+        "title": "Nouveaut\u00e9s \u0026 S\u00e9lection",
+        "list": [
+          {
+            "title": "POCHETTE VEAU NOIR IMPRESSION CHRISTIAN DIOR NEWAVE",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/maroquinerie\/nouveautes-selection\/42812-pochette-veau-noir-impression-christian-dior-newave-ref-2nwca127xsr_h03e_tu\/11790468-2-fre-FR\/42812-pochette-veau-noir-impression-christian-dior-newave-ref-2nwca127xsr_h03e_tu.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/toute-la-petite-maroquinerie\/pochette-veau-noir-impression-christian-dior-newave-1-42812",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - New items \u0026 Selection - POCHETTE VEAU NOIR IMPRESSION CHRISTIAN DIOR NEWAVE\u0022}"
+          },
+          {
+            "title": "SAC \u00c0 DOS CHRISTIAN DIOR NEWAVE NYLON NOIR ET VEAU NOIR",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/maroquinerie\/nouveautes-selection\/42784-sac-a-dos-christian-dior-newave-nylon-noir-et-veau-noir-ref-1nwba055xsl_h03e_tu\/11790470-2-fre-FR\/42784-sac-a-dos-christian-dior-newave-nylon-noir-et-veau-noir-ref-1nwba055xsl_h03e_tu.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/maroquinerie\/tous-les-sacs\/sac-a-dos-christian-dior-newave-nylon-noir-et-veau-noir-1-42784",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - New items \u0026 Selection - SAC \\u00c0 DOS CHRISTIAN DIOR NEWAVE NYLON NOIR ET VEAU NOIR\u0022}"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Chaussures",
+    "subtitle": "Accueil Chaussures",
+    "identifier": "Chaussures",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures",
+    "type": "sous_univers",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Shoes\u0022}",
+    "list": [
+      {
+        "title": "Les cat\u00e9gories",
+        "list": {
+          "default-image": "",
+          "links": [
+            {
+              "title": "Sneakers",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures\/sneakers",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Sneakers\u0022}"
+            },
+            {
+              "title": "Souliers",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures\/souliers",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Shoes\u0022}"
+            },
+            {
+              "title": "Bottes \u0026 Bottines",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures\/bottes-bottines",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Boots \u0026 Ankle Boots\u0022}"
+            },
+            {
+              "title": "Mocassins",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures\/mocassins",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Loafers\u0022}"
+            },
+            {
+              "title": "Espadrilles \u0026 Sandales",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures\/espadrilles-sandales",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Espadrilles \u0026 Sandals\u0022}"
+            }
+          ],
+          "all": [
+            {
+              "title": "Toutes les chaussures",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures\/toutes-les-chaussures",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - All shoes\u0022}"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Les collections",
+        "list": {
+          "default-image": "",
+          "links": [
+            {
+              "title": "Fall 2017",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures\/fall-2017",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - The collections - Fall 2017\u0022}"
+            },
+            {
+              "title": "Summer 2017",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures\/summer-2017",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - The collections - Summer 2017\u0022}"
+            },
+            {
+              "title": "Les intemporels",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures\/les-intemporels",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - The collections - The Foundations\u0022}"
+            }
+          ],
+          "all": []
+        }
+      }
+    ],
+    "blocs": {
+      "frame": {
+        "title": "Nouveaut\u00e9s \u0026 S\u00e9lection",
+        "list": [
+          {
+            "title": "SNEAKER TOILE BICOLORE NEWAVE ET VEAU NOIR SEMELLE GOMME BLANCHE",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/chaussures\/nouveautes-selection\/43095-sneaker-toile-bicolore-newave-et-veau-noir-semelle-gomme-blanche-ref-3sn146xuf_h960\/11701551-2-fre-FR\/43095-sneaker-toile-bicolore-newave-et-veau-noir-semelle-gomme-blanche-ref-3sn146xuf_h960.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures\/sneakers\/sneaker-toile-bicolore-newave-et-veau-noir-semelle-gomme-blanche-1-43095",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - New items \u0026 Selection - SNEAKER TOILE BICOLORE NEWAVE ET VEAU NOIR SEMELLE GOMME BLANCHE\u0022}"
+          },
+          {
+            "title": "DERBY VEAU NOIR SANGLES IMPRESSION NEWAVE SEMELLE GOMME NOIRE",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/chaussures\/nouveautes-selection\/42922-derby-veau-noir-sangles-impression-newave-semelle-gomme-noire-ref-3de224xtz_h960\/11701544-2-fre-FR\/42922-derby-veau-noir-sangles-impression-newave-semelle-gomme-noire-ref-3de224xtz_h960.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures\/souliers\/derby-veau-noir-sangles-impression-newave-semelle-gomme-noire-1-42922",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - New items \u0026 Selection - DERBY VEAU NOIR SANGLES IMPRESSION NEWAVE SEMELLE GOMME NOIRE\u0022}"
+          },
+          {
+            "title": "SANDALE GOMME IMPRESSION CHRISTIAN DIOR NEWAVE",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/chaussures\/nouveautes-selection\/43033-sandale-gomme-impression-christian-dior-newave-ref-3sa067xua_h965\/11701537-2-fre-FR\/43033-sandale-gomme-impression-christian-dior-newave-ref-3sa067xua_h965.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chaussures\/espadrilles-sandales\/sandale-gomme-impression-christian-dior-newave-1-43033",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - New items \u0026 Selection - SANDALE GOMME IMPRESSION CHRISTIAN DIOR NEWAVE\u0022}"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Accessoires",
+    "subtitle": "Accueil Accessoires",
+    "identifier": "Accessoires",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires",
+    "type": "sous_univers",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Accessories\u0022}",
+    "list": [
+      {
+        "title": "Les cat\u00e9gories",
+        "list": {
+          "default-image": "",
+          "links": [
+            {
+              "title": "Lunettes",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires\/lunettes",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Sunglasses\u0022}"
+            },
+            {
+              "title": "Ceintures",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires\/ceintures",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Belts\u0022}"
+            },
+            {
+              "title": "\u00c9charpes \u0026 Gants",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires\/echarpes-gants",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Scarves \u0026 Gloves\u0022}"
+            },
+            {
+              "title": "Boutons de manchette \u0026 Bijoux",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires\/boutons-de-manchette-bijoux",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Cufflinks \u0026 jewellery\u0022}"
+            },
+            {
+              "title": "Cravates \u0026 Noeuds papillon",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires\/cravates-noeuds-papillon",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - Ties \u0026 Bow Ties\u0022}"
+            }
+          ],
+          "all": [
+            {
+              "title": "Tous les accessoires",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires\/tous-les-accessoires",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Categories - All accessories\u0022}"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Les collections",
+        "list": {
+          "default-image": "",
+          "links": [
+            {
+              "title": "Fall 2017",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires\/fall-2017",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - The collections - Fall 2017\u0022}"
+            },
+            {
+              "title": "Summer 2017",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires\/summer-2017",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - The collections - Summer 2017\u0022}"
+            },
+            {
+              "title": "Les intemporels",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires\/les-intemporels",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - The collections - The Foundations\u0022}"
+            }
+          ],
+          "all": []
+        }
+      }
+    ],
+    "blocs": {
+      "line": {
+        "title": "\u00c0 la une",
+        "list": [
+          {
+            "title": "Collection Fall 2017",
+            "subtitle": "",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/accessoires\/a-la-une\/collection-fall-2017\/12079926-2-fre-FR\/collection-fall-2017.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires\/fall-2017",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - \\u00c0 la une - Fall 2017 Collection\u0022}"
+          }
+        ]
+      },
+      "frame": {
+        "title": "Nouveaut\u00e9s \u0026 S\u00e9lection",
+        "list": [
+          {
+            "title": "CRAVATE EN SOIE TISS\u00c9E NOIRE",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/accessoires\/nouveautes-selection\/43993-cravate-en-soie-tissee-noire-ref-7hs1010638_c900_tu\/11790472-2-fre-FR\/43993-cravate-en-soie-tissee-noire-ref-7hs1010638_c900_tu.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires\/cravates-noeuds-papillon\/cravate-en-soie-tissee-noire-1-43993",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - New items \u0026 Selection - CRAVATE EN SOIE TISS\\u00c9E NOIRE\u0022}"
+          },
+          {
+            "title": "BRACELET ABEILLE EN CORDON NOIR ET ARGENT",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/accessoires\/nouveautes-selection\/44003-bracelet-abeille-en-cordon-et-argent-massif-finition-rhodium-ref-b0866homst_d992_tu\/11790474-2-fre-FR\/44003-bracelet-abeille-en-cordon-et-argent-massif-finition-rhodium-ref-b0866homst_d992_tu.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/accessoires\/boutons-de-manchette-bijoux\/bracelet-abeille-en-cordon-et-argent-massif-finition-rhodium-1-44003",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_ProductPage\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - New items \u0026 Selection - BRACELET ABEILLE EN CORDON NOIR ET ARGENT\u0022}"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "HORLOGERIE",
+    "subtitle": "",
+    "identifier": "Horlogerie",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/chiffre-rouge",
+    "type": "home_collection",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022WATCHMAKING\u0022}"
+  },
+  {
+    "title": "Dior Homme x Sennheiser",
+    "subtitle": "",
+    "identifier": "DiorHommeXSennheiser",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/dior-homme-x-sennheiser",
+    "type": "discover_collection_page",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Dior Homme x Sennheiser\u0022}"
+  },
+  {
+    "title": "Collections et D\u00e9fil\u00e9s",
+    "subtitle": "Accueil Collections et D\u00e9fil\u00e9s",
+    "identifier": "CollectionsEtD\u00e9fil\u00e9s",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/collections-et-defiles",
+    "type": "sous_univers_defiles",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP_Defile\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Collections and fashion shows\u0022}",
+    "list": {
+      "blocs": {
+        "frame": {
+          "title": "Winter 2017\/2018",
+          "ontitle": "Disponible en boutique \u00e0 partir de juillet",
+          "subtitle": "",
+          "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/collections-et-defiles\/defile-dior-homme-winter-2017-2018\/11240336-156-fre-FR\/defile-dior-homme-winter-2017-2018.jpg",
+          "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/collections-et-defiles\/defile-dior-homme-winter-2017-2018",
+          "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Defile\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - Winter 2017\\\/2018\u0022}",
+          "list": [
+            {
+              "title": "D\u00e9fil\u00e9",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/collections-et-defiles\/defile-dior-homme-winter-2017-2018#D\u00e9fil\u00e9",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Defile\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - Winter 2017\\\/2018 - Fashion show\u0022}"
+            },
+            {
+              "title": "Silhouettes",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/collections-et-defiles\/defile-dior-homme-winter-2017-2018",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Defile\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - Winter 2017\\\/2018 - silhouettes\u0022}"
+            },
+            {
+              "title": "Sc\u00e9nographie",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/collections-et-defiles\/defile-dior-homme-winter-2017-2018",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Defile\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - Winter 2017\\\/2018 - Design\u0022}"
+            },
+            {
+              "title": "Backstage",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/collections-et-defiles\/defile-dior-homme-winter-2017-2018",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Defile\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - Winter 2017\\\/2018 - Backstage\u0022}"
+            },
+            {
+              "title": "C\u00e9l\u00e9brit\u00e9s",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/collections-et-defiles\/defile-dior-homme-winter-2017-2018",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Defile\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - Winter 2017\\\/2018 - Celebrities\u0022}"
+            }
+          ]
+        },
+        "line": [
+          {
+            "title": "Spring 2017",
+            "ontitle": "Actuellement disponible en boutique",
+            "subtitle": "D\u00e9couvrir la collection",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/collections-et-defiles\/collection-dior-homme-spring-2017\/11240133-27-fre-FR\/collection-dior-homme-spring-2017.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/collections-et-defiles\/collection-dior-homme-spring-2017",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Defile\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - Spring 2017\u0022}",
+            "list": []
+          },
+          {
+            "title": "SUMMER 2017",
+            "ontitle": "Actuellement disponible en boutique",
+            "subtitle": "D\u00e9couvrir le d\u00e9fil\u00e9",
+            "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/mode-homme\/collections-et-defiles\/defile-dior-homme-summer-2017\/11238933-110-fre-FR\/defile-dior-homme-summer-2017.jpg",
+            "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme\/collections-et-defiles\/defile-dior-homme-summer-2017",
+            "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Defile\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Push - SUMMER 2017\u0022}",
+            "list": []
+          }
+        ]
+      }
+    }
+  }
+]

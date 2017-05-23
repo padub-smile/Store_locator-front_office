@@ -1,0 +1,181 @@
+[
+  {
+    "title": "Haute Horlogerie",
+    "subtitle": "Accueil Haute Horlogerie",
+    "identifier": "HauteHorlogerie",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/haute-horlogerie",
+    "type": "sous_univers",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Exceptional Timepieces\u0022}",
+    "list": [
+      {
+        "title": "Pour Femme",
+        "list": {
+          "default-image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/haute-horlogerie\/dior-viii\/11641237-257-fre-FR\/dior-viii.jpg",
+          "illustrated-left": [
+            {
+              "title": "DIOR VIII",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/haute-horlogerie\/dior-viii",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - FOR WOMAN - DIOR VIII\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/haute-horlogerie\/dior-viii\/11641237-257-fre-FR\/dior-viii.jpg"
+            },
+            {
+              "title": "DIOR GRAND SOIR",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/haute-horlogerie\/dior-grand-soir",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - FOR WOMAN - DIOR GRAND SOIR\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/haute-horlogerie\/dior-grand-soir\/11640973-192-fre-FR\/dior-grand-soir.jpg"
+            },
+            {
+              "title": "LA D DE DIOR",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/haute-horlogerie\/la-d-de-dior",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - FOR WOMAN - LA D DE DIOR\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/haute-horlogerie\/la-d-de-dior\/11641405-188-fre-FR\/la-d-de-dior.jpg"
+            }
+          ],
+          "all": []
+        }
+      },
+      {
+        "title": "Pour Homme",
+        "list": {
+          "default-image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/haute-horlogerie\/chiffre-rouge\/11641969-186-fre-FR\/chiffre-rouge.jpg",
+          "illustrated-left": [
+            {
+              "title": "CHIFFRE ROUGE",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/haute-horlogerie\/chiffre-rouge",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - FOR MAN - CHIFFRE ROUGE\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/haute-horlogerie\/chiffre-rouge\/11641969-186-fre-FR\/chiffre-rouge.jpg"
+            }
+          ],
+          "all": []
+        }
+      }
+    ]
+  },
+  {
+    "title": "Collections horlog\u00e8res",
+    "subtitle": "Accueil Collections horlog\u00e8res",
+    "identifier": "CollectionsHorlog\u00e8res",
+    "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres",
+    "type": "sous_univers",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_SHP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Timepiece collections\u0022}",
+    "list": [
+      {
+        "title": "Dior VIII",
+        "list": {
+          "default-image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/dior-viii2\/dior-viii-montaigne\/11648108-3-fre-FR\/dior-viii-montaigne.jpg",
+          "illustrated-top": [
+            {
+              "title": "Dior VIII Montaigne",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/dior-viii#zone_1",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Dior VIII - Dior VIII Montaigne\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/dior-viii2\/dior-viii-montaigne\/11648108-3-fre-FR\/dior-viii-montaigne.jpg"
+            },
+            {
+              "title": "Dior VIII",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/dior-viii#zone_2",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Dior VIII - Dior VIII\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/dior-viii2\/dior-viii\/11721616-2-fre-FR\/dior-viii.jpg"
+            },
+            {
+              "title": "Dior VIII Grand Bal",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/dior-viii#zone_2",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Dior VIII - Dior VIII Grand Bal\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/dior-viii2\/dior-viii-grand-bal\/11648120-2-fre-FR\/dior-viii-grand-bal.jpg"
+            }
+          ],
+          "all": [
+            {
+              "title": "Toute la collection",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/dior-viii",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Dior VIII - The whole collection\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/dior-viii2\/toute-la-collection\/11648132-3-fre-FR\/toute-la-collection.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "title": "La D de Dior",
+        "list": {
+          "default-image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/la-d-de-dior2\/la-d-de-dior-satine\/11721643-2-fre-FR\/la-d-de-dior-satine.jpg",
+          "illustrated-top": [
+            {
+              "title": "La D de Dior Satine",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/la-d-de-dior#zone_1",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - La D de Dior - La D de Dior Satine\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/la-d-de-dior2\/la-d-de-dior-satine\/11721643-2-fre-FR\/la-d-de-dior-satine.jpg"
+            },
+            {
+              "title": "La mini D de Dior",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/la-d-de-dior#zone_2",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - La D de Dior - La mini D de Dior\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/la-d-de-dior2\/la-mini-d-de-dior\/11721655-2-fre-FR\/la-mini-d-de-dior.jpg"
+            },
+            {
+              "title": "La D de Dior",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/la-d-de-dior#zone_3",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - La D de Dior - La D de Dior\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/la-d-de-dior2\/la-d-de-dior\/11721667-2-fre-FR\/la-d-de-dior.jpg"
+            }
+          ],
+          "all": [
+            {
+              "title": "Toute la collection",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/la-d-de-dior",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - La D de Dior - The whole collection\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/la-d-de-dior2\/toute-la-collection\/11721679-2-fre-FR\/toute-la-collection.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Dior Christal",
+        "list": {
+          "default-image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/dior-christal2\/toute-la-collection\/11721701-2-fre-FR\/toute-la-collection.jpg",
+          "illustrated-top": [
+            {
+              "title": "Toute la collection",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/dior-christal",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Dior Christal - All the collections\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/dior-christal2\/toute-la-collection\/11721701-2-fre-FR\/toute-la-collection.jpg"
+            }
+          ],
+          "all": []
+        }
+      },
+      {
+        "title": "Chiffre Rouge",
+        "list": {
+          "default-image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/chiffre-rouge2\/montre\/11721728-2-fre-FR\/montre.jpg",
+          "illustrated-top": [
+            {
+              "title": "Montre",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/chiffre-rouge#zone_1",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Chiffre Rouge - Watch\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/chiffre-rouge2\/montre\/11721728-2-fre-FR\/montre.jpg"
+            },
+            {
+              "title": "Chronographe",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/chiffre-rouge#zone_2",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Chiffre Rouge - Chronograph\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/chiffre-rouge2\/chronographe\/11721740-2-fre-FR\/chronographe.jpg"
+            },
+            {
+              "title": "Complications",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/chiffre-rouge#zone_3",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Chiffre Rouge - Complications\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/chiffre-rouge2\/complications\/11721764-1-fre-FR\/complications.jpg"
+            }
+          ],
+          "all": [
+            {
+              "title": "Toute la collection",
+              "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie\/collections-horlogeres\/chiffre-rouge",
+              "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_Gamme\u0022,\u0022eventAction\u0022:\u0022Top Menu\u0022,\u0022eventLabel\u0022:\u0022Catalog - Chiffre Rouge - The whole collection\u0022}",
+              "image": "http:\/\/www.dior.com\/couture\/var\/dior\/storage\/images\/horlogerie\/collections-horlogeres\/chiffre-rouge2\/toute-la-collection\/11721776-1-fre-FR\/toute-la-collection.jpg"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

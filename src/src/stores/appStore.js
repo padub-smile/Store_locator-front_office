@@ -1,18 +1,16 @@
 import { combineReducers, createStore } from 'redux'
 
 /* Reducers*/
-import { account } from '../reducers/account'
-import { cart } from '../reducers/cart'
-import { favorite } from '../reducers/favorite'
-import { metanav } from '../reducers/metanav'
-import { navMobile } from '../reducers/navMobile'
+import { account } from '../reducers/account';
+import { cart } from '../reducers/cart';
+import { favorite } from '../reducers/favorite';
+import { nav } from '../reducers/nav';
 
 const reducers = combineReducers({
   account,
   cart,
   favorite,
-  metanav,
-  navMobile
+  nav
 });
 
 export default createStore(

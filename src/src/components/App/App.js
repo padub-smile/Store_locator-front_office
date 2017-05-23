@@ -3,17 +3,31 @@ import { connect } from 'react-redux'
 
 import 'ui-kit/dist/styles/ui-kit.css';
 
-import NavMobile from 'ui-kit/dist/NavMobile/NavMobile';
+import DiorMap from 'ui-kit/dist/DiorMap/DiorMap';
 import PageContainer from 'ui-kit/dist/PageContainer/PageContainer';
-import StatefulHeader from '../StatefulHeader/StatefulHeader.jsx';
+import StatefulFooter from '../StatefulFooter/StatefulFooter.jsx';
+import StatefulMetanav from '../StatefulMetanav/StatefulMetanav';
+import StatefulNavMobile from '../StatefulNavMobile/StatefulNavMobile';
+import StatefulHeader from '../StatefulHeader/StatefulHeader';
+import StatefulSubnav from '../StatefulSubnav/StatefulSubnav';
 
 class App extends Component {
   render() {
+    if (this.props.isNavMobileOpen) {
+      document.body.classList.add('no-overflow')
+    } else {
+      document.body.classList.remove('no-overflow');
+    }
+
     return (
       <div>
-        <NavMobile isOpen={this.props.isNavMobileOpen} />
+        <StatefulNavMobile />
         <PageContainer isNavMobileOpen={this.props.isNavMobileOpen} >
+          <StatefulMetanav />
           <StatefulHeader />
+          <StatefulSubnav />
+          <div style={{height: '500px'}}><DiorMap /></div>
+          <StatefulFooter />
         </PageContainer>
       </div>
     );
@@ -22,7 +36,7 @@ class App extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    isNavMobileOpen: state.navMobile.isOpen
+    isNavMobileOpen: state.nav.isNavMobileOpen
   }
 };
 
