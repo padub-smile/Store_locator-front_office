@@ -18,6 +18,16 @@ export function fetchNavMobile(dispatch) {
     }));
 }
 
+export const RECEIVE_NAV_MOBILE_LINKS = 'RECEIVE_NAV_MOBILE_LINKS';
+export function fetchNavMobileLinks(dispatch) {
+  fetch('/fixtures/navmobile_links.json')
+    .then(response => response.json())
+    .then(json => dispatch({
+      type: RECEIVE_NAV_MOBILE_LINKS,
+      data: json
+    }));
+}
+
 export const RECEIVE_METANAV = 'RECEIVE_METANAV';
 export function fetchMetanav(dispatch) {
   fetch('/fixtures/metanav.json')

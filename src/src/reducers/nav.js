@@ -1,12 +1,13 @@
 import url from 'url';
 
-import { RECEIVE_METANAV, RECEIVE_NAV_MOBILE, RECEIVE_SUBNAV, TOGGLE_NAV_MOBILE } from '../actions/nav';
+import { RECEIVE_METANAV, RECEIVE_NAV_MOBILE, RECEIVE_NAV_MOBILE_LINKS, RECEIVE_SUBNAV, TOGGLE_NAV_MOBILE } from '../actions/nav';
 
 const initialState = {
   activeMenu: url.parse(window.location.href, true).query.activeMenu,
   isNavMobileOpen: false,
   metanav: {},
   navMobile: {},
+  navMobileLinks: {},
   subnav: []
 };
 
@@ -22,6 +23,12 @@ export function nav(state = initialState, action) {
       return {
         ...state,
         navMobile: action.data
+      };
+
+    case RECEIVE_NAV_MOBILE_LINKS:
+      return {
+        ...state,
+        navMobileLinks: action.data
       };
 
     case RECEIVE_SUBNAV:

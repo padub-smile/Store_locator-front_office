@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 
-import { fetchNavMobile } from '../../actions/nav';
+import { fetchNavMobile, fetchNavMobileLinks } from '../../actions/nav';
 import NavMobile from 'ui-kit/dist/NavMobile/NavMobile';
 
 class StatefulNavMobile extends Component {
   componentDidMount() {
     if (Object.keys(this.props.data).length === 0) {
-      this.props.fetchNavMobile(this.props.activeMenu);
+      this.props.fetchNavMobile();
+    }
+    if (Object.keys(this.props.links).length === 0) {
+      this.props.fetchNavMobileLinks();
     }
   }
 
   render() {
-    let home = {};
-    if (this.props.metanav && this.props.metanav.home) {
-      home.title = 'Accueil';
-      home.href = this.props.metanav.home.url;
-    }
     return (<NavMobile
       data={this.props.data}
-      home={home}
+      links={this.props.links}
       isOpen={this.props.isNavMobileOpen}
     />);
   }
@@ -28,6 +26,7 @@ class StatefulNavMobile extends Component {
 const mapStateToProps = (state) => {
   return {
     data: state.nav.navMobile,
+    links: state.nav.navMobileLinks,
     metanav: state.nav.metanav,
     isNavMobileOpen: state.nav.isNavMobileOpen
   }
@@ -35,7 +34,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    fetchNavMobile: fetchNavMobile.bind(null, dispatch)
+    fetchNavMobile: fetchNavMobile.bind(null, dispatch),
+    fetchNavMobileLinks: fetchNavMobileLinks.bind(null, dispatch)
   }
 };
 

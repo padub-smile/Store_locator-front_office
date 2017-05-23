@@ -1,0 +1,104 @@
+{
+  "home": {
+    "title": "Accueil",
+    "url": "http://m.dior.com/fr_fr/home.html"
+  },
+  "bottom_links": {
+    "discover": {
+      "children": [
+        {
+          "url": "http://m.dior.com/diormag/fr_fr",
+          "title": "Diormag",
+          "menuType": 0,
+          "id": "991",
+          "target": "_self"
+        },
+        {
+          "url": "http://m.dior.com/diortv/fr_fr",
+          "title": "DiorTV",
+          "menuType": 0,
+          "id": "992",
+          "target": "_self"
+        },
+        {
+          "url": "http://m.dior.com/fr_fr/minisite/th/dior_expos.html",
+          "title": "Expositions",
+          "menuType": 0,
+          "id": "993",
+          "target": "_self"
+        }
+      ],
+      "url": "http://m.preprod.dior.com/fr_fr/home.html",
+      "title": "Découvrir Dior",
+      "menuType": 0,
+      "id": "99",
+      "target": "_self",
+      "white": false
+    },
+    "social": {
+      "children": [
+        {
+          "url": "http://www.facebook.com/Dior",
+          "title": "Facebook",
+          "menuType": 0,
+          "id": "981",
+          "target": "_self"
+        },
+        {
+          "url": "http://twitter.com/dior",
+          "title": "Twitter",
+          "menuType": 0,
+          "id": "982",
+          "target": "_self"
+        },
+        {
+          "url": "http://www.youtube.com/user/Dior",
+          "title": "Youtube",
+          "menuType": 0,
+          "id": "983",
+          "target": "_self"
+        },
+        {
+          "url": "http://dior.tumblr.com/",
+          "title": "Tumblr",
+          "menuType": 0,
+          "id": "984",
+          "target": "_self"
+        },
+        {
+          "url": "http://instagram.com/dior/",
+          "title": "Instagram",
+          "menuType": 0,
+          "id": "985",
+          "target": "_self"
+        }
+      ],
+      "url": "http://m.preprod.dior.com/fr_fr/home.html",
+      "title": "Réseaux sociaux",
+      "menuType": 0,
+      "id": "98",
+      "target": "_self",
+      "white": true
+    },
+    "links": [
+      {
+        "title": "Contact",
+        "url": "http://m.dior.com/fr_fr/contact-choice.html",
+        "target": "_self",
+        "white": true
+      },
+      {
+        "title": "Boutiques",
+        "url": "http://fr.store.dior.com/?origin=PCD&codeLanguage=fr_fr",
+        "target": "_self",
+        "white": true
+      },
+      {
+        "title": "Carrières",
+        "url": "http://m.dior.com/couture/minisite/carrieres/index.php?vs=fr_fr",
+        "target": "_self",
+        "white": true
+      }
+    ]
+  }
+}
