@@ -1,7 +1,8 @@
-import { getIsConnected } from '../actions/account'
+import { getIsConnected, getName } from '../actions/account'
 
 const initialState = {
-  isConnected: getIsConnected()
+  isConnected: getIsConnected(),
+  name: getName()
 };
 
 export function account(state = initialState, action) {

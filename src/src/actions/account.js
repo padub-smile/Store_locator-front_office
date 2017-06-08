@@ -1,12 +1,17 @@
 import Cookie from 'js-cookie';
 
+const cookieName = 'userData';
+
 export function getIsConnected() {
-  const cookieName = 'userData';
-  let isConnected = false;
+  return !!getName();
+}
+
+export function getName() {
+  let name = '';
   let cookieData = Cookie.get(cookieName);
   if (cookieData) {
     cookieData = JSON.parse(cookieData);
-    isConnected = !!cookieData.name;
+    name = cookieData.name;
   }
-  return isConnected;
+  return name;
 }

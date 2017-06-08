@@ -4,7 +4,9 @@ import NavAccount from 'ui-kit/dist/NavAccount/NavAccount';
 
 const mapStateToProps = (state) => {
   return {
-    isConnected: state.account.isConnected
+    data: state.shared.dataCdc,
+    isConnected: state.account.isConnected,
+    name: state.account.name
   }
 };
 
