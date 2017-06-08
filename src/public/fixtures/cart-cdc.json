@@ -1,0 +1,91 @@
+{
+  "myladydior": 0,
+  "wording": {
+    "express": "Achat",
+    "quantity": "Quantit\u00e9",
+    "editGiftMessage": "Modifier le message",
+    "addGiftMessage": "Ajouter ce message",
+    "size": "Taille",
+    "privilegeMessage": ""
+  },
+  "storeCode": "1",
+  "status": "1",
+  "logged": "1",
+  "gift": true,
+  "giftMsg": "",
+  "wantSample": false,
+  "currentStep": "0",
+  "newUserToken": "xxxx",
+  "newGuestUserToken": "xxxx",
+  "crpMessage": "xxxx",
+  "addresses": [],
+  "errors": [],
+  "basket": {
+    "products": [
+      {
+        "maxQuantity": 2,
+        "id": "1440059",
+        "name": "EXCLUSIVIT\u00c9 DIOR.COM",
+        "description": "",
+        "quantity": 1,
+        "size": "",
+        "unitPrice": "890.0000",
+        "title": "POCHETTE PLATE \u00ab J'ADIOR \u00bb PERSONNALISABLE",
+        "free": false,
+        "subTotalWithCurrency": "890,00\u00a0\u20ac",
+        "sku": "S7003CLLM_M900_TU",
+        "href": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-femme\/accessoires\/pochettes\/pochette-plate-j-adior-en-veau-froisse-noir-1-41249",
+        "packshot": "http:\/\/www.dior.com\/couture\/ecommerce\/media\/catalog\/product\/cache\/1\/search\/90x\/7b8fef0172c2eb72dd8fd366c999954c\/S\/7\/S7003CLLM_M900_V7.jpg",
+        "unitPriceWithCurrency": "890,00\u00a0\u20ac",
+        "subTotal": "890.0000",
+        "idToDelete": "1440059",
+        "form_key": "hXIIIIjG6fh3H6R5",
+        "data_url": "https:\/\/wwws.dior.com\/couture\/ecommerce\/checkout\/cart\/deletePost?___store=default"
+      }
+    ],
+    "productsQuantity": 1,
+    "productsSubtotalWithCurrency": "890,00\u00a0\u20ac",
+    "promoCodes": [],
+    "shippingModes": [
+      {
+        "name": "Livraison standard offerte",
+        "total": "0,00\u00a0\u20ac",
+        "arrivalTime": "4",
+        "price": "offerte",
+        "guid": "flatrate_flatrate",
+        "estimatedSeoul": "",
+        "estimated": "Estim\u00e9e le Jeudi 08 Juin",
+        "costWithCurrency": "offerte",
+        "free": true,
+        "selected": true,
+        "available": true
+      },
+      {
+        "name": "Livraison Express",
+        "total": "9,95\u00a0\u20ac",
+        "arrivalTime": "4",
+        "price": "9,95\u00a0\u20ac",
+        "guid": "express_express",
+        "estimatedSeoul": "",
+        "estimated": "Mercredi 07 Juin",
+        "costWithCurrency": "9,95\u00a0\u20ac",
+        "free": false,
+        "selected": false,
+        "available": true
+      }
+    ],
+    "tripservices": [],
+    "samples": {
+      "categories": []
+    },
+    "giftWrap": "",
+    "subTotalWithCurrency": "890,00\u00a0\u20ac",
+    "totalWithCurrency": "890,00\u00a0\u20ac",
+    "totalWithGiftWrapWithCurrency": "890,00\u00a0\u20ac",
+    "taxeWithCurrency": "0",
+    "shippingWithCurrency": "0,00\u00a0\u20ac",
+    "discountWithCurrency": null,
+    "bundle": false
+  },
+  "conditions": ""
+}

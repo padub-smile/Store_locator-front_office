@@ -1,0 +1,48 @@
+{
+  "errorCode": null,
+  "data": [
+    {
+      "url": "http://www.dior.com/beauty/fr_fr/parfum-beaute/parfum/les-parfums-pour-homme/sauvage/pr-sauvagefragrances-y0985240_f098524009-very-cool-spray-fresh-eau-de-toilette-100-air-spray.html",
+      "imgLarge": "http://www.dior.com/beauty/version-5.1432748111911/resize-image/ep/0/0/90/0/packshots%252F3348901352314.png",
+      "imgSmall": "http://www.dior.com/beauty/version-5.1432748111911/resize-image/ep/0/140/90/0/packshots%252F3348901352314.png",
+      "size": null,
+      "selectedVariant": null,
+      "dateAdded": "2017-06-06T15:26:57",
+      "unitPriceWithCurrency": "73,00 €",
+      "availability": true,
+      "availabilityMessage": null,
+      "identifier": "F098524009",
+      "configuration": {
+        "shade": null,
+        "capacity": "Vapo. 100 mL",
+        "intensity": null
+      },
+      "description": "Very Cool Spray - Fresh Eau De Toilette - 100% Air Spray ",
+      "title": "Sauvage",
+      "universe": "pcd",
+      "variants": []
+    },
+    {
+      "url": "http://www.dior.com/beauty/fr_fr/parfum-beaute/parfum/les-parfums-pour-femme/miss-dior/pr-missdiorfragrances-y0782210_f078222009-absolutely-blooming.html",
+      "imgLarge": "http://www.dior.com/beauty/version-5.1432748111911/resize-image/ep/0/0/90/0/packshots%252F3348901300056.png",
+      "imgSmall": "http://www.dior.com/beauty/version-5.1432748111911/resize-image/ep/0/140/90/0/packshots%252F3348901300056.png",
+      "size": null,
+      "selectedVariant": null,
+      "dateAdded": "2017-06-06T14:46:39",
+      "unitPriceWithCurrency": "88,00 €",
+      "availability": true,
+      "availabilityMessage": null,
+      "identifier": "F078222009",
+      "configuration": {
+        "shade": null,
+        "capacity": "Vapo. 50 mL",
+        "intensity": null
+      },
+      "description": "Absolutely Blooming",
+      "title": "Miss Dior",
+      "universe": "pcd",
+      "variants": []
+    }
+  ],
+  "message": null
+}

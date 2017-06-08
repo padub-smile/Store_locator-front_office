@@ -1,0 +1,75 @@
+{
+  "wording": {
+    "quantity": "Quantité"
+  },
+  "storeCode": "28",
+  "maxQuantity": 5,
+  "maxSample": 0,
+  "maxTripService": 0,
+  "status": false,
+  "logged": false,
+  "gift": false,
+  "wantSample": true,
+  "addresses": [],
+  "errors": [],
+  "basket": {
+    "products": [
+      {
+        "id": null,
+        "title": "Very Cool Spray - Fresh Eau De Toilette - 100% Air Spray",
+        "name": "Sauvage",
+        "description": "Vapo. 100 mL",
+        "sku": "F098524009",
+        "quantity": 2,
+        "packshot": "/beauty/version-5.1432748111911/resize-image/ep/0/140/90/0/packshots%252F3348901352314.png",
+        "cartRollPackshot": null,
+        "free": false,
+        "unitPrice": 73.0,
+        "unitPriceWithCurrency": "73,00 €",
+        "tax": 0.0,
+        "subTotal": 146.0,
+        "subTotalWithCurrency": "146,00 €",
+        "href": "http://www.dior.com/beauty/fr_fr/parfum-beaute/parfum/les-parfums-pour-homme/sauvage/pr-sauvagefragrances-y0985240_f098524009-very-cool-spray-fresh-eau-de-toilette-100-air-spray.html",
+        "removeTrackObject": {
+          "pageType": "DiorCom_PCD_Checkout",
+          "pageZone": "Cover",
+          "ecommerce": {
+            "currencyCode": "EUR",
+            "remove": {
+              "products": [
+                {
+                  "code": "Y0985240",
+                  "quantity": 2,
+                  "price": "73.00",
+                  "name": "Sauvage - Very Cool Spray - Fresh Eau De Toilette - 100% Air Spray ",
+                  "variant": "Spray 100 mL",
+                  "id": "F098524009",
+                  "category": "Fragrance/Men's Fragrance/Sauvage/Fragrances",
+                  "brand": "Sauvage"
+                }
+              ]
+            }
+          },
+          "event": "removeFromCart"
+        }
+      }
+    ],
+    "productsQuantity": 2,
+    "promoCodes": [],
+    "shippingModes": [],
+    "tripservices": [],
+    "samples": {
+      "categories": []
+    },
+    "giftWrap": null,
+    "subTotalWithCurrency": "146,00 €",
+    "totalWithCurrency": "146,00 €",
+    "totalWithGiftWrapWithCurrency": null,
+    "taxeWithCurrency": "0,00 €",
+    "shippingWithCurrency": null,
+    "discountWithCurrency": null,
+    "tripServicesSkus": [],
+    "selectedJsonTripService": []
+  },
+  "conditions": "Chez vous le lundi 12 juin<br/>"
+}

@@ -5,12 +5,14 @@ import { account } from '../reducers/account';
 import { cart } from '../reducers/cart';
 import { favorite } from '../reducers/favorite';
 import { nav } from '../reducers/nav';
+import { shared } from '../reducers/shared';
 
 const reducers = combineReducers({
   account,
   cart,
   favorite,
-  nav
+  nav,
+  shared
 });
 
 export default createStore(

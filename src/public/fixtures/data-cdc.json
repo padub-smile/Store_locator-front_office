@@ -1,0 +1,106 @@
+{
+  "search": {
+    "placeholder": "Recherche",
+    "action": "http:\/\/www.dior.com\/search\/fr_fr\/results",
+    "data-track-object": ""
+  },
+  "wishlist": {
+    "authenticated": {
+      "title": "Favoris",
+      "wishlist-empty": "Retrouvez ici la liste des articles que vous avez s\u00e9lectionn\u00e9s.",
+      "wishlist-link": {
+        "title": "Voir toute ma wishlist",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/wishlist",
+        "data-track-object": []
+      }
+    },
+    "not-authenticated": {
+      "title": "Favoris",
+      "content": "\u003Cp\u003ECr\u00e9ez votre compte et retrouvez ici la liste des articles que vous avez s\u00e9lectionn\u00e9s.\u003C\/p\u003E\n",
+      "account-login": {
+        "name": "Se connecter",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/login",
+        "data-track-object": []
+      },
+      "account-create": {
+        "name": "Cr\u00e9er un compte",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/inscription",
+        "data-track-object": []
+      }
+    }
+  },
+  "account": {
+    "authenticated": {
+      "title": "Mon compte",
+      "subtitle": "Bienvenue",
+      "preferences": {
+        "title": "Favoris",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/wishlist",
+        "data-track-object": []
+      },
+      "profil": {
+        "title": "Profil",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/dashboard",
+        "data-track-object": []
+      },
+      "orders": {
+        "title": "Commandes",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/commandes",
+        "data-track-object": []
+      },
+      "rdv": {
+        "title": "Rendez-vous \u0026 r\u00e9servations",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/rdv",
+        "data-track-object": []
+      },
+      "account-logout": {
+        "title": "D\u00e9connexion",
+        "url": "http:\/\/www.dior.com\/couture\/ecommerce\/customer\/account\/logout?___store=default",
+        "data-track-object": []
+      }
+    },
+    "not-authenticated": {
+      "title": "Mon compte",
+      "account-login": {
+        "name": "Se connecter",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/login",
+        "data-track-object": []
+      },
+      "account-create": {
+        "name": "Cr\u00e9er un compte",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/inscription",
+        "data-track-object": []
+      },
+      "preferences": {
+        "title": "Favoris",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/login",
+        "data-track-object": []
+      },
+      "profil": {
+        "title": "Profil",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/login",
+        "data-track-object": []
+      },
+      "orders": {
+        "title": "Commandes",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/login",
+        "data-track-object": []
+      },
+      "rdv": {
+        "title": "Rendez-vous \u0026 r\u00e9servations",
+        "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/account\/login",
+        "data-track-object": []
+      }
+    }
+  },
+  "cart": {
+    "title": "Votre panier",
+    "subtitle": "",
+    "subtotal": "Sous-total",
+    "url": {
+      "title": "Finaliser la commande",
+      "url": "https:\/\/wwws.dior.com\/couture\/fr_fr\/checkout\/panier",
+      "data-track-object": []
+    }
+  }
+}
