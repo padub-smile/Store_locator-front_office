@@ -1,18 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 
-import { fetchData } from '../../actions/shared';
 import { LOADING } from '../../reducers/cart';
 
 import NavCart, { STATE_LOADING, STATE_LOADED, STATE_EMPTY } from 'ui-kit/dist/NavCart/NavCart';
 
 class StatefulNavCart extends Component {
-  componentDidMount() {
-    if (!this.props.isLoading) {
-      this.props.fetchData();
-    }
-  }
-
   render() {
     // Setup labels.
     let labels = {
@@ -67,10 +60,4 @@ const mapStateToProps = (state) => {
   }
 };
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    fetchData: fetchData.bind(null, dispatch)
-  }
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(StatefulNavCart);
+export default connect(mapStateToProps)(StatefulNavCart);

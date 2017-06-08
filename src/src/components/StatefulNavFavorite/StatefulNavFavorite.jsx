@@ -1,18 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 
-import { fetchData } from '../../actions/shared';
 import { LOADING } from '../../reducers/favorite';
 
 import NavFavorite, { STATE_NOT_CONNECTED, STATE_LOADING, STATE_LOADED, STATE_EMPTY } from 'ui-kit/dist/NavFavorite/NavFavorite';
 
 class StatefulNavFavorite extends Component {
-  componentDidMount() {
-    if (!this.props.isLoading) {
-      this.props.fetchData();
-    }
-  }
-
   render() {
     // Setup state.
     let state = STATE_NOT_CONNECTED;
@@ -46,10 +39,4 @@ const mapStateToProps = (state) => {
   }
 };
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    fetchData: fetchData.bind(null, dispatch)
-  }
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(StatefulNavFavorite);
+export default connect(mapStateToProps)(StatefulNavFavorite);
