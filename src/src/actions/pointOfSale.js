@@ -10,6 +10,16 @@ export function fetchPointsOfSale(dispatch) {
     }));
 }
 
+export const RECEIVE_SEARCH_RESULTS = 'RECEIVE_SEARCH_RESULTS';
+export function fetchSearchResults(dispatch) {
+  fetch('/fixtures/pos_list.json')
+    .then(response => response.json())
+    .then(json => dispatch({
+      type: RECEIVE_SEARCH_RESULTS,
+      data: json
+    }));
+}
+
 export const RECEIVE_FILTERS = 'RECEIVE_FILTERS';
 export function fetchFilters(dispatch) {
   fetch('/fixtures/filters_list.json')

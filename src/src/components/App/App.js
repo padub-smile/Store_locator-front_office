@@ -9,7 +9,6 @@ import { DISPLAY_MOBILE, DISPLAY_DESKTOP } from '../../reducers/shared';
 
 import MapContainer from 'ui-kit/dist/MapContainer/MapContainer';
 import PageContainer from 'ui-kit/dist/PageContainer/PageContainer';
-import ResultsBlock from 'ui-kit/dist/ResultsBlock/ResultsBlock';
 import SearchBlock from 'ui-kit/dist/SearchBlock/SearchBlock';
 import SearchContainer from 'ui-kit/dist/SearchContainer/SearchContainer';
 import StatefulDiorMap from '../StatefulDiorMap/StatefulDiorMap';
@@ -17,6 +16,7 @@ import StatefulFilterBlock from '../StatefulFilterBlock/StatefulFilterBlock.jsx'
 import StatefulFooter from '../StatefulFooter/StatefulFooter.jsx';
 import StatefulMetanav from '../StatefulMetanav/StatefulMetanav';
 import StatefulNavMobile from '../StatefulNavMobile/StatefulNavMobile';
+import StatefulResultsBlock from '../StatefulResultsBlock/StatefulResultsBlock';
 import StatefulHeader from '../StatefulHeader/StatefulHeader';
 import StatefulSubnav from '../StatefulSubnav/StatefulSubnav';
 
@@ -47,6 +47,17 @@ class App extends Component {
       document.body.classList.remove('no-overflow');
     }
 
+    let contentStyles = {maxWidth: '1400px', margin: 'auto'};
+    let mapStyles = {maxWidth: '920px', height: '800px', marginLeft: '30%'};
+    let searchStyles = {maxWidth: '400px', width: '30%', float: 'left'};
+
+    if (this.props.display === DISPLAY_MOBILE) {
+      contentStyles = {};
+      mapStyles = {width: '100%', height: 'calc(100vh - 65px - 165px)'};
+      searchStyles = {width: '100%'};
+    }
+
+
     return (
       <div>
         <StatefulNavMobile />
@@ -54,7 +65,7 @@ class App extends Component {
           <StatefulMetanav />
           <StatefulHeader />
           <StatefulSubnav />
-          <div style={{maxWidth: '1400px', margin: 'auto'}}>
+          <div style={contentStyles}>
             <SearchContainer
               search={(<SearchBlock
                 title="Votre Recherche"
@@ -62,11 +73,11 @@ class App extends Component {
               filters={(<StatefulFilterBlock
                 filtersHeight={"593px"}
               />)}
-              results={(<ResultsBlock />)}
-              style={{maxWidth: '400px', width: '30%', float: 'left'}}
+              results={(<StatefulResultsBlock />)}
+              style={searchStyles}
             />
             <MapContainer
-              style={{maxWidth: '920px', height: '800px', marginLeft: '30%'}}
+              style={mapStyles}
               map={(<StatefulDiorMap />)}
             />
           </div>

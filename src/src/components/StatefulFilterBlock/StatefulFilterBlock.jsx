@@ -4,6 +4,7 @@ import FilterBlock from 'ui-kit/dist/FilterBlock/FilterBlock';
 
 const mapStateToProps = (state) => {
   return {
+    nbResults: state.pointOfSale.searchCount,
     filters: state.pointOfSale.filters
   }
 };

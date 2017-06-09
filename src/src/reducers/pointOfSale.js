@@ -1,8 +1,10 @@
-import { RECEIVE_POINTS_OF_SALE, RECEIVE_FILTERS } from '../actions/pointOfSale'
+import { RECEIVE_POINTS_OF_SALE, RECEIVE_SEARCH_RESULTS, RECEIVE_FILTERS } from '../actions/pointOfSale'
 
 const initialState = {
   items: [],
-  filters: {}
+  filters: {},
+  searchCount: 0,
+  searchResults: []
 };
 
 export function pointOfSale(state = initialState, action) {
@@ -11,6 +13,13 @@ export function pointOfSale(state = initialState, action) {
       return {
         ...state,
         items: action.data.items
+      };
+
+    case RECEIVE_SEARCH_RESULTS:
+      return {
+        ...state,
+        searchCount: action.data.Count,
+        searchResults: action.data.Items
       };
 
     case RECEIVE_FILTERS:
