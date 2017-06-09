@@ -3,8 +3,8 @@ import { connect } from 'react-redux'
 
 import 'ui-kit/dist/styles/ui-kit.css';
 
-import DiorMap from 'ui-kit/dist/DiorMap/DiorMap';
 import PageContainer from 'ui-kit/dist/PageContainer/PageContainer';
+import StatefulDiorMap from '../StatefulDiorMap/StatefulDiorMap.jsx';
 import StatefulFooter from '../StatefulFooter/StatefulFooter.jsx';
 import StatefulMetanav from '../StatefulMetanav/StatefulMetanav';
 import StatefulNavMobile from '../StatefulNavMobile/StatefulNavMobile';
@@ -26,7 +26,7 @@ class App extends Component {
           <StatefulMetanav />
           <StatefulHeader />
           <StatefulSubnav />
-          <div style={{height: '500px'}}><DiorMap /></div>
+          <div style={{height: '500px'}}><StatefulDiorMap /></div>
           <StatefulFooter />
         </PageContainer>
       </div>
