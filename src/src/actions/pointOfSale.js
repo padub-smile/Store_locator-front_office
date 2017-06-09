@@ -9,3 +9,13 @@ export function fetchPointsOfSale(dispatch) {
       data: json
     }));
 }
+
+export const RECEIVE_FILTERS = 'RECEIVE_FILTERS';
+export function fetchFilters(dispatch) {
+  fetch('/fixtures/filters_list.json')
+    .then(response => response.json())
+    .then(json => dispatch({
+      type: RECEIVE_FILTERS,
+      data: json
+    }));
+}

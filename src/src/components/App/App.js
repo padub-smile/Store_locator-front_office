@@ -3,8 +3,14 @@ import { connect } from 'react-redux'
 
 import 'ui-kit/dist/styles/ui-kit.css';
 
+
+import MapContainer from 'ui-kit/dist/MapContainer/MapContainer';
 import PageContainer from 'ui-kit/dist/PageContainer/PageContainer';
-import StatefulDiorMap from '../StatefulDiorMap/StatefulDiorMap.jsx';
+import ResultsBlock from 'ui-kit/dist/ResultsBlock/ResultsBlock';
+import SearchBlock from 'ui-kit/dist/SearchBlock/SearchBlock';
+import SearchContainer from 'ui-kit/dist/SearchContainer/SearchContainer';
+import StatefulDiorMap from '../StatefulDiorMap/StatefulDiorMap';
+import StatefulFilterBlock from '../StatefulFilterBlock/StatefulFilterBlock.jsx';
 import StatefulFooter from '../StatefulFooter/StatefulFooter.jsx';
 import StatefulMetanav from '../StatefulMetanav/StatefulMetanav';
 import StatefulNavMobile from '../StatefulNavMobile/StatefulNavMobile';
@@ -26,7 +32,22 @@ class App extends Component {
           <StatefulMetanav />
           <StatefulHeader />
           <StatefulSubnav />
-          <div style={{height: '500px'}}><StatefulDiorMap /></div>
+          <div style={{maxWidth: '1400px', margin: 'auto'}}>
+            <SearchContainer
+              search={(<SearchBlock
+                title="Votre Recherche"
+              />)}
+              filters={(<StatefulFilterBlock
+                filtersHeight={"593px"}
+              />)}
+              results={(<ResultsBlock />)}
+              style={{maxWidth: '400px', width: '30%', float: 'left'}}
+            />
+            <MapContainer
+              style={{maxWidth: '920px', height: '800px', marginLeft: '30%'}}
+              map={(<StatefulDiorMap />)}
+            />
+          </div>
           <StatefulFooter />
         </PageContainer>
       </div>

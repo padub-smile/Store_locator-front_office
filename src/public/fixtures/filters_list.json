@@ -1,0 +1,178 @@
+{
+  "universes": [
+    {
+      "defaultLabel": "Men's Fashion",
+      "subUniverses": [
+        {
+          "localeLabels": [],
+          "defaultLabel": "Men's Fashion",
+          "id": "592427cecfc94",
+          "hashIndex": "OK"
+        },
+        {
+          "localeLabels": [],
+          "defaultLabel": "Men's Accessories",
+          "id": "592427cecfd39",
+          "hashIndex": "OK"
+        },
+        {
+          "localeLabels": [],
+          "defaultLabel": "Men's Shoes",
+          "id": "592427cecfdde",
+          "hashIndex": "OK"
+        },
+        {
+          "localeLabels": [],
+          "defaultLabel": "Men's Leather Goods",
+          "id": "592427cecff33",
+          "hashIndex": "OK"
+        },
+        {
+          "localeLabels": [],
+          "defaultLabel": "Men's Exotic Leather",
+          "id": "592427cecffd8",
+          "hashIndex": "OK"
+        },
+        {
+          "localeLabels": [],
+          "defaultLabel": "Men's Demi-Mesure service",
+          "id": "592427ced0122",
+          "hashIndex": "OK"
+        }
+      ],
+      "order": "1",
+      "id": "5924280095085",
+      "hashIndex": "OK"
+    },
+    {
+      "defaultLabel": "Women's Fashion",
+      "subUniverses": [
+        {
+          "localeLabels": [],
+          "defaultLabel": "Women's Fashion",
+          "id": "592427cecf8b2",
+          "hashIndex": "OK"
+        },
+        {
+          "localeLabels": [],
+          "defaultLabel": "Women's Leather Goods",
+          "id": "592427cecf95d",
+          "hashIndex": "OK"
+        },
+        {
+          "localeLabels": [],
+          "defaultLabel": "Women's Accessories",
+          "id": "592427cecfa02",
+          "hashIndex": "OK"
+        },
+        {
+          "localeLabels": [],
+          "defaultLabel": "Women's Shoes",
+          "id": "592427cecfaa7",
+          "hashIndex": "OK"
+        },
+        {
+          "localeLabels": [],
+          "defaultLabel": "Women's Exotic Leather",
+          "id": "592427cecfbf0",
+          "hashIndex": "OK"
+        }
+      ],
+      "order": "2",
+      "id": "5924280094f2d",
+      "hashIndex": "OK",
+      "localeLabels": [
+        {
+          "label": "Mode femme",
+          "locale": "FR"
+        }
+      ]
+    },
+    {
+      "defaultLabel": "Timepieces",
+      "subUniverses": [
+        {
+          "localeLabels": [],
+          "defaultLabel": "Timepieces",
+          "id": "592427cecfb4b",
+          "hashIndex": "OK"
+        },
+        {
+          "localeLabels": [
+            {
+              "label": "en russe",
+              "locale": "RU"
+            }
+          ],
+          "defaultLabel": "intl",
+          "id": "5924525b2c6c4",
+          "hashIndex": "OK"
+        }
+      ],
+      "order": "3",
+      "id": "5924280094fdf",
+      "hashIndex": "OK"
+    },
+    {
+      "defaultLabel": "Default",
+      "subUniverses": [],
+      "order": "4",
+      "id": "5924280095274",
+      "hashIndex": "OK"
+    },
+    {
+      "defaultLabel": "Jewellery",
+      "subUniverses": [
+        {
+          "localeLabels": [],
+          "defaultLabel": "Jewellery",
+          "id": "592427cecfe8a",
+          "hashIndex": "OK"
+        }
+      ],
+      "order": "5",
+      "id": "5924280095129",
+      "hashIndex": "OK"
+    },
+    {
+      "defaultLabel": "Baby Dior",
+      "subUniverses": [
+        {
+          "localeLabels": [],
+          "defaultLabel": "Baby Dior",
+          "id": "592427ced007d",
+          "hashIndex": "OK"
+        }
+      ],
+      "order": "6",
+      "id": "59242800951ce",
+      "hashIndex": "OK"
+    }
+  ],
+  "services": [
+    {
+      "defaultLabel": "Flash makeup",
+      "order": "1",
+      "id": "593176880fa7b",
+      "localeLabels": [
+        {
+          "label": "Flash makeup",
+          "locale": "FR"
+        }
+      ],
+      "hashIndex": "OK"
+    },
+    {
+      "defaultLabel": "Retouching",
+      "order": "2",
+      "id": "592436b8a730a",
+      "localeLabels": [
+        {
+          "label": "Retouche",
+          "locale": "FR"
+        }
+      ],
+      "hashIndex": "OK"
+    }
+  ]
+}

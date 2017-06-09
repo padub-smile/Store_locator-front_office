@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 
 import './index.css';
 import { fetchData } from './actions/shared'
-import { fetchPointsOfSale } from './actions/pointOfSale'
+import { fetchPointsOfSale, fetchFilters } from './actions/pointOfSale'
 import store from './stores/appStore'
 import App from './components/App/App';
 
@@ -15,3 +15,4 @@ ReactDOM.render(
 
 fetchData(store.dispatch);
 fetchPointsOfSale(store.dispatch);
+fetchFilters(store.dispatch);
