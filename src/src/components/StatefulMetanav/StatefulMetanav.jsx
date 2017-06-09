@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import debounce from 'debounce';
 
 import { fetchMetanav, toggleNavMobile } from '../../actions/nav';
+import { DISPLAY_DESKTOP } from '../../reducers/shared';
 import Metanav from 'ui-kit/dist/Metanav/Metanav';
 
 class StatefulMetanav extends Component {
@@ -10,15 +10,10 @@ class StatefulMetanav extends Component {
     if (Object.keys(this.props.data).length === 0) {
       this.props.fetchMetanav();
     }
-    window.onresize = debounce(this.onResize.bind(this), 200);
   }
 
-  componentWillUnmount() {
-    window.onresize.clear();
-  }
-
-  onResize() {
-    if (window.matchMedia('(min-width: 992px)').matches) {
+  componentDidUpdate() {
+    if (this.props.display === DISPLAY_DESKTOP) {
       this.props.toggleNavMobile(true);
     }
   }
@@ -40,7 +35,8 @@ const mapStateToProps = (state) => {
   return {
     activeMenu: state.nav.activeMenu,
     data: state.nav.metanav,
-    isNavMobileOpen: state.nav.isNavMobileOpen
+    isNavMobileOpen: state.nav.isNavMobileOpen,
+    display: state.shared.display
   }
 };
 

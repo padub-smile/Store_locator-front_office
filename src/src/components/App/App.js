@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
+import debounce from 'debounce';
 
 import 'ui-kit/dist/styles/ui-kit.css';
 
+import { displayMobile, displayDesktop } from '../../actions/shared';
+import { DISPLAY_MOBILE, DISPLAY_DESKTOP } from '../../reducers/shared';
 
 import MapContainer from 'ui-kit/dist/MapContainer/MapContainer';
 import PageContainer from 'ui-kit/dist/PageContainer/PageContainer';
@@ -18,9 +21,28 @@ import StatefulHeader from '../StatefulHeader/StatefulHeader';
 import StatefulSubnav from '../StatefulSubnav/StatefulSubnav';
 
 class App extends Component {
+  componentDidMount() {
+    window.onresize = debounce(this.onResize.bind(this), 200);
+  }
+
+  componentWillUnmount() {
+    window.onresize.clear();
+  }
+
+  onResize() {
+    const isDesktop = window.matchMedia('(min-width: 992px)').matches;
+    if (isDesktop && this.props.display !== DISPLAY_DESKTOP) {
+      // Desktop.
+      this.props.displayDesktop();
+    } else if (!isDesktop && this.props.display !== DISPLAY_MOBILE) {
+      // Mobile.
+      this.props.displayMobile();
+    }
+  }
+
   render() {
     if (this.props.isNavMobileOpen) {
-      document.body.classList.add('no-overflow')
+      document.body.classList.add('no-overflow');
     } else {
       document.body.classList.remove('no-overflow');
     }
@@ -57,8 +79,16 @@ class App extends Component {
 
 const mapStateToProps = (state) => {
   return {
+    display: state.shared.display,
     isNavMobileOpen: state.nav.isNavMobileOpen
   }
 };
 
-export default connect(mapStateToProps)(App);
+const mapDispatchToProps = (dispatch) => {
+  return {
+    displayMobile: displayMobile.bind(null, dispatch),
+    displayDesktop: displayDesktop.bind(null, dispatch)
+  }
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
