@@ -4,7 +4,7 @@ import debounce from 'debounce';
 
 import 'ui-kit/dist/styles/ui-kit.css';
 
-import { displayMobile, displayDesktop } from '../../actions/shared';
+import { updateDisplayType } from '../../actions/shared';
 import { DISPLAY_MOBILE, DISPLAY_DESKTOP } from '../../reducers/shared';
 
 import MapContainer from 'ui-kit/dist/MapContainer/MapContainer';
@@ -31,12 +31,12 @@ class App extends Component {
 
   onResize() {
     const isDesktop = window.matchMedia('(min-width: 992px)').matches;
-    if (isDesktop && this.props.display !== DISPLAY_DESKTOP) {
+    if (isDesktop && this.props.displayType !== DISPLAY_DESKTOP) {
       // Desktop.
-      this.props.displayDesktop();
-    } else if (!isDesktop && this.props.display !== DISPLAY_MOBILE) {
+      this.props.updateDisplayType(DISPLAY_DESKTOP);
+    } else if (!isDesktop && this.props.displayType !== DISPLAY_MOBILE) {
       // Mobile.
-      this.props.displayMobile();
+      this.props.updateDisplayType(DISPLAY_MOBILE);
     }
   }
 
@@ -47,14 +47,15 @@ class App extends Component {
       document.body.classList.remove('no-overflow');
     }
 
-    let contentStyles = {maxWidth: '1400px', margin: 'auto'};
+    let contentStyles = {maxWidth: '1400px', margin: 'auto', padding: '0 20px'};
     let mapStyles = {maxWidth: '920px', height: '800px', marginLeft: '30%'};
     let searchStyles = {maxWidth: '400px', width: '30%', float: 'left'};
-
-    if (this.props.display === DISPLAY_MOBILE) {
+    let filtersHeight = '593px';
+    if (this.props.displayType === DISPLAY_MOBILE) {
       contentStyles = {};
       mapStyles = {width: '100%', height: 'calc(100vh - 65px - 165px)'};
       searchStyles = {width: '100%'};
+      filtersHeight = '752px';
     }
 
 
@@ -71,7 +72,7 @@ class App extends Component {
                 title="Votre Recherche"
               />)}
               filters={(<StatefulFilterBlock
-                filtersHeight={"593px"}
+                filtersHeight={filtersHeight}
               />)}
               results={(<StatefulResultsBlock />)}
               style={searchStyles}
@@ -90,15 +91,14 @@ class App extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    display: state.shared.display,
+    displayType: state.shared.displayType,
     isNavMobileOpen: state.nav.isNavMobileOpen
   }
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    displayMobile: displayMobile.bind(null, dispatch),
-    displayDesktop: displayDesktop.bind(null, dispatch)
+    updateDisplayType: updateDisplayType.bind(null, dispatch)
   }
 };
 

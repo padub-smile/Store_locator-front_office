@@ -1,17 +1,32 @@
-import { FETCH_DATA, RECEIVE_DATA, DISPLAY_UPDATED } from '../actions/shared';
+import { DISPLAY_MODE_UPDATED, DISPLAY_TYPE_UPDATED, FETCH_DATA, RECEIVE_DATA } from '../actions/shared';
+
+import { DISPLAY_MODE_MAP } from 'ui-kit/dist/FilterBlock/FilterBlock';
 
 export const DISPLAY_MOBILE = 0;
 export const DISPLAY_DESKTOP = 1;
 
 const initialState = {
-  isLoading: false,
   dataCdc: null,
   dataPcd: null,
-  display: window.matchMedia('(min-width: 992px)').matches ? DISPLAY_DESKTOP : DISPLAY_MOBILE
+  displayType: window.matchMedia('(min-width: 992px)').matches ? DISPLAY_DESKTOP : DISPLAY_MOBILE,
+  displayMode: DISPLAY_MODE_MAP,
+  isLoading: false
 };
 
 export function shared(state = initialState, action) {
   switch (action.type) {
+    case DISPLAY_MODE_UPDATED:
+      return {
+        ...state,
+        displayMode: action.data
+      };
+
+    case DISPLAY_TYPE_UPDATED:
+      return {
+        ...state,
+        displayType: action.data
+      };
+
     case FETCH_DATA:
       return {
         ...state,
@@ -24,12 +39,6 @@ export function shared(state = initialState, action) {
         dataCdc: action.data[0],
         dataPcd: action.data[1],
         isLoading: false
-      };
-
-    case DISPLAY_UPDATED:
-      return {
-        ...state,
-        display: action.data
       };
 
     default:

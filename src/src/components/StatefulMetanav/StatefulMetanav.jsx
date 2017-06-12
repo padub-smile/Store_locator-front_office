@@ -13,7 +13,7 @@ class StatefulMetanav extends Component {
   }
 
   componentDidUpdate() {
-    if (this.props.display === DISPLAY_DESKTOP) {
+    if (this.props.displayType === DISPLAY_DESKTOP) {
       this.props.toggleNavMobile(true);
     }
   }
@@ -36,7 +36,7 @@ const mapStateToProps = (state) => {
     activeMenu: state.nav.activeMenu,
     data: state.nav.metanav,
     isNavMobileOpen: state.nav.isNavMobileOpen,
-    display: state.shared.display
+    displayType: state.shared.displayType
   }
 };
 

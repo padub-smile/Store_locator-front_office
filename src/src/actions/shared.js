@@ -1,11 +1,9 @@
 import fetch from 'isomorphic-fetch';
-import { DISPLAY_DESKTOP, DISPLAY_MOBILE } from '../reducers/shared';
 
 export const FETCH_DATA = 'FETCH_DATA';
 export const RECEIVE_DATA = 'RECEIVE_DATA';
 export function fetchData(dispatch) {
   const apis = ['/fixtures/data-cdc.json', '/fixtures/data-pcd.json'];
-
   dispatch({type: FETCH_DATA});
   Promise
     .all(apis.map(url => fetch(url)))
@@ -17,16 +15,18 @@ export function fetchData(dispatch) {
     }));
 }
 
-export const DISPLAY_UPDATED = 'DISPLAY_UPDATED';
-export function displayMobile(dispatch) {
+export const DISPLAY_TYPE_UPDATED = 'DISPLAY_TYPE_UPDATED';
+export function updateDisplayType(dispatch, displayType) {
   dispatch({
-    type: DISPLAY_UPDATED,
-    data: DISPLAY_MOBILE
+    type: DISPLAY_TYPE_UPDATED,
+    data: displayType
   });
 }
-export function displayDesktop(dispatch) {
+
+export const DISPLAY_MODE_UPDATED = 'DISPLAY_MODE_UPDATED';
+export function updateDisplayMode(dispatch, displayMode) {
   dispatch({
-    type: DISPLAY_UPDATED,
-    data: DISPLAY_DESKTOP
+    type: DISPLAY_MODE_UPDATED,
+    data: displayMode
   });
 }

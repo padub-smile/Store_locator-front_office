@@ -1,12 +1,21 @@
 import { connect } from 'react-redux'
 
+import { updateDisplayMode } from '../../actions/shared';
+
 import FilterBlock from 'ui-kit/dist/FilterBlock/FilterBlock';
 
 const mapStateToProps = (state) => {
   return {
+    displayMode: state.shared.displayMode,
     nbResults: state.pointOfSale.searchCount,
     filters: state.pointOfSale.filters
   }
 };
 
-export default connect(mapStateToProps)(FilterBlock);
+const mapDispatchToProps = (dispatch) => {
+  return {
+    triggerCallback: updateDisplayMode.bind(null, dispatch)
+  }
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(FilterBlock);

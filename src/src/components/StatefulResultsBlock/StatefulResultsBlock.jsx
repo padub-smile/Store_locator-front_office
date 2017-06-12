@@ -3,8 +3,9 @@ import { connect } from 'react-redux';
 
 import { fetchSearchResults } from '../../actions/pointOfSale'
 import { DISPLAY_MOBILE } from '../../reducers/shared';
+import { DISPLAY_MODE_LIST } from 'ui-kit/dist/FilterBlock/FilterBlock';
 
-import ResultsBlock from 'ui-kit/dist/ResultsBlock/ResultsBlock';
+import ResultsBlock, { HIDE_RESULTS, SHOW_RESULTS } from 'ui-kit/dist/ResultsBlock/ResultsBlock';
 import ShopBlock from 'ui-kit/dist/ShopBlock/ShopBlock';
 
 class StatefulResultsBlock extends Component {
@@ -14,12 +15,16 @@ class StatefulResultsBlock extends Component {
 
   render() {
     let height = '550px';
-    if (this.props.display === DISPLAY_MOBILE) {
+    if (this.props.displayType === DISPLAY_MOBILE) {
       height = 'calc((100vh - 65px) - 140px)';
     }
 
+    let state = HIDE_RESULTS;
+    if (this.props.displayMode === DISPLAY_MODE_LIST) {
+      state = SHOW_RESULTS;
+    }
 
-    const diorShops = this.props.searchResults.map((item, index) => console.log(item.openingHours) || (
+    const diorShops = this.props.searchResults.map((item, index) => (
       <ShopBlock
         shop={item}
         number={index + 1}
@@ -28,7 +33,7 @@ class StatefulResultsBlock extends Component {
 
     return (<ResultsBlock
       diorShops={diorShops}
-      displayResults="open"
+      displayResults={state}
       height={height}
     />);
   }
@@ -36,7 +41,8 @@ class StatefulResultsBlock extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    display: state.shared.display,
+    displayType: state.shared.displayType,
+    displayMode: state.shared.displayMode,
     searchResults: state.pointOfSale.searchResults
   }
 };
