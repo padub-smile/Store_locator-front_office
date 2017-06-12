@@ -1,11 +1,32 @@
 import { connect } from 'react-redux'
 
+import { mapReady } from '../../actions/map';
+
 import DiorMap from 'ui-kit/dist/DiorMap/DiorMap';
 
 const mapStateToProps = (state) => {
-  return {
-    markers: state.pointOfSale.items
+  if (state.map.searchLocation instanceof window.google.maps.LatLngBounds) {
+    return {
+      location: state.map.searchLocation,
+      markers: state.pointOfSale.items
+    }
+  } else if (state.map.searchLocation instanceof window.google.maps.LatLng) {
+    return {
+      center: state.map.searchLocation,
+      markers: state.pointOfSale.items,
+      zoom: 15
+    }
+  } else {
+    return {
+      markers: state.pointOfSale.items
+    }
   }
 };
 
-export default connect(mapStateToProps)(DiorMap);
+const mapDispatchToProps = (dispatch) => {
+  return {
+    mapReady: mapReady.bind(null, dispatch)
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(DiorMap);

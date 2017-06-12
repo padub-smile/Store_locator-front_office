@@ -9,7 +9,6 @@ import { DISPLAY_MOBILE, DISPLAY_DESKTOP } from '../../reducers/shared';
 
 import MapContainer from 'ui-kit/dist/MapContainer/MapContainer';
 import PageContainer from 'ui-kit/dist/PageContainer/PageContainer';
-import SearchBlock from 'ui-kit/dist/SearchBlock/SearchBlock';
 import SearchContainer from 'ui-kit/dist/SearchContainer/SearchContainer';
 import StatefulDiorMap from '../StatefulDiorMap/StatefulDiorMap';
 import StatefulFilterBlock from '../StatefulFilterBlock/StatefulFilterBlock.jsx';
@@ -18,6 +17,7 @@ import StatefulMetanav from '../StatefulMetanav/StatefulMetanav';
 import StatefulNavMobile from '../StatefulNavMobile/StatefulNavMobile';
 import StatefulResultsBlock from '../StatefulResultsBlock/StatefulResultsBlock';
 import StatefulHeader from '../StatefulHeader/StatefulHeader';
+import StatefulSearchBlock from '../StatefulSearchBlock/StatefulSearchBlock';
 import StatefulSubnav from '../StatefulSubnav/StatefulSubnav';
 
 class App extends Component {
@@ -68,12 +68,8 @@ class App extends Component {
           <StatefulSubnav />
           <div style={contentStyles}>
             <SearchContainer
-              search={(<SearchBlock
-                title="Votre Recherche"
-              />)}
-              filters={(<StatefulFilterBlock
-                filtersHeight={filtersHeight}
-              />)}
+              search={(<StatefulSearchBlock/>)}
+              filters={(<StatefulFilterBlock filtersHeight={filtersHeight}/>)}
               results={(<StatefulResultsBlock />)}
               style={searchStyles}
             />

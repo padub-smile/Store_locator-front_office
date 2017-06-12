@@ -4,6 +4,7 @@ import { combineReducers, createStore } from 'redux'
 import { account } from '../reducers/account';
 import { cart } from '../reducers/cart';
 import { favorite } from '../reducers/favorite';
+import { map } from '../reducers/map';
 import { nav } from '../reducers/nav';
 import { pointOfSale } from '../reducers/pointOfSale';
 import { shared } from '../reducers/shared';
@@ -12,6 +13,7 @@ const reducers = combineReducers({
   account,
   cart,
   favorite,
+  map,
   nav,
   pointOfSale,
   shared
