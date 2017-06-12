@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 
-import { mapReady } from '../../actions/map';
+import { mapIsReady, updateVisibleMarkers } from '../../actions/map';
 
 import DiorMap from 'ui-kit/dist/DiorMap/DiorMap';
 
@@ -25,7 +25,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    mapReady: mapReady.bind(null, dispatch)
+    mapReady: mapIsReady.bind(null, dispatch),
+    updateVisibleMarkers: updateVisibleMarkers.bind(null, dispatch)
   };
 };
 

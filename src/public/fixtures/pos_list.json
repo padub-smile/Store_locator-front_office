@@ -1,874 +1,141 @@
 {
+  "Count": 4,
   "Items": [
     {
-      "phoneNumber": "2882 7881",
-      "typeValue": "Les Boutiques Dior",
-      "diorId": "dior_id_579641",
-      "typeId": "5924282964fe5",
-      "countryCode": "MO",
+      "phoneNumber": "01 47 90 63 92",
+      "typeValue": "Les points de vente Dior Parfums",
+      "diorId": "dior_id_233608",
+      "typeId": "593a8a1fce769",
+      "countryCode": "FR",
+      "lng": "2.2747735",
       "hashIndex": "OK",
-      "lng": "113.55520309999997",
-      "typeParent": "Dior",
-      "openingHours": {
-        "6": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "5": [
-          {
-            "from": "10:00",
-            "to": "00:00"
-          }
-        ],
-        "1": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "4": [
-          {
-            "from": "10:00",
-            "to": "00:00"
-          }
-        ],
-        "3": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "2": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "0": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ]
-      },
-      "defaultName": "dior homme - galaxy macau",
-      "activated": "1",
-      "createdAt": "1495545156",
-      "showContact": "0",
-      "defaultStreet1": "1043, 1/f, the promenade, galaxy macau, cotai macau",
-      "universes": [
-        {
-          "defaultLabel": "Men's Fashion",
-          "subUniverses": [
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Fashion",
-              "id": "592427cecfc94",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Accessories",
-              "id": "592427cecfd39",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Shoes",
-              "id": "592427cecfdde",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Leather Goods",
-              "id": "592427cecff33",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Exotic Leather",
-              "id": "592427cecffd8",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Demi-Mesure service",
-              "id": "592427ced0122",
-              "hashIndex": "OK"
-            }
-          ],
-          "order": "1",
-          "id": "5924280095085",
-          "hashIndex": "OK"
-        }
-      ],
-      "showSchedules": "1",
-      "defaultZipCode": "mac",
-      "phoneNumberPrefix": "+853",
-      "defaultCity": "macau",
-      "disabledAt": "1496238236",
-      "updatedAt": "1495545156",
-      "timezone": "Asia/Macau",
-      "lat": "22.2047465",
-      "id": "579641"
-    },
-    {
-      "typeValue": "Les Boutiques Dior",
-      "diorId": "dior_id_452938",
-      "typeId": "5924282964fe5",
-      "countryCode": "TH",
-      "hashIndex": "OK",
-      "lng": "100.56866590000004",
-      "typeParent": "Dior",
-      "openingHours": {
-        "6": [
-          {
-            "from": "10:00",
-            "to": "20:00"
-          }
-        ],
-        "5": [
-          {
-            "from": "10:00",
-            "to": "20:00"
-          }
-        ],
-        "1": [
-          {
-            "from": "10:00",
-            "to": "20:00"
-          }
-        ],
-        "4": [
-          {
-            "from": "10:00",
-            "to": "20:00"
-          }
-        ],
-        "3": [
-          {
-            "from": "10:00",
-            "to": "20:00"
-          }
-        ],
-        "2": [
-          {
-            "from": "10:00",
-            "to": "20:00"
-          }
-        ],
-        "0": [
-          {
-            "from": "10:00",
-            "to": "20:00"
-          }
-        ]
-      },
-      "defaultName": "dior homme - bangkok emporium",
-      "activated": "1",
-      "createdAt": "1495545155",
-      "showContact": "0",
-      "defaultStreet1": "the emporium shopping mall m floor, unit numbers 1s09/1p10, 1s11 622 sukhumvit road",
-      "universes": [
-        {
-          "defaultLabel": "Men's Fashion",
-          "subUniverses": [
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Fashion",
-              "id": "592427cecfc94",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Accessories",
-              "id": "592427cecfd39",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Shoes",
-              "id": "592427cecfdde",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Leather Goods",
-              "id": "592427cecff33",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Exotic Leather",
-              "id": "592427cecffd8",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Demi-Mesure service",
-              "id": "592427ced0122",
-              "hashIndex": "OK"
-            }
-          ],
-          "order": "1",
-          "id": "5924280095085",
-          "hashIndex": "OK"
-        }
-      ],
-      "showSchedules": "1",
-      "defaultZipCode": "10110",
-      "phoneNumberPrefix": "+66",
-      "defaultCity": "bangkok",
-      "disabledAt": "1496238236",
-      "updatedAt": "1495545155",
-      "timezone": "Asia/Bangkok",
-      "lat": "13.7300565",
-      "id": "452938"
-    },
-    {
-      "phoneNumber": "202-408-5990",
-      "typeValue": "Les Boutiques Dior",
-      "diorId": "dior_id_447469",
-      "typeId": "5924282964fe5",
-      "countryCode": "US",
-      "hashIndex": "OK",
-      "lng": "-77.02557760000002",
-      "typeParent": "Dior",
-      "openingHours": {
-        "6": [
-          {
-            "from": "12:00",
-            "to": "18:00"
-          }
-        ],
-        "5": [
-          {
-            "from": "10:00",
-            "to": "19:00"
-          }
-        ],
-        "1": [
-          {
-            "from": "10:00",
-            "to": "19:00"
-          }
-        ],
-        "4": [
-          {
-            "from": "10:00",
-            "to": "19:00"
-          }
-        ],
-        "3": [
-          {
-            "from": "10:00",
-            "to": "19:00"
-          }
-        ],
-        "2": [
-          {
-            "from": "10:00",
-            "to": "19:00"
-          }
-        ],
-        "0": [
-          {
-            "from": "10:00",
-            "to": "19:00"
-          }
-        ]
-      },
-      "defaultName": "dior - washington dc city center",
-      "activated": "1",
-      "createdAt": "1495545155",
-      "showContact": "0",
-      "defaultStreet1": "933 palmer alley nw",
-      "universes": [
-        {
-          "defaultLabel": "Women's Fashion",
-          "subUniverses": [
-            {
-              "localeLabels": [],
-              "defaultLabel": "Women's Fashion",
-              "id": "592427cecf8b2",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Women's Leather Goods",
-              "id": "592427cecf95d",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Women's Accessories",
-              "id": "592427cecfa02",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Women's Shoes",
-              "id": "592427cecfaa7",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Women's Exotic Leather",
-              "id": "592427cecfbf0",
-              "hashIndex": "OK"
-            }
-          ],
-          "order": "2",
-          "id": "5924280094f2d",
-          "hashIndex": "OK",
-          "localeLabels": [
-            {
-              "label": "Mode femme",
-              "locale": "FR"
-            }
-          ]
-        }
-      ],
-      "showSchedules": "1",
-      "defaultZipCode": "20001",
-      "phoneNumberPrefix": "+1",
-      "defaultCity": "washington dc",
-      "disabledAt": "1496238236",
-      "updatedAt": "1495545155",
-      "timezone": "INVALID_TIMEZONE",
-      "lat": "38.9003304",
-      "id": "447469"
-    },
-    {
-      "phoneNumber": "2882 7448",
-      "typeValue": "Les Boutiques Dior",
-      "diorId": "dior_id_579640",
-      "typeId": "5924282964fe5",
-      "countryCode": "MO",
-      "hashIndex": "OK",
-      "lng": "113.55520309999997",
-      "typeParent": "Dior",
-      "openingHours": {
-        "6": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "5": [
-          {
-            "from": "10:00",
-            "to": "00:00"
-          }
-        ],
-        "1": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "4": [
-          {
-            "from": "10:00",
-            "to": "00:00"
-          }
-        ],
-        "3": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "2": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "0": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ]
-      },
-      "defaultName": "dior - galaxy macau",
-      "activated": "1",
-      "createdAt": "1495545155",
-      "showContact": "0",
-      "defaultStreet1": "g083, g/f, the promenade, galaxy macau, cotai, macau",
-      "universes": [
-        {
-          "defaultLabel": "Women's Fashion",
-          "subUniverses": [
-            {
-              "localeLabels": [],
-              "defaultLabel": "Women's Fashion",
-              "id": "592427cecf8b2",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Women's Leather Goods",
-              "id": "592427cecf95d",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Women's Accessories",
-              "id": "592427cecfa02",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Women's Shoes",
-              "id": "592427cecfaa7",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Women's Exotic Leather",
-              "id": "592427cecfbf0",
-              "hashIndex": "OK"
-            }
-          ],
-          "order": "2",
-          "id": "5924280094f2d",
-          "hashIndex": "OK",
-          "localeLabels": [
-            {
-              "label": "Mode femme",
-              "locale": "FR"
-            }
-          ]
-        }
-      ],
-      "showSchedules": "1",
-      "defaultZipCode": "mac",
-      "phoneNumberPrefix": "+853",
-      "defaultCity": "macau",
-      "disabledAt": "1496238236",
-      "updatedAt": "1495545155",
-      "timezone": "Asia/Macau",
-      "lat": "22.2047465",
-      "id": "579640"
-    },
-    {
-      "phoneNumber": "(603) 2161 0010",
-      "typeValue": "Les Boutiques Dior",
-      "diorId": "dior_id_485835",
-      "typeId": "5924282964fe5",
-      "countryCode": "MY",
-      "hashIndex": "OK",
-      "lng": "101.71057489999998",
-      "typeParent": "Dior",
-      "openingHours": {
-        "6": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "5": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "1": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "4": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "3": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "2": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ],
-        "0": [
-          {
-            "from": "10:00",
-            "to": "22:00"
-          }
-        ]
-      },
-      "defaultName": "dior homme - kuala lumpur",
-      "activated": "1",
-      "createdAt": "1495545155",
-      "showContact": "0",
-      "defaultStreet1": "129 & 130, 1st floor, suria klcc jalan p ramlee",
-      "universes": [
-        {
-          "defaultLabel": "Men's Fashion",
-          "subUniverses": [
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Fashion",
-              "id": "592427cecfc94",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Accessories",
-              "id": "592427cecfd39",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Shoes",
-              "id": "592427cecfdde",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Leather Goods",
-              "id": "592427cecff33",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Exotic Leather",
-              "id": "592427cecffd8",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [],
-              "defaultLabel": "Men's Demi-Mesure service",
-              "id": "592427ced0122",
-              "hashIndex": "OK"
-            }
-          ],
-          "order": "1",
-          "id": "5924280095085",
-          "hashIndex": "OK"
-        }
-      ],
-      "showSchedules": "1",
-      "defaultZipCode": "50088",
-      "phoneNumberPrefix": "+60",
-      "defaultCity": "kuala lumpur",
-      "disabledAt": "1496238236",
-      "updatedAt": "1495545155",
-      "timezone": "INVALID_TIMEZONE",
-      "lat": "3.1575896",
-      "id": "485835"
-    },
-    {
-      "phoneNumber": "+44 207 730 1234",
-      "typeValue": "Les Boutiques Dior",
-      "diorId": "dior_id_481387",
-      "typeId": "5924282964fe5",
-      "countryCode": "GB",
-      "hashIndex": "OK",
-      "lng": "-0.16299319999995987",
-      "typeParent": "Dior",
-      "openingHours": {
-        "6": [
-          {
-            "from": "11:30",
-            "to": "18:00"
-          }
-        ],
-        "5": [
-          {
-            "from": "10:00",
-            "to": "21:00"
-          }
-        ],
-        "1": [
-          {
-            "from": "10:00",
-            "to": "21:00"
-          }
-        ],
-        "4": [
-          {
-            "from": "10:00",
-            "to": "21:00"
-          }
-        ],
-        "3": [
-          {
-            "from": "10:00",
-            "to": "21:00"
-          }
-        ],
-        "2": [
-          {
-            "from": "10:00",
-            "to": "21:00"
-          }
-        ],
-        "0": [
-          {
-            "from": "10:00",
-            "to": "21:00"
-          }
-        ]
-      },
-      "defaultName": "baby dior - london harrods",
-      "activated": "1",
-      "createdAt": "1495545155",
-      "showContact": "0",
-      "defaultStreet1": "4th floor 87-135 brompton road london sw1x7xl",
-      "universes": [
-        {
-          "defaultLabel": "Baby Dior",
-          "subUniverses": [
-            {
-              "localeLabels": [],
-              "defaultLabel": "Baby Dior",
-              "id": "592427ced007d",
-              "hashIndex": "OK"
-            }
-          ],
-          "order": "6",
-          "id": "59242800951ce",
-          "hashIndex": "OK"
-        }
-      ],
-      "showSchedules": "1",
-      "phoneNumberPrefix": "+44",
-      "defaultCity": "londres",
-      "disabledAt": "1496238236",
-      "updatedAt": "1495545155",
-      "timezone": "Europe/London",
-      "lat": "51.4991786",
-      "id": "481387"
-    },
-    {
-      "phoneNumber": "(00202) 24111888",
-      "typeValue": "Distributeurs agrées",
-      "diorId": "dior_id_447167",
-      "typeId": "592428296508b",
-      "countryCode": "EG",
-      "hashIndex": "OK",
-      "lng": "31.23571160000006",
       "typeParent": "Autre",
-      "openingHours": {
-        "6": [],
-        "5": [],
-        "1": [],
-        "4": [],
-        "3": [],
-        "2": [],
-        "0": []
-      },
-      "defaultName": "felopateer  jw marriott",
-      "activated": "1",
-      "createdAt": "1495545154",
-      "showContact": "0",
-      "defaultStreet1": "mirage city heliopolis,  ring rd,",
-      "universes": [
-        {
-          "defaultLabel": "Timepieces",
-          "subUniverses": [
-            {
-              "localeLabels": [],
-              "defaultLabel": "Timepieces",
-              "id": "592427cecfb4b",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [
-                {
-                  "label": "en russe",
-                  "locale": "RU"
-                }
-              ],
-              "defaultLabel": "intl",
-              "id": "5924525b2c6c4",
-              "hashIndex": "OK"
-            }
-          ],
-          "order": "3",
-          "id": "5924280094fdf",
-          "hashIndex": "OK"
-        }
+      "openingHours": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
       ],
+      "defaultName": "marionnaud  mag. n° 4122 asnieres cedex",
+      "activated": "1",
+      "createdAt": "1497008843",
+      "showContact": "0",
+      "defaultStreet1": "84 rue des bourguignons",
       "showSchedules": "1",
-      "defaultZipCode": "11757",
-      "phoneNumberPrefix": "+20",
-      "defaultCity": "le caire",
-      "disabledAt": "1496238236",
-      "updatedAt": "1495545154",
-      "timezone": "Africa/Cairo",
-      "lat": "30.0444196",
-      "id": "447167"
+      "defaultZipCode": "92600",
+      "phoneNumberPrefix": "+33",
+      "defaultCity": "asnieres cedex",
+      "updatedAt": "1497008843",
+      "timezone": "Europe/Paris",
+      "lat": "48.9144194",
+      "id": "233608",
+      "universes": [],
+      "services": []
     },
     {
-      "phoneNumber": "(00202)2480229 ",
-      "typeValue": "Distributeurs agrées",
-      "diorId": "dior_id_447166",
-      "typeId": "592428296508b",
-      "countryCode": "EG",
+      "phoneNumber": "01 47 93 81 36",
+      "typeValue": "Les points de vente Dior Parfums",
+      "diorId": "dior_id_233620",
+      "typeId": "593a8a1fce769",
+      "countryCode": "FR",
+      "lng": "2.2865209",
       "hashIndex": "OK",
-      "lng": "31.299844000000007",
       "typeParent": "Autre",
-      "openingHours": {
-        "6": [],
-        "5": [],
-        "1": [],
-        "4": [],
-        "3": [],
-        "2": [],
-        "0": []
-      },
-      "defaultName": "felopateer  city stars",
+      "openingHours": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "defaultName": "marionnaud  mag. n° 4142 asnieres sur seine",
       "activated": "1",
-      "createdAt": "1495545154",
+      "createdAt": "1497008843",
       "showContact": "0",
-      "defaultStreet1": "omar ibn el khattab street,  nasr city",
+      "defaultStreet1": "6 / 8 rue maurice bokanowski",
       "showSchedules": "1",
-      "phoneNumberPrefix": "+20",
-      "defaultCity": "le caire",
-      "disabledAt": "1496238236",
-      "updatedAt": "1495545154",
-      "timezone": "Africa/Cairo",
-      "lat": "30.0472051",
-      "id": "447166"
+      "defaultZipCode": "92600",
+      "phoneNumberPrefix": "+33",
+      "defaultCity": "asnieres sur seine",
+      "updatedAt": "1497008843",
+      "timezone": "Europe/Paris",
+      "lat": "48.9072028",
+      "id": "233620",
+      "universes": [],
+      "services": []
     },
     {
-      "phoneNumber": "(0091) 40 - 67467758",
-      "typeValue": "Distributeurs agrées",
-      "diorId": "dior_id_447155",
-      "typeId": "592428296508b",
-      "countryCode": "IN",
+      "phoneNumber": "01 47 91 03 05",
+      "typeValue": "Les points de vente Dior Parfums",
+      "diorId": "dior_id_234035",
+      "typeId": "593a8a1fce769",
+      "countryCode": "FR",
+      "lng": "2.2902348",
       "hashIndex": "OK",
-      "lng": "78.43826769999998",
       "typeParent": "Autre",
-      "openingHours": {
-        "6": [],
-        "5": [],
-        "1": [],
-        "4": [],
-        "3": [],
-        "2": [],
-        "0": []
-      },
-      "defaultName": "meena jewellers",
-      "activated": "1",
-      "createdAt": "1495545154",
-      "showContact": "0",
-      "defaultStreet1": "shop no.11 & 12, ground floor, gvk one mall, road no.1, banjara hills",
-      "universes": [
-        {
-          "defaultLabel": "Timepieces",
-          "subUniverses": [
-            {
-              "localeLabels": [],
-              "defaultLabel": "Timepieces",
-              "id": "592427cecfb4b",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [
-                {
-                  "label": "en russe",
-                  "locale": "RU"
-                }
-              ],
-              "defaultLabel": "intl",
-              "id": "5924525b2c6c4",
-              "hashIndex": "OK"
-            }
-          ],
-          "order": "3",
-          "id": "5924280094fdf",
-          "hashIndex": "OK"
-        }
+      "openingHours": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
       ],
+      "defaultName": "nocibe mag 76 asnieres sur seine",
+      "activated": "1",
+      "createdAt": "1497008861",
+      "showContact": "0",
+      "defaultStreet1": "3 rue pierre brossolette",
       "showSchedules": "1",
-      "defaultZipCode": " 500034",
-      "phoneNumberPrefix": "+91",
-      "defaultCity": "hyderabad",
-      "disabledAt": "1496238236",
-      "updatedAt": "1495545154",
-      "timezone": "Asia/Kolkata",
-      "lat": "17.4145868",
-      "id": "447155"
+      "defaultZipCode": "92600",
+      "phoneNumberPrefix": "+33",
+      "defaultCity": "asnieres sur seine",
+      "updatedAt": "1497008861",
+      "timezone": "Europe/Paris",
+      "lat": "48.9106177",
+      "id": "234035",
+      "universes": [],
+      "services": []
     },
     {
-      "phoneNumber": "964 750 819 3570",
-      "typeValue": "Distributeurs agrées",
-      "diorId": "dior_id_447168",
-      "typeId": "592428296508b",
-      "countryCode": "IQ",
+      "phoneNumber": "01 47 37 45 89",
+      "typeValue": "Les points de vente Dior Parfums",
+      "diorId": "dior_id_233462",
+      "typeId": "593a8a1fce769",
+      "countryCode": "FR",
+      "lng": "2.3051542",
       "hashIndex": "OK",
-      "lng": "44.36148750000007",
       "typeParent": "Autre",
-      "openingHours": {
-        "6": [],
-        "5": [],
-        "1": [],
-        "4": [],
-        "3": [],
-        "2": [],
-        "0": []
-      },
-      "defaultName": "time inventors",
-      "activated": "1",
-      "createdAt": "1495545154",
-      "showContact": "0",
-      "defaultStreet1": "family mall 100 m street erbil iraq",
-      "universes": [
-        {
-          "defaultLabel": "Timepieces",
-          "subUniverses": [
-            {
-              "localeLabels": [],
-              "defaultLabel": "Timepieces",
-              "id": "592427cecfb4b",
-              "hashIndex": "OK"
-            },
-            {
-              "localeLabels": [
-                {
-                  "label": "en russe",
-                  "locale": "RU"
-                }
-              ],
-              "defaultLabel": "intl",
-              "id": "5924525b2c6c4",
-              "hashIndex": "OK"
-            }
-          ],
-          "order": "3",
-          "id": "5924280094fdf",
-          "hashIndex": "OK"
-        }
+      "openingHours": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
       ],
+      "defaultName": "marionnaud  mag. n° 3107 clichy la garenne",
+      "activated": "1",
+      "createdAt": "1497008837",
+      "showContact": "0",
+      "defaultStreet1": "72 bld jean jaures",
       "showSchedules": "1",
-      "phoneNumberPrefix": "+964",
-      "defaultCity": "bagdad",
-      "disabledAt": "1496238236",
-      "updatedAt": "1495545154",
-      "timezone": "Asia/Baghdad",
-      "lat": "33.3128057",
-      "id": "447168"
+      "defaultZipCode": "92110",
+      "phoneNumberPrefix": "+33",
+      "defaultCity": "clichy la garenne",
+      "updatedAt": "1497008837",
+      "timezone": "Europe/Paris",
+      "lat": "48.9018367",
+      "id": "233462",
+      "universes": [],
+      "services": []
     }
-  ],
-  "Count": 10,
-  "ScannedCount": 10,
-  "LastEvaluatedKey": {
-    "id": "447168",
-    "hashIndex": "OK",
-    "updatedAt": "1495545154"
-  }
+  ]
 }

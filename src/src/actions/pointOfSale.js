@@ -11,8 +11,9 @@ export function fetchPointsOfSale(dispatch) {
 }
 
 export const RECEIVE_SEARCH_RESULTS = 'RECEIVE_SEARCH_RESULTS';
-export function fetchSearchResults(dispatch) {
-  fetch('/fixtures/pos_list.json')
+export function fetchSearchResults(dispatch, ids) {
+  fetch(`/fixtures/pos_list.json?ids=${ids}`)
+  //fetch(`https://51y3jl17xa.execute-api.eu-west-1.amazonaws.com/beta/PointOfSale?ids=${ids}`)
     .then(response => response.json())
     .then(json => dispatch({
       type: RECEIVE_SEARCH_RESULTS,
