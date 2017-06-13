@@ -1,7 +1,6 @@
 import { connect } from 'react-redux'
 
-import { mapIsReady, updateVisibleMarkers } from '../../actions/map';
-import { selectPointOfSale } from '../../actions/pointOfSale';
+import { mapIsReady, selectPointOfSale, updateVisibleMarkers } from '../../actions/pointOfSale';
 
 import DiorMap from 'ui-kit/dist/DiorMap/DiorMap';
 
@@ -12,13 +11,14 @@ const mapStateToProps = (state) => {
   if (state.pointOfSale.selectedId) {
     props.selectedMarker = state.pointOfSale.selectedId;
   }
-  if (state.map.searchLocation instanceof window.google.maps.LatLngBounds) {
-    props.location = state.map.searchLocation;
-  } else if (state.map.searchLocation instanceof window.google.maps.LatLng) {
-    props.center = state.map.searchLocation;
+  if (state.pointOfSale.searchLocation instanceof window.google.maps.LatLngBounds) {
+    props.location = state.pointOfSale.searchLocation;
+  } else if (state.pointOfSale.searchLocation instanceof window.google.maps.LatLng) {
+    props.center = state.pointOfSale.searchLocation;
     props.zoom = DEFAULT_POINT_ZOOM;
   }
   props.markers = state.pointOfSale.items;
+  props.idsWithLabels = state.pointOfSale.searchResults.map(item => item.id);
   return props;
 };
 

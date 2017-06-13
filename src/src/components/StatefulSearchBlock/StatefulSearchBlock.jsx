@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 
-import { search } from '../../actions/map';
+import { search } from '../../actions/pointOfSale';
 
 import SearchBlock from 'ui-kit/dist/SearchBlock/SearchBlock';
 
@@ -12,7 +12,7 @@ const mapStateToProps = (state) => {
     title: state.shared.dataCdc
       ? state.shared.dataCdc.search.placeholder
       : '',
-    value: state.map.searchValue
+    value: state.pointOfSale.searchValue
   }
 };
 
