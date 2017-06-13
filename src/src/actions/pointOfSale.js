@@ -10,14 +10,29 @@ export function fetchPointsOfSale(dispatch) {
     }));
 }
 
+const REQUEST_MAX_ITEMS = 50;
 export const RECEIVE_SEARCH_RESULTS = 'RECEIVE_SEARCH_RESULTS';
 export function fetchSearchResults(dispatch, ids) {
-  fetch(`/fixtures/pos_list.json?ids=${ids}`)
-  //fetch(`https://51y3jl17xa.execute-api.eu-west-1.amazonaws.com/beta/PointOfSale?ids=${ids}`)
-    .then(response => response.json())
-    .then(json => dispatch({
+  const requestIds = [];
+  while (ids.length > 0) {
+    requestIds.push(ids.splice(0, REQUEST_MAX_ITEMS));
+  }
+
+  const promises = requestIds
+    .map(ids => fetch(`https://51y3jl17xa.execute-api.eu-west-1.amazonaws.com/beta/PointOfSale?ids=${ids}`));
+  //fetch(`/fixtures/pos_list.json?ids=${ids}`)
+
+  Promise
+    .all(promises)
+    .then(responses => responses.map(response => response.json()))
+    .then(promises => Promise.all(promises))
+    .then(jsons => dispatch({
       type: RECEIVE_SEARCH_RESULTS,
-      data: json
+      data: jsons.reduce((prev, json) => {
+        prev.Count += json.Count;
+        prev.Items = prev.Items.concat(json.Items);
+        return prev;
+      }, {Count: 0, Items: []})
     }));
 }
 
@@ -29,4 +44,12 @@ export function fetchFilters(dispatch) {
       type: RECEIVE_FILTERS,
       data: json
     }));
+}
+
+export const SELECT_POINTS_OF_SALE = 'SELECT_POINTS_OF_SALE';
+export function selectPointOfSale(dispatch, id) {
+  dispatch({
+    type: SELECT_POINTS_OF_SALE,
+    data: id
+  });
 }
