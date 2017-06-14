@@ -3,8 +3,10 @@ import { connect } from 'react-redux'
 
 import { fetchCartItems } from '../../actions/cart';
 import { fetchFavoriteItems } from '../../actions/favorite';
+import { fetchData } from '../../actions/shared'
 import { NOT_LOADED as CART_NOT_LOADED } from '../../reducers/cart';
 import { NOT_LOADED as FAVORITE_NOT_LOADED } from '../../reducers/favorite';
+import { DATA_NOT_LOADED, DISPLAY_DESKTOP } from '../../reducers/shared';
 
 import FormTextfield from 'ui-kit/dist/FormTextfield/FormTextfield';
 import HeaderDesktop from 'ui-kit/dist/HeaderDesktop/HeaderDesktop';
@@ -13,6 +15,14 @@ import StatefulNavCart from '../StatefulNavCart/StatefulNavCart';
 import StatefulNavFavorite from '../StatefulNavFavorite/StatefulNavFavorite';
 
 class StatefulHeader extends Component {
+  componentDidMount() {
+    this.loadData();
+  }
+
+  componentDidUpdate() {
+    this.loadData();
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -42,6 +52,12 @@ class StatefulHeader extends Component {
   openPopup(index) {
     clearTimeout(this.timeout);
     this.setState({openPopinIndex: index});
+  }
+
+  loadData() {
+    if (this.props.dataLoadState === DATA_NOT_LOADED && this.props.displayType === DISPLAY_DESKTOP) {
+      this.props.fetchData();
+    }
   }
 
   render() {
@@ -83,6 +99,8 @@ const mapStateToProps = (state) => {
   return {
     cartItemCount: state.cart.itemCount,
     cartItemLoadState: state.cart.itemLoadState,
+    dataLoadState: state.shared.dataLoadState,
+    displayType: state.shared.displayType,
     favoriteItemCount: state.favorite.itemCount,
     favoriteItemLoadState: state.favorite.itemLoadState
   }
@@ -91,6 +109,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     fetchCartItems: fetchCartItems.bind(null, dispatch),
+    fetchData: fetchData.bind(null, dispatch),
     fetchFavoriteItems: fetchFavoriteItems.bind(null, dispatch)
   }
 };

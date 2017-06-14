@@ -34,8 +34,7 @@ const mapStateToProps = (state) => {
     dataCdc: state.shared.dataCdc,
     itemCount: state.favorite.itemCount,
     itemLoadState: state.favorite.itemLoadState,
-    items: state.favorite.items,
-    isLoading: state.shared.isLoading
+    items: state.favorite.items
   }
 };
 

@@ -55,8 +55,7 @@ const mapStateToProps = (state) => {
     dataPcd: state.shared.dataPcd,
     itemCount: state.cart.itemCount,
     itemLoadState: state.cart.itemLoadState,
-    items: state.cart.items,
-    isLoading: state.shared.isLoading
+    items: state.cart.items
   }
 };
 

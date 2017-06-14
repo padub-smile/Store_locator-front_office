@@ -2,15 +2,18 @@ import { DISPLAY_MODE_UPDATED, DISPLAY_TYPE_UPDATED, FETCH_DATA, RECEIVE_DATA } 
 
 import { DISPLAY_MODE_MAP } from 'ui-kit/dist/FilterBlock/FilterBlock';
 
+export const DATA_NOT_LOADED = 0;
+export const DATA_LOADING = 1;
+export const DATA_LOADED = 2;
 export const DISPLAY_MOBILE = 0;
 export const DISPLAY_DESKTOP = 1;
 
 const initialState = {
   dataCdc: null,
+  dataLoadState: DATA_NOT_LOADED,
   dataPcd: null,
   displayType: window.matchMedia('(min-width: 992px)').matches ? DISPLAY_DESKTOP : DISPLAY_MOBILE,
-  displayMode: DISPLAY_MODE_MAP,
-  isLoading: false
+  displayMode: DISPLAY_MODE_MAP
 };
 
 export function shared(state = initialState, action) {
@@ -30,7 +33,7 @@ export function shared(state = initialState, action) {
     case FETCH_DATA:
       return {
         ...state,
-        isLoading: true
+        dataLoadState: DATA_LOADING
       };
 
     case RECEIVE_DATA:
@@ -38,7 +41,7 @@ export function shared(state = initialState, action) {
         ...state,
         dataCdc: action.data[0],
         dataPcd: action.data[1],
-        isLoading: false
+        dataLoadState: DATA_LOADED
       };
 
     default:
