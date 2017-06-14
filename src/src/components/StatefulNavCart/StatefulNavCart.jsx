@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 
-import { LOADING } from '../../reducers/cart';
+import { CART_LOADING } from '../../reducers/cart';
 
 import NavCart, { STATE_LOADING, STATE_LOADED, STATE_EMPTY } from 'ui-kit/dist/NavCart/NavCart';
 
@@ -29,7 +29,7 @@ class StatefulNavCart extends Component {
 
     // Setup state.
     let state = STATE_EMPTY;
-    if (this.props.itemLoadState === LOADING) {
+    if (this.props.itemLoadState === CART_LOADING) {
       state = STATE_LOADING;
     } else if ((this.props.items[0] && this.props.items[0].basket.products.length > 0)
             || (this.props.items[1] && this.props.items[1].basket.products.length > 0)) {

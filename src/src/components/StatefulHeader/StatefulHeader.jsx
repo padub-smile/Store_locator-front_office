@@ -4,9 +4,9 @@ import { connect } from 'react-redux'
 import { fetchCartItems } from '../../actions/cart';
 import { fetchFavoriteItems } from '../../actions/favorite';
 import { fetchData } from '../../actions/shared'
-import { NOT_LOADED as CART_NOT_LOADED } from '../../reducers/cart';
-import { NOT_LOADED as FAVORITE_NOT_LOADED } from '../../reducers/favorite';
-import { DATA_NOT_LOADED, DISPLAY_DESKTOP } from '../../reducers/shared';
+import { CART_NOT_LOADED } from '../../reducers/cart';
+import { FAVORITE_NOT_LOADED } from '../../reducers/favorite';
+import { DATA_NOT_LOADED, DISPLAY_TYPE_DESKTOP } from '../../reducers/shared';
 
 import FormTextfield from 'ui-kit/dist/FormTextfield/FormTextfield';
 import HeaderDesktop from 'ui-kit/dist/HeaderDesktop/HeaderDesktop';
@@ -55,7 +55,7 @@ class StatefulHeader extends Component {
   }
 
   loadData() {
-    if (this.props.dataLoadState === DATA_NOT_LOADED && this.props.displayType === DISPLAY_DESKTOP) {
+    if (this.props.dataLoadState === DATA_NOT_LOADED && this.props.displayType === DISPLAY_TYPE_DESKTOP) {
       this.props.fetchData();
     }
   }

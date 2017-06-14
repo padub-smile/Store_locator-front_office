@@ -1,12 +1,12 @@
 import { getItemCount, FETCH_FAVORITE_ITEMS, RECEIVE_FAVORITE_ITEMS } from '../actions/favorite'
 
-export const NOT_LOADED = 0;
-export const LOADING = 1;
-export const LOADED = 2;
+export const FAVORITE_NOT_LOADED = 0;
+export const FAVORITE_LOADING = 1;
+export const FAVORITE_LOADED = 2;
 
 const initialState = {
   itemCount: getItemCount(),
-  itemLoadState: NOT_LOADED,
+  itemLoadState: FAVORITE_NOT_LOADED,
   items: []
 };
 
@@ -15,13 +15,13 @@ export function favorite(state = initialState, action) {
     case FETCH_FAVORITE_ITEMS:
       return {
         ...state,
-        itemLoadState: LOADING
+        itemLoadState: FAVORITE_LOADING
       };
 
     case RECEIVE_FAVORITE_ITEMS:
       return {
         ...state,
-        itemLoadState: LOADED,
+        itemLoadState: FAVORITE_LOADED,
         items: action.data
       };
 

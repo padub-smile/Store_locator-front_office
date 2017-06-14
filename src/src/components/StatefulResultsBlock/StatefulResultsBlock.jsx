@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import R from 'ramda';
 
 import { fetchSearchResults, selectPointOfSale } from '../../actions/pointOfSale'
-import { DISPLAY_MOBILE } from '../../reducers/shared';
+import { DISPLAY_TYPE_MOBILE } from '../../reducers/shared';
 import { DISPLAY_MODE_LIST } from 'ui-kit/dist/FilterBlock/FilterBlock';
 
 import ResultsBlock, { HIDE_RESULTS, SHOW_RESULTS } from 'ui-kit/dist/ResultsBlock/ResultsBlock';
@@ -32,7 +32,7 @@ class StatefulResultsBlock extends Component {
 
   render() {
     let height = '550px';
-    if (this.props.displayType === DISPLAY_MOBILE) {
+    if (this.props.displayType === DISPLAY_TYPE_MOBILE) {
       height = 'calc((100vh - 65px) - 140px)';
     }
 

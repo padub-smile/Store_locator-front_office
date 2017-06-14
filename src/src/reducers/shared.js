@@ -5,14 +5,14 @@ import { DISPLAY_MODE_MAP } from 'ui-kit/dist/FilterBlock/FilterBlock';
 export const DATA_NOT_LOADED = 0;
 export const DATA_LOADING = 1;
 export const DATA_LOADED = 2;
-export const DISPLAY_MOBILE = 0;
-export const DISPLAY_DESKTOP = 1;
+export const DISPLAY_TYPE_MOBILE = 0;
+export const DISPLAY_TYPE_DESKTOP = 1;
 
 const initialState = {
   dataCdc: null,
   dataLoadState: DATA_NOT_LOADED,
   dataPcd: null,
-  displayType: window.matchMedia('(min-width: 992px)').matches ? DISPLAY_DESKTOP : DISPLAY_MOBILE,
+  displayType: window.matchMedia('(min-width: 992px)').matches ? DISPLAY_TYPE_DESKTOP : DISPLAY_TYPE_MOBILE,
   displayMode: DISPLAY_MODE_MAP
 };
 

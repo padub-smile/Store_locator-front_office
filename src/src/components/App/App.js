@@ -5,7 +5,7 @@ import debounce from 'debounce';
 import 'ui-kit/dist/styles/ui-kit.css';
 
 import { updateDisplayType } from '../../actions/shared';
-import { DISPLAY_MOBILE, DISPLAY_DESKTOP } from '../../reducers/shared';
+import { DISPLAY_TYPE_MOBILE, DISPLAY_TYPE_DESKTOP } from '../../reducers/shared';
 
 import MapContainer from 'ui-kit/dist/MapContainer/MapContainer';
 import PageContainer from 'ui-kit/dist/PageContainer/PageContainer';
@@ -31,12 +31,12 @@ class App extends Component {
 
   onResize() {
     const isDesktop = window.matchMedia('(min-width: 992px)').matches;
-    if (isDesktop && this.props.displayType !== DISPLAY_DESKTOP) {
+    if (isDesktop && this.props.displayType !== DISPLAY_TYPE_DESKTOP) {
       // Desktop.
-      this.props.updateDisplayType(DISPLAY_DESKTOP);
-    } else if (!isDesktop && this.props.displayType !== DISPLAY_MOBILE) {
+      this.props.updateDisplayType(DISPLAY_TYPE_DESKTOP);
+    } else if (!isDesktop && this.props.displayType !== DISPLAY_TYPE_MOBILE) {
       // Mobile.
-      this.props.updateDisplayType(DISPLAY_MOBILE);
+      this.props.updateDisplayType(DISPLAY_TYPE_MOBILE);
     }
   }
 
@@ -51,7 +51,7 @@ class App extends Component {
     let mapStyles = {maxWidth: '920px', height: '800px', marginLeft: '30%'};
     let searchStyles = {maxWidth: '400px', width: '30%', float: 'left'};
     let filtersHeight = '593px';
-    if (this.props.displayType === DISPLAY_MOBILE) {
+    if (this.props.displayType === DISPLAY_TYPE_MOBILE) {
       contentStyles = {};
       mapStyles = {width: '100%', height: 'calc(100vh - 65px - 165px)'};
       searchStyles = {width: '100%'};

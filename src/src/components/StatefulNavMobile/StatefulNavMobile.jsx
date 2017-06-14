@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 
 import { fetchNavMobile, fetchNavMobileLinks } from '../../actions/nav';
 import { NAV_MOBILE_NOT_LOADED, NAV_MOBILE_LINKS_NOT_LOADED } from '../../reducers/nav';
-import { DISPLAY_MOBILE } from '../../reducers/shared';
+import { DISPLAY_TYPE_MOBILE } from '../../reducers/shared';
 
 import NavMobile from 'ui-kit/dist/NavMobile/NavMobile';
 
@@ -17,7 +17,7 @@ class StatefulNavMobile extends Component {
   }
 
   loadNavMobile() {
-    if (this.props.displayType === DISPLAY_MOBILE) {
+    if (this.props.displayType === DISPLAY_TYPE_MOBILE) {
       if (this.props.navMobileLoadState === NAV_MOBILE_NOT_LOADED) {
         this.props.fetchNavMobile();
       }

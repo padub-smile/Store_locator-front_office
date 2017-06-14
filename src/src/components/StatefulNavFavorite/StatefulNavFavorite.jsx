@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 
-import { LOADING } from '../../reducers/favorite';
+import { FAVORITE_LOADING } from '../../reducers/favorite';
 
 import NavFavorite, { STATE_NOT_CONNECTED, STATE_LOADING, STATE_LOADED, STATE_EMPTY } from 'ui-kit/dist/NavFavorite/NavFavorite';
 
@@ -9,7 +9,7 @@ class StatefulNavFavorite extends Component {
   render() {
     // Setup state.
     let state = STATE_NOT_CONNECTED;
-    if (this.props.itemLoadState === LOADING) {
+    if (this.props.itemLoadState === FAVORITE_LOADING) {
       state = STATE_LOADING;
     } else if (this.props.items.length > 0) {
       state = STATE_LOADED;

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import { fetchMetanav, toggleNavMobile } from '../../actions/nav';
 import { METANAV_NOT_LOADED } from '../../reducers/nav';
-import { DISPLAY_DESKTOP } from '../../reducers/shared';
+import { DISPLAY_TYPE_DESKTOP } from '../../reducers/shared';
 
 import Metanav from 'ui-kit/dist/Metanav/Metanav';
 
@@ -13,14 +13,14 @@ class StatefulMetanav extends Component {
   }
 
   componentDidUpdate() {
-    if (this.props.displayType === DISPLAY_DESKTOP) {
+    if (this.props.displayType === DISPLAY_TYPE_DESKTOP) {
       this.props.toggleNavMobile(true);
     }
     this.loadMetanav();
   }
 
   loadMetanav() {
-    if (this.props.metanavLoadState === METANAV_NOT_LOADED && this.props.displayType === DISPLAY_DESKTOP) {
+    if (this.props.metanavLoadState === METANAV_NOT_LOADED && this.props.displayType === DISPLAY_TYPE_DESKTOP) {
       this.props.fetchMetanav();
     }
   }
