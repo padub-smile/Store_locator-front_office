@@ -13,5 +13,5 @@ export const POS_FILTERS_URLS = {
 export const POS_SEARCH_URLS = {
   development: (ids) => `/fixtures/pos_list.json?ids=${ids}`,
   test: (ids) => `/fixtures/pos_list.json?ids=${ids}`,
-  production: (ids) => `https://51y3jl17xa.execute-api.eu-west-1.amazonaws.com/beta/PointOfSale?ids=${ids}`
+  production: (ids) => `https://tpc33of0na.execute-api.eu-west-1.amazonaws.com/beta/PointOfSale?ids=${ids}`
 };
