@@ -2,15 +2,28 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 
 import { fetchNavMobile, fetchNavMobileLinks } from '../../actions/nav';
+import { NAV_MOBILE_NOT_LOADED, NAV_MOBILE_LINKS_NOT_LOADED } from '../../reducers/nav';
+import { DISPLAY_MOBILE } from '../../reducers/shared';
+
 import NavMobile from 'ui-kit/dist/NavMobile/NavMobile';
 
 class StatefulNavMobile extends Component {
   componentDidMount() {
-    if (Object.keys(this.props.data).length === 0) {
-      this.props.fetchNavMobile();
-    }
-    if (Object.keys(this.props.links).length === 0) {
-      this.props.fetchNavMobileLinks();
+    this.loadNavMobile();
+  }
+
+  componentDidUpdate() {
+    this.loadNavMobile();
+  }
+
+  loadNavMobile() {
+    if (this.props.displayType === DISPLAY_MOBILE) {
+      if (this.props.navMobileLoadState === NAV_MOBILE_NOT_LOADED) {
+        this.props.fetchNavMobile();
+      }
+      if (this.props.navMobileLinksLoadState === NAV_MOBILE_LINKS_NOT_LOADED) {
+        this.props.fetchNavMobileLinks();
+      }
     }
   }
 
@@ -26,9 +39,11 @@ class StatefulNavMobile extends Component {
 const mapStateToProps = (state) => {
   return {
     data: state.nav.navMobile,
+    displayType: state.shared.displayType,
     links: state.nav.navMobileLinks,
-    metanav: state.nav.metanav,
-    isNavMobileOpen: state.nav.isNavMobileOpen
+    isNavMobileOpen: state.nav.isNavMobileOpen,
+    navMobileLoadState: state.nav.navMobileLoadState,
+    navMobileLinksLoadState: state.nav.navMobileLinksLoadState
   }
 };
 

@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 
 import { fetchSubnav } from '../../actions/nav';
+import { SUBNAV_NOT_LOADED } from '../../reducers/nav';
+import { DISPLAY_DESKTOP } from '../../reducers/shared';
+
 import Subnav from 'ui-kit/dist/Subnav/Subnav';
 
 const availableIdentifiers = [
@@ -14,9 +17,18 @@ const availableIdentifiers = [
 
 class StatefulSubnav extends Component {
   componentDidMount() {
-    if (Object.keys(this.props.data).length === 0 &&
-        this.props.activeMenu &&
-        availableIdentifiers.indexOf(this.props.activeMenu) !== -1) {
+    this.loadSubnav();
+  }
+
+  componentDidUpdate() {
+    this.loadSubnav();
+  }
+
+  loadSubnav() {
+    if (this.props.subNavLoadState === SUBNAV_NOT_LOADED
+      && this.props.displayType === DISPLAY_DESKTOP
+      && this.props.activeMenu
+      && availableIdentifiers.indexOf(this.props.activeMenu) !== -1) {
       this.props.fetchSubnav(this.props.activeMenu);
     }
   }
@@ -32,7 +44,9 @@ class StatefulSubnav extends Component {
 const mapStateToProps = (state) => {
   return {
     activeMenu: state.nav.activeMenu,
-    data: state.nav.subnav
+    data: state.nav.subnav,
+    displayType: state.shared.displayType,
+    subNavLoadState: state.nav.subNavLoadState
   }
 };
 
