@@ -1,9 +1,10 @@
 import Cookie from 'js-cookie';
-import fetch from 'isomorphic-fetch';
 
-const cookieNames = ['cdc_cart_items_count', 'CartItemsCount'];
+import { CART_CDC_COOKIE, CART_PCD_COOKIE } from '../settings/cart';
+import { getCart } from '../services/cart';
+
 export function getItemCount() {
-  return cookieNames
+  return [CART_CDC_COOKIE, CART_PCD_COOKIE]
     .map(name => Cookie.get(name))
     .map(data => +(data || 0))
     .reduce((a, b) => a + b, 0);
@@ -12,11 +13,8 @@ export function getItemCount() {
 export const FETCH_CART_ITEMS = 'FETCH_CART_ITEMS';
 export const RECEIVE_CART_ITEMS = 'RECEIVE_CART_ITEMS';
 export function fetchCartItems(dispatch) {
-  const apis = ['/fixtures/cart-cdc.json', '/fixtures/cart-pcd.json'];
-
   dispatch({type: FETCH_CART_ITEMS});
-  Promise
-    .all(apis.map(url => fetch(url)))
+  getCart()
     .then(responses => responses.map(response => response.json()))
     .then(promises => Promise.all(promises))
     .then(data => dispatch({

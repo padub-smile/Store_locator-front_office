@@ -1,8 +1,8 @@
-import fetch from 'isomorphic-fetch'
+import { getFilters, getPointsOfSale, getSearchResults } from '../services/pointOfSale';
 
 export const RECEIVE_POINTS_OF_SALE = 'RECEIVE_POINTS_OF_SALE';
 export function fetchPointsOfSale(dispatch) {
-  fetch('/fixtures/pos_position.json')
+  getPointsOfSale()
     .then(response => response.json())
     .then(json => dispatch({
       type: RECEIVE_POINTS_OF_SALE,
@@ -19,8 +19,7 @@ export function fetchSearchResults(dispatch, ids) {
   }
 
   const promises = requestIds
-    .map(ids => fetch(`https://51y3jl17xa.execute-api.eu-west-1.amazonaws.com/beta/PointOfSale?ids=${ids}`));
-  //fetch(`/fixtures/pos_list.json?ids=${ids}`)
+    .map(ids => getSearchResults(ids));
 
   Promise
     .all(promises)
@@ -38,7 +37,7 @@ export function fetchSearchResults(dispatch, ids) {
 
 export const RECEIVE_FILTERS = 'RECEIVE_FILTERS';
 export function fetchFilters(dispatch) {
-  fetch('/fixtures/filters_list.json')
+  getFilters()
     .then(response => response.json())
     .then(json => dispatch({
       type: RECEIVE_FILTERS,

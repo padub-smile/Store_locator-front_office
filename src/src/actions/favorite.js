@@ -1,8 +1,10 @@
 import Cookie from 'js-cookie';
 
-const cookieNames = ['cdc_wishlist_items_id', 'pcd_wishlist_items_id'];
+import { FAVORITE_CDC_COOKIE, FAVORITE_PCD_COOKIE } from '../settings/favorite';
+import { getFavorite } from '../services/favorite';
+
 export function getItemCount() {
-  return cookieNames
+  return [FAVORITE_CDC_COOKIE, FAVORITE_PCD_COOKIE]
     .map(name => Cookie.get(name))
     .map(data => data ? data.split(',').length : 0)
     .reduce((a, b) => a + b, 0);
@@ -11,11 +13,8 @@ export function getItemCount() {
 export const FETCH_FAVORITE_ITEMS = 'FETCH_FAVORITE_ITEMS';
 export const RECEIVE_FAVORITE_ITEMS = 'RECEIVE_FAVORITE_ITEMS';
 export function fetchFavoriteItems(dispatch) {
-  const apis = ['/fixtures/favorite-cdc.json', '/fixtures/favorite-pcd.json'];
-
   dispatch({type: FETCH_FAVORITE_ITEMS});
-  Promise
-    .all(apis.map(url => fetch(url)))
+  getFavorite()
     .then(responses => responses.map(response => response.json()))
     .then(promises => Promise.all(promises))
     .then(data => dispatch({
