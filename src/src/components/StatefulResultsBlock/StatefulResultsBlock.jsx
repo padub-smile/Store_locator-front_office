@@ -18,7 +18,8 @@ class StatefulResultsBlock extends Component {
       const ids = nextProps.markers.map(marker => marker.key);
       nextProps.fetchSearchResults(ids);
     } else if (nextProps.selectedId) {
-      const selectedShop = R.find(R.propEq('id', nextProps.selectedId))(nextProps.searchResults);
+      const searchResults = nextProps.searchResultsDior.concat(nextProps.searchResultsOther);
+      const selectedShop = R.find(R.propEq('id', nextProps.selectedId))(searchResults);
       if (!selectedShop) {
         // Fetch search results for selected shop.
         nextProps.fetchSearchResults([nextProps.selectedId]);
@@ -42,10 +43,8 @@ class StatefulResultsBlock extends Component {
     }
 
     let diorShops = [];
-    let otherShops = [];
-    if (this.props.searchResults && this.props.searchResults.length > 0) {
-      diorShops = this.props.searchResults
-        .filter(item => item.typeParent === 'Dior')
+    if (this.props.searchResultsDior.length > 0) {
+      diorShops = this.props.searchResultsDior
         .map((item, index) => ({
           element: (<ShopBlock
             distance={this.formatDistance(item.distance)}
@@ -56,9 +55,12 @@ class StatefulResultsBlock extends Component {
           />),
           id: item.id
         }));
+    }
+
+    let otherShops = [];
+    if (this.props.searchResultsOther.length > 0) {
       const length = Object.keys(diorShops).length;
-      otherShops = this.props.searchResults
-        .filter(item => item.typeParent !== 'Dior')
+      otherShops = this.props.searchResultsOther
         .map((item, index) => ({
           element: (<ShopBlock
             distance={this.formatDistance(item.distance)}
@@ -89,7 +91,8 @@ const mapStateToProps = (state) => {
     displayType: state.shared.displayType,
     displayMode: state.shared.displayMode,
     markers: state.pointOfSale.markers,
-    searchResults: state.pointOfSale.searchResults,
+    searchResultsDior: state.pointOfSale.searchResultsDior,
+    searchResultsOther: state.pointOfSale.searchResultsOther,
     selectedId: state.pointOfSale.selectedId,
     zoom: state.pointOfSale.zoom
   }

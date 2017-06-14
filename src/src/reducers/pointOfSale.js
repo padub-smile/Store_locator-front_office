@@ -1,3 +1,5 @@
+import R from 'ramda';
+
 import {
   MAP_IS_READY,
   MARKERS_UPDATED,
@@ -19,7 +21,8 @@ const initialState = {
   markers: [],
   searchCount: 0,
   searchLocation: null,
-  searchResults: [],
+  searchResultsDior: [],
+  searchResultsOther: [],
   searchValue: 'France',
   selectedId: null,
   zoom: null
@@ -52,10 +55,13 @@ export function pointOfSale(state = initialState, action) {
       const lng = state.center.lng();
       action.data.Items.forEach(item => item.distance = distanceInKm(item.lat, item.lng, lat, lng));
       action.data.Items.sort(sortByDistance);
+      const selectedItem = R.find(R.propEq('id', state.selectedId))(action.data.Items);
       return {
         ...state,
         searchCount: action.data.Count,
-        searchResults: action.data.Items
+        searchResultsDior: action.data.Items.filter(item => item.typeParent === 'Dior'),
+        searchResultsOther: action.data.Items.filter(item => item.typeParent !== 'Dior'),
+        selectedId: selectedItem ? selectedItem.id : null
       };
 
     case RECEIVE_FILTERS:
