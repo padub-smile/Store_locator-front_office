@@ -14,15 +14,15 @@ export const MAP_NOT_READY = 0;
 export const MAP_READY = 1;
 
 const initialState = {
-  center: null,
   items: [],
   isMapReady: MAP_NOT_READY,
   filters: {},
   markers: [],
   searchCount: 0,
-  searchLocation: null,
+  searchPosition: null,
   searchResultsDior: [],
   searchResultsOther: [],
+  searchViewport: null,
   searchValue: 'France',
   selectedId: null,
   zoom: null
@@ -40,8 +40,7 @@ export function pointOfSale(state = initialState, action) {
       return {
         ...state,
         markers: action.markers,
-        zoom: action.zoom,
-        center: action.center
+        zoom: action.zoom
       };
 
     case RECEIVE_POINTS_OF_SALE:
@@ -51,10 +50,13 @@ export function pointOfSale(state = initialState, action) {
       };
 
     case RECEIVE_SEARCH_RESULTS:
-      const lat = state.center.lat();
-      const lng = state.center.lng();
-      action.data.Items.forEach(item => item.distance = distanceInKm(item.lat, item.lng, lat, lng));
-      action.data.Items.sort(sortByDistance);
+      console.log(state.searchPosition);
+      if (state.searchPosition) {
+        const lat = state.searchPosition.lat();
+        const lng = state.searchPosition.lng();
+        action.data.Items.forEach(item => item.distance = distanceInKm(item.lat, item.lng, lat, lng));
+        action.data.Items.sort(sortByDistance);
+      }
       const selectedItem = R.find(R.propEq('id', state.selectedId))(action.data.Items);
       return {
         ...state,
@@ -73,7 +75,8 @@ export function pointOfSale(state = initialState, action) {
     case SEARCH:
       return {
         ...state,
-        searchLocation: action.data
+        searchViewport: action.viewport,
+        searchPosition: action.position
       };
 
     case SELECT_POINTS_OF_SALE:

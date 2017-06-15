@@ -5,8 +5,8 @@ export const POS_POSITION_URLS = {
 };
 
 export const POS_FILTERS_URLS = {
-  development: '/fixtures/filters_list.json',
-  test: '/fixtures/filters_list.json',
+  development: '/fixtures/filters.json',
+  test: '/fixtures/filters.json',
   production: '/json/filters.json'
 };
 

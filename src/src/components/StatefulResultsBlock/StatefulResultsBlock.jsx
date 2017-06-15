@@ -13,6 +13,7 @@ export const MIN_SEARCH_ZOOM = 14;
 
 class StatefulResultsBlock extends Component {
   componentWillUpdate(nextProps) {
+    console.log(nextProps.zoom, nextProps.markers);
     if (nextProps.zoom >= MIN_SEARCH_ZOOM && nextProps.markers !== this.props.markers) {
       // Fetch search results.
       const ids = nextProps.markers.map(marker => marker.key);
@@ -28,7 +29,9 @@ class StatefulResultsBlock extends Component {
   }
 
   formatDistance(distance) {
-    return parseInt(distance * 10, 10) / 10 + 'km';
+    if (distance) {
+      return parseInt(distance * 10, 10) / 10 + 'km';
+    }
   }
 
   render() {

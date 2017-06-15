@@ -53,10 +53,11 @@ export function selectPointOfSale(dispatch, id) {
   });
 }
 export const SEARCH = 'SEARCH';
-export function search(dispatch, viewport) {
+export function search(dispatch, viewport, position = null) {
   dispatch({
     type: SEARCH,
-    data: viewport
+    viewport,
+    position
   });
 }
 
@@ -66,11 +67,11 @@ export function mapIsReady(dispatch) {
 }
 
 export const MARKERS_UPDATED = 'MARKERS_UPDATED';
-export function updateVisibleMarkers(dispatch, markers, zoom, center) {
+export function updateVisibleMarkers(dispatch, markers, zoom) {
+  console.log('updateVisibleMarkers');
   dispatch({
     type: MARKERS_UPDATED,
     markers,
-    zoom,
-    center
+    zoom
   });
 }

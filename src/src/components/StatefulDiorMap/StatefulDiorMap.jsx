@@ -2,9 +2,7 @@ import { connect } from 'react-redux'
 
 import { mapIsReady, selectPointOfSale, updateVisibleMarkers } from '../../actions/pointOfSale';
 
-import DiorMap from 'ui-kit/dist/DiorMap/DiorMap';
-
-export const DEFAULT_POINT_ZOOM = 15;
+import DiorMap, { POINT_ZOOM_LEVEL } from 'ui-kit/dist/DiorMap/DiorMap';
 
 const mapStateToProps = (state) => {
   const props = {};
@@ -17,13 +15,9 @@ const mapStateToProps = (state) => {
     props.selectedMarker = state.pointOfSale.selectedId;
   }
 
-  if (state.pointOfSale.searchLocation instanceof window.google.maps.LatLngBounds) {
-    props.location = state.pointOfSale.searchLocation;
-  } else if (state.pointOfSale.searchLocation instanceof window.google.maps.LatLng) {
-    props.center = state.pointOfSale.searchLocation;
-    props.zoom = DEFAULT_POINT_ZOOM;
-  }
-
+  props.location = state.pointOfSale.searchViewport;
+  props.center = state.pointOfSale.searchPosition;
+  props.zoom = POINT_ZOOM_LEVEL;
   props.markers = state.pointOfSale.items;
   return props;
 };
