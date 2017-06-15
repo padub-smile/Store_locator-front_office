@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 
 import { search } from '../../actions/pointOfSale';
 
-import SearchBlock from 'ui-kit/dist/SearchBlock/SearchBlock';
+import SearchBlock from 'ui-kit/src/components/SearchBlock/SearchBlock';
 
 const mapStateToProps = (state) => {
   return {

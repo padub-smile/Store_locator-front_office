@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 
 import { updateDisplayMode } from '../../actions/shared';
 
-import FilterBlock from 'ui-kit/dist/FilterBlock/FilterBlock';
+import FilterBlock from 'ui-kit/src/components/FilterBlock/FilterBlock';
 
 const mapStateToProps = (state) => {
   return {

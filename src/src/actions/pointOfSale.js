@@ -68,7 +68,6 @@ export function mapIsReady(dispatch) {
 
 export const MARKERS_UPDATED = 'MARKERS_UPDATED';
 export function updateVisibleMarkers(dispatch, markers, zoom) {
-  console.log('updateVisibleMarkers');
   dispatch({
     type: MARKERS_UPDATED,
     markers,

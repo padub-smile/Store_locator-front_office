@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 
-import NavAccount from 'ui-kit/dist/NavAccount/NavAccount';
+import NavAccount from 'ui-kit/src/components/NavAccount/NavAccount';
 
 const mapStateToProps = (state) => {
   return {

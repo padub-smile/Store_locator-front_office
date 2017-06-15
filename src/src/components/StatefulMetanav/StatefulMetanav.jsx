@@ -5,7 +5,7 @@ import { fetchMetanav, toggleNavMobile } from '../../actions/nav';
 import { METANAV_NOT_LOADED } from '../../reducers/nav';
 import { DISPLAY_TYPE_DESKTOP } from '../../reducers/shared';
 
-import Metanav from 'ui-kit/dist/Metanav/Metanav';
+import Metanav from 'ui-kit/src/components/Metanav/Metanav';
 
 class StatefulMetanav extends Component {
   componentDidMount() {

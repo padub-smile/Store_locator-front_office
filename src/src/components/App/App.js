@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import debounce from 'debounce';
 
-import 'ui-kit/dist/styles/ui-kit.css';
+import 'ui-kit/src/styles/ui-kit.css';
 
 import { updateDisplayType } from '../../actions/shared';
 import { DISPLAY_TYPE_MOBILE, DISPLAY_TYPE_DESKTOP } from '../../reducers/shared';
 
-import MapContainer from 'ui-kit/dist/MapContainer/MapContainer';
-import PageContainer from 'ui-kit/dist/PageContainer/PageContainer';
-import SearchContainer from 'ui-kit/dist/SearchContainer/SearchContainer';
+import MapContainer from 'ui-kit/src/components/MapContainer/MapContainer';
+import PageContainer from 'ui-kit/src/components/PageContainer/PageContainer';
+import SearchContainer from 'ui-kit/src/components/SearchContainer/SearchContainer';
 import StatefulDiorMap from '../StatefulDiorMap/StatefulDiorMap';
 import StatefulFilterBlock from '../StatefulFilterBlock/StatefulFilterBlock.jsx';
 import StatefulFooter from '../StatefulFooter/StatefulFooter.jsx';

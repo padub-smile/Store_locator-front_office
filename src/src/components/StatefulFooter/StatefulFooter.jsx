@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import BlockSelect from 'ui-kit/dist/BlockSelect/BlockSelect';
-import BlockSocials from 'ui-kit/dist/BlockSocials/BlockSocials';
-import FooterCategory from 'ui-kit/dist/FooterCategory/FooterCategory';
-import FooterDesktop from 'ui-kit/dist/FooterDesktop/FooterDesktop';
-import FooterList from 'ui-kit/dist/FooterList/FooterList';
-import FormTextfield from 'ui-kit/dist/FormTextfield/FormTextfield';
+import BlockSelect from 'ui-kit/src/components/BlockSelect/BlockSelect';
+import BlockSocials from 'ui-kit/src/components/BlockSocials/BlockSocials';
+import FooterCategory from 'ui-kit/src/components/FooterCategory/FooterCategory';
+import FooterDesktop from 'ui-kit/src/components/FooterDesktop/FooterDesktop';
+import FooterList from 'ui-kit/src/components/FooterList/FooterList';
+import FormTextfield from 'ui-kit/src/components/FormTextfield/FormTextfield';
 
 class StatefulFooter extends Component {
   render() {

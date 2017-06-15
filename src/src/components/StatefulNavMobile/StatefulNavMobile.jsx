@@ -5,7 +5,7 @@ import { fetchNavMobile, fetchNavMobileLinks } from '../../actions/nav';
 import { NAV_MOBILE_NOT_LOADED, NAV_MOBILE_LINKS_NOT_LOADED } from '../../reducers/nav';
 import { DISPLAY_TYPE_MOBILE } from '../../reducers/shared';
 
-import NavMobile from 'ui-kit/dist/NavMobile/NavMobile';
+import NavMobile from 'ui-kit/src/components/NavMobile/NavMobile';
 
 class StatefulNavMobile extends Component {
   componentDidMount() {

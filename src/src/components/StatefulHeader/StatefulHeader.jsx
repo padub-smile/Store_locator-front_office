@@ -8,8 +8,8 @@ import { CART_NOT_LOADED } from '../../reducers/cart';
 import { FAVORITE_NOT_LOADED } from '../../reducers/favorite';
 import { DATA_NOT_LOADED, DISPLAY_TYPE_DESKTOP } from '../../reducers/shared';
 
-import FormTextfield from 'ui-kit/dist/FormTextfield/FormTextfield';
-import HeaderDesktop from 'ui-kit/dist/HeaderDesktop/HeaderDesktop';
+import FormTextfield from 'ui-kit/src/components/FormTextfield/FormTextfield';
+import HeaderDesktop from 'ui-kit/src/components/HeaderDesktop/HeaderDesktop';
 import StatefulNavAccount from '../StatefulNavAccount/StatefulNavAccount';
 import StatefulNavCart from '../StatefulNavCart/StatefulNavCart';
 import StatefulNavFavorite from '../StatefulNavFavorite/StatefulNavFavorite';

@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 
 import { mapIsReady, selectPointOfSale, updateVisibleMarkers } from '../../actions/pointOfSale';
 
-import DiorMap, { POINT_ZOOM_LEVEL } from 'ui-kit/dist/DiorMap/DiorMap';
+import DiorMap, { POINT_ZOOM_LEVEL } from 'ui-kit/src/components/DiorMap/DiorMap';
 
 const mapStateToProps = (state) => {
   const props = {};

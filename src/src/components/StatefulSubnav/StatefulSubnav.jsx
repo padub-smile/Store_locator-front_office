@@ -5,7 +5,7 @@ import { fetchSubnav } from '../../actions/nav';
 import { SUBNAV_NOT_LOADED } from '../../reducers/nav';
 import { DISPLAY_TYPE_DESKTOP } from '../../reducers/shared';
 
-import Subnav from 'ui-kit/dist/Subnav/Subnav';
+import Subnav from 'ui-kit/src/components/Subnav/Subnav';
 
 const availableIdentifiers = [
   'womens-fashion',

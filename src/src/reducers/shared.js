@@ -1,6 +1,6 @@
 import { DISPLAY_MODE_UPDATED, DISPLAY_TYPE_UPDATED, FETCH_DATA, RECEIVE_DATA } from '../actions/shared';
 
-import { DISPLAY_MODE_MAP } from 'ui-kit/dist/FilterBlock/FilterBlock';
+import { DISPLAY_MODE_MAP } from 'ui-kit/src/components/FilterBlock/FilterBlock';
 
 export const DATA_NOT_LOADED = 0;
 export const DATA_LOADING = 1;

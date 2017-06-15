@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 
 import { CART_LOADING } from '../../reducers/cart';
 
-import NavCart, { STATE_LOADING, STATE_LOADED, STATE_EMPTY } from 'ui-kit/dist/NavCart/NavCart';
+import NavCart, { STATE_LOADING, STATE_LOADED, STATE_EMPTY } from 'ui-kit/src/components/NavCart/NavCart';
 
 class StatefulNavCart extends Component {
   render() {

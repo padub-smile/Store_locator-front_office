@@ -4,16 +4,15 @@ import R from 'ramda';
 
 import { fetchSearchResults, selectPointOfSale } from '../../actions/pointOfSale'
 import { DISPLAY_TYPE_MOBILE } from '../../reducers/shared';
-import { DISPLAY_MODE_LIST } from 'ui-kit/dist/FilterBlock/FilterBlock';
+import { DISPLAY_MODE_LIST } from 'ui-kit/src/components/FilterBlock/FilterBlock';
 
-import ResultsBlock, { HIDE_RESULTS, SHOW_RESULTS } from 'ui-kit/dist/ResultsBlock/ResultsBlock';
-import ShopBlock from 'ui-kit/dist/ShopBlock/ShopBlock';
+import ResultsBlock, { HIDE_RESULTS, SHOW_RESULTS } from 'ui-kit/src/components/ResultsBlock/ResultsBlock';
+import ShopBlock from 'ui-kit/src/components/ShopBlock/ShopBlock';
 
 export const MIN_SEARCH_ZOOM = 14;
 
 class StatefulResultsBlock extends Component {
   componentWillUpdate(nextProps) {
-    console.log(nextProps.zoom, nextProps.markers);
     if (nextProps.zoom >= MIN_SEARCH_ZOOM && nextProps.markers !== this.props.markers) {
       // Fetch search results.
       const ids = nextProps.markers.map(marker => marker.key);

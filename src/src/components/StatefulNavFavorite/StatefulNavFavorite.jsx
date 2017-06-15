@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 
 import { FAVORITE_LOADING } from '../../reducers/favorite';
 
-import NavFavorite, { STATE_NOT_CONNECTED, STATE_LOADING, STATE_LOADED, STATE_EMPTY } from 'ui-kit/dist/NavFavorite/NavFavorite';
+import NavFavorite, { STATE_NOT_CONNECTED, STATE_LOADING, STATE_LOADED, STATE_EMPTY } from 'ui-kit/src/components/NavFavorite/NavFavorite';
 
 class StatefulNavFavorite extends Component {
   render() {

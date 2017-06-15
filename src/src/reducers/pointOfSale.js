@@ -50,7 +50,6 @@ export function pointOfSale(state = initialState, action) {
       };
 
     case RECEIVE_SEARCH_RESULTS:
-      console.log(state.searchPosition);
       if (state.searchPosition) {
         const lat = state.searchPosition.lat();
         const lng = state.searchPosition.lng();
