@@ -8,7 +8,8 @@ const mapStateToProps = (state) => {
   return {
     isGeolocationAvailable: navigator
       && navigator.geolocation
-      && navigator.geolocation.getCurrentPosition,
+      && navigator.geolocation.getCurrentPosition
+      && true,
     title: state.shared.dataCdc
       ? state.shared.dataCdc.search.placeholder
       : '',
