@@ -1,11 +1,27 @@
 import React, { Component } from 'react';
 
+import { localPath } from '../../app/appTranslator';
+
 import BlockSelect from 'ui-kit/src/components/BlockSelect/BlockSelect';
 import BlockSocials from 'ui-kit/src/components/BlockSocials/BlockSocials';
 import FooterCategory from 'ui-kit/src/components/FooterCategory/FooterCategory';
 import FooterDesktop from 'ui-kit/src/components/FooterDesktop/FooterDesktop';
 import FooterList from 'ui-kit/src/components/FooterList/FooterList';
 import FormTextfield from 'ui-kit/src/components/FormTextfield/FormTextfield';
+
+let selectedCountry;
+const countries = [
+  {text: 'France (EUR€)', href: '/fr_fr', shop: true},
+  {text: 'Italia (EUR€)', href: '/it_it', shop: true},
+  {text: 'Россия', href: '/ru'}
+];
+countries.forEach(country => {
+  const paths = country.href.substr(1).split('/');
+  if (paths[0] === localPath) {
+    country.selected = true;
+    selectedCountry = country;
+  }
+});
 
 class StatefulFooter extends Component {
   render() {
@@ -49,13 +65,8 @@ class StatefulFooter extends Component {
         title="Pays"
         position="bottom"
         comp={(<BlockSelect
-          defaultCountry={{text: 'France (EUR€)', shop: true}}
-          countries={[
-            {text: 'Europe', disabled: true},
-            {text: 'France (EUR€)', href: '#', shop: true, selected: true},
-            {text: 'Italia (EUR€)', href: '#', shop: true},
-            {text: 'Россия', href: '#'}
-          ]}
+          defaultCountry={selectedCountry}
+          countries={countries}
         />)}
       />,
       <FooterCategory
