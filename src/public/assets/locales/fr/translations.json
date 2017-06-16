@@ -1,0 +1,24 @@
+{
+    "FilterBlock": {
+        "%(count)s Results": {
+            "one": "%(count)s Résultat",
+            "other": "%(count)s Résultats",
+            "zero": "%(count)s Résultat"
+        },
+        "Refine": "Affiner"
+    },
+    "ResultsBlock": {
+        "Dior boutiques": "Boutiques Dior",
+        "Other shops": "Autres boutiques"
+    },
+    "SearchBlock": {
+        "Search": "Rechercher"
+    },
+    "ShopBlock": {
+        "Open": "Ouvert",
+        "Opening time": "Horaires d'ouverture",
+        "Services": "Services",
+        "Today until %(hour)s": "Aujourd'hui jusqu'à %(hour)s",
+        "Universes": "Univers"
+    }
+}

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@gandi/react-translate": "^1.0.2",
     "debounce": "^1.0.2",
     "isomorphic-fetch": "^2.2.1",
     "js-cookie": "^2.1.4",

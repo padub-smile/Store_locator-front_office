@@ -77,11 +77,9 @@ class StatefulResultsBlock extends Component {
 
     return (<ResultsBlock
       diorShops={diorShops}
-      diorShopsTitle="Boutiques Dior"
       displayResults={state}
       height={height}
       otherShops={otherShops}
-      otherShopsTitle="Autres boutiques"
       selectedId={this.props.selectedId}
     />);
   }

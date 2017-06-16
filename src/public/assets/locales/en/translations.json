@@ -1,0 +1,24 @@
+{
+    "FilterBlock": {
+        "%(count)s Results": {
+            "one": "%(count)s Results",
+            "other": "%(count)s Results",
+            "zero": "%(count)s Results"
+        },
+        "Refine": "Refine"
+    },
+    "ResultsBlock": {
+        "Dior boutiques": "Dior boutiques",
+        "Other shops": "Other shops"
+    },
+    "SearchBlock": {
+        "Search": "Search"
+    },
+    "ShopBlock": {
+        "Open": "Open",
+        "Opening time": "Opening time",
+        "Services": "Services",
+        "Today until %(hour)s": "Today until %(hour)s",
+        "Universes": "Universes"
+    }
+}
