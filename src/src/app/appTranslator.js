@@ -8,7 +8,7 @@ const translations = require(`../../public/assets/locales/${DEFAULT_LOCALE}/tran
 const availableLocales = ['fr', 'en'];
 
 let urlLocale;
-const paths = url.parse(document.location.href, true).path.substr(1).split('/');
+const paths = url.parse(document.location.href, true).pathname.substr(1).split('/');
 const localPath = paths[0];
 if (localPath) {
   urlLocale = localPath.substr(0, 2);

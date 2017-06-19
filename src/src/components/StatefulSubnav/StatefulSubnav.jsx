@@ -7,14 +7,6 @@ import { DISPLAY_TYPE_DESKTOP } from '../../reducers/shared';
 
 import Subnav from 'ui-kit/src/components/Subnav/Subnav';
 
-const availableIdentifiers = [
-  'womens-fashion',
-  'mens-fashion',
-  'childrens-fashion',
-  'jewellery',
-  'timepieces'
-];
-
 class StatefulSubnav extends Component {
   componentDidMount() {
     this.loadSubnav();
@@ -27,14 +19,13 @@ class StatefulSubnav extends Component {
   loadSubnav() {
     if (this.props.subNavLoadState === SUBNAV_NOT_LOADED
       && this.props.displayType === DISPLAY_TYPE_DESKTOP
-      && this.props.activeMenu
-      && availableIdentifiers.indexOf(this.props.activeMenu) !== -1) {
+      && this.props.activeMenu) {
       this.props.fetchSubnav(this.props.activeMenu);
     }
   }
 
   render() {
-    if (this.props.activeMenu && availableIdentifiers.indexOf(this.props.activeMenu) !== -1) {
+    if (this.props.activeMenu) {
       return (<Subnav data={this.props.data}/>);
     }
     return null;

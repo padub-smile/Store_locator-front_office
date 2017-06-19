@@ -1,3 +1,15 @@
+export const NAV_UNIVERSE_QUERY_PARAMETER = 'activeMenu';
+export const NAV_AVAILABLE_IDENTIFIERS = {
+  'womens-fashion': 'cdc',
+  'mens-fashion': 'cdc',
+  'fragrance': 'pcd',
+  'makeup': 'pcd',
+  'skincare': 'pcd',
+  'childrens-fashion': 'cdc',
+  'jewellery': 'cdc',
+  'timepieces': 'cdc'
+};
+
 export const NAV_MOBILE_URLS = {
   development: '/fixtures/navmobile.json',
   test: '/fixtures/navmobile.json',
@@ -20,4 +32,10 @@ export const NAV_SUBNAV_URLS = {
   development: (universe) => `/fixtures/${universe}.json`,
   test: (universe) => `/fixtures/${universe}.json`,
   production: (universe) => `http://www.dior.com/couture/fr_fr/ws/topmenu/${universe}`
+};
+
+export const NAV_FOOTER_URLS = {
+  development: '/fixtures/footer.json',
+  test: '/fixtures/footer.json',
+  production: 'http://www.dior.com/couture/fr_fr/ws/footer'
 };

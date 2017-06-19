@@ -1,4 +1,4 @@
-import { getMetanav, getNavMobile, getNavMobileLinks, getSubnav } from '../services/nav';
+import { getFooter, getMetanav, getNavMobile, getNavMobileLinks, getSubnav } from '../services/nav';
 
 export const TOGGLE_NAV_MOBILE = 'TOGGLE_NAV_MOBILE';
 export function toggleNavMobile(dispatch, isOpen) {
@@ -52,6 +52,18 @@ export function fetchSubnav(dispatch, activeMenu) {
     .then(response => response.json())
     .then(json => dispatch({
       type: RECEIVE_SUBNAV,
+      data: json
+    }));
+}
+
+export const FETCH_FOOTER = 'FETCH_FOOTER';
+export const RECEIVE_FOOTER = 'RECEIVE_FOOTER';
+export function fetchFooter(dispatch) {
+  dispatch({type: FETCH_FOOTER});
+  getFooter()
+    .then(response => response.json())
+    .then(json => dispatch({
+      type: RECEIVE_FOOTER,
       data: json
     }));
 }
