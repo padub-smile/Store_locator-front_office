@@ -1,61 +1,61 @@
 {
   "home": {
-    "url": "https:\/\/preprod.dior.com\/home\/fr_fr",
-    "data-track-object": []
+    "url": "http:\/\/www.dior.com\/home\/fr_fr",
+    "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_ONEDIOR_Prehome\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Home\u0022}"
   },
   "main": {
     "fashion-accessories": [
       {
-        "title": "Mode Femme",
-        "url": "https:\/\/preprod.dior.com\/couture\/fr_fr\/mode-femme",
+        "title": "Femme",
+        "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-femme",
         "identifier": "womens-fashion",
-        "data-track-object": []
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_HP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Woman\u0022}"
       },
       {
-        "title": "Mode Homme",
-        "url": "https:\/\/preprod.dior.com\/couture\/fr_fr\/mode-homme",
+        "title": "Homme",
+        "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-homme",
         "identifier": "mens-fashion",
-        "data-track-object": []
-      },
-      {
-        "title": "mode enfant",
-        "url": "https:\/\/preprod.dior.com\/couture\/fr_fr\/mode-enfant",
-        "identifier": "childrens-fashion",
-        "data-track-object": []
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_HP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Man\u0022}"
       }
     ],
     "fragrance-beauty": [
       {
         "title": "Parfum",
-        "url": "https:\/\/www.dior.com\/beauty\/fr_fr\/parfum-et-beaute\/parfum\/axe-fragrance-parfum.html",
+        "url": "http:\/\/www.dior.com\/beauty\/fr_fr\/parfum-et-beaute\/parfum\/axe-fragrance-parfum.html",
         "identifier": "",
-        "data-track-object": []
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_PCD_HP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022FRAGRANCE\u0022}"
       },
       {
-        "title": "Maquillage",
-        "url": "",
+        "title": "MAQUILLAGE",
+        "url": "http:\/\/www.dior.com\/beauty\/fr_fr\/parfum-et-beaute\/maquillage\/axe-makeup-maquillage.html",
         "identifier": "",
-        "data-track-object": []
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_PCD_HP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022MAKEUP\u0022}"
       },
       {
-        "title": "Soin",
-        "url": "https:\/\/www.dior.com\/beauty\/fr_fr\/parfum-et-beaute\/soin\/axe-skincare-soin.html",
+        "title": "SOIN",
+        "url": "http:\/\/www.dior.com\/beauty\/fr_fr\/parfum-et-beaute\/soin\/axe-skincare-soin.html",
         "identifier": "",
-        "data-track-object": []
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_PCD_HP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022SKINCARE\u0022}"
       }
     ],
     "jewellery-timepieces": [
       {
         "title": "Joaillerie",
-        "url": "https:\/\/preprod.dior.com\/couture\/fr_fr\/joaillerie",
+        "url": "http:\/\/www.dior.com\/couture\/fr_fr\/joaillerie",
         "identifier": "jewellery",
-        "data-track-object": []
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_HP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Jewellery\u0022}"
       },
       {
         "title": "Horlogerie",
-        "url": "https:\/\/preprod.dior.com\/couture\/fr_fr\/horlogerie",
+        "url": "http:\/\/www.dior.com\/couture\/fr_fr\/horlogerie",
         "identifier": "timepieces",
-        "data-track-object": []
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_HP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Timepieces\u0022}"
+      },
+      {
+        "title": "Baby Dior",
+        "url": "http:\/\/www.dior.com\/couture\/fr_fr\/mode-enfant",
+        "identifier": "childrens-fashion",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_CDC_HP\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022Baby Dior\u0022}"
       }
     ]
   },
@@ -64,18 +64,21 @@
     "list": [
       {
         "title": "DIORMAG",
-        "url": "https:\/\/www.dior.com\/diormag\/fr_fr",
-        "data-track-object": []
-      },
-      {
-        "title": "DiorTV",
-        "url": "https:\/\/www.dior.com\/diortv\/fr_fr\/ ",
-        "data-track-object": []
+        "url": "http:\/\/www.dior.com\/diormag\/fr_fr",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_ONEDIOR_Diormag\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022DIORMAG\u0022}",
+        "identifier": "diormag"
       },
       {
         "title": "La maison Dior",
-        "url": "https:\/\/preprod.dior.com\/couture\/fr_fr\/la-maison-dior",
-        "data-track-object": []
+        "url": "http:\/\/www.dior.com\/couture\/fr_fr\/la-maison-dior",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_LMD\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022THE HOUSE OF DIOR\u0022}",
+        "identifier": "lmd"
+      },
+      {
+        "title": "DiorTV",
+        "url": "http:\/\/www.dior.com\/diortv\/fr_fr\/ ",
+        "data-track-object": "{\u0022event\u0022:\u0022trackEvent\u0022,\u0022eventCategory\u0022:\u0022DiorCom_ONEDIOR_Diortv\u0022,\u0022eventAction\u0022:\u0022Header\u0022,\u0022eventLabel\u0022:\u0022DiorTV\u0022}",
+        "identifier": "diortv"
       }
     ]
   }
