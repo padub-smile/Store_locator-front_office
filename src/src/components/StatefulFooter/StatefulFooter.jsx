@@ -15,9 +15,6 @@ class StatefulFooter extends Component {
   }
 
   render() {
-    console.log(localPath);
-    console.log(this.props.footer);
-    console.log(this.props.isPcd);
     return (<FooterDesktop
       currentLanguage={localPath}
       data={this.props.footer}

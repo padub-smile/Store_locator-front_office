@@ -1,20 +1,28 @@
 import R from 'ramda';
 
 import {
+  CHANGE_TRAVEL_MODE,
+  FETCH_ITINERARY,
   MAP_IS_READY,
   MARKERS_UPDATED,
   RECEIVE_POINTS_OF_SALE,
   RECEIVE_SEARCH_RESULTS,
   RECEIVE_FILTERS,
   SEARCH,
-  SELECT_POINTS_OF_SALE
+  SELECT_POINTS_OF_SALE,
+  SET_CURRENT_ADDRESS,
+  TOGGLE_ITINERARY
 } from '../actions/pointOfSale'
+import { TRAVEL_MODES } from 'ui-kit/src/components/Itinerary/Itinerary';
 
 export const MAP_NOT_READY = 0;
 export const MAP_READY = 1;
 
 const initialState = {
+  currentAddress: '',
   items: [],
+  itinerary: null,
+  isItineraryVisible: false,
   isMapReady: MAP_NOT_READY,
   filters: {},
   markers: [],
@@ -25,11 +33,24 @@ const initialState = {
   searchViewport: null,
   searchValue: 'France',
   selectedId: null,
+  travelMode: TRAVEL_MODES[0],
   zoom: null
 };
 
 export function pointOfSale(state = initialState, action) {
   switch (action.type) {
+    case CHANGE_TRAVEL_MODE:
+      return {
+        ...state,
+        travelMode: action.data
+      };
+
+    case FETCH_ITINERARY:
+      return {
+        ...state,
+        itinerary: action.data
+      };
+
     case MAP_IS_READY:
       return {
         ...state,
@@ -81,6 +102,21 @@ export function pointOfSale(state = initialState, action) {
     case SELECT_POINTS_OF_SALE:
       return {
         ...state,
+        selectedId: action.data
+      };
+
+    case SET_CURRENT_ADDRESS:
+      return {
+        ...state,
+        currentAddress: action.data
+      };
+
+    case TOGGLE_ITINERARY:
+      return {
+        ...state,
+        isItineraryVisible: state.selectedId === action.data
+          ? !state.isItineraryVisible
+          : true,
         selectedId: action.data
       };
 

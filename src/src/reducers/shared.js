@@ -13,7 +13,11 @@ const initialState = {
   dataLoadState: DATA_NOT_LOADED,
   dataPcd: null,
   displayType: window.matchMedia('(min-width: 992px)').matches ? DISPLAY_TYPE_DESKTOP : DISPLAY_TYPE_MOBILE,
-  displayMode: DISPLAY_MODE_MAP
+  displayMode: DISPLAY_MODE_MAP,
+  isGeolocationAvailable: navigator
+    && navigator.geolocation
+    && navigator.geolocation.getCurrentPosition
+    && true
 };
 
 export function shared(state = initialState, action) {

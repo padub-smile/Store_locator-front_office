@@ -74,3 +74,44 @@ export function updateVisibleMarkers(dispatch, markers, zoom) {
     zoom
   });
 }
+
+export const TOGGLE_ITINERARY = 'TOGGLE_ITINERARY';
+export function toggleItinerary(dispatch, id) {
+  dispatch({
+    type: TOGGLE_ITINERARY,
+    data: id
+  });
+}
+
+export const CHANGE_TRAVEL_MODE = 'CHANGE_TRAVEL_MODE';
+export function changeTravelMode(dispatch, mode) {
+  dispatch({
+    type: CHANGE_TRAVEL_MODE,
+    data: mode
+  });
+}
+
+export const SET_CURRENT_ADDRESS = 'SET_CURRENT_ADDRESS';
+export function setCurrentAddress(dispatch, address) {
+  dispatch({
+    type: SET_CURRENT_ADDRESS,
+    data: address
+  });
+}
+
+export const FETCH_ITINERARY = 'FETCH_ITINERARY';
+let directionsService;
+export function fetchItinerary(dispatch, origin, destination, travelMode) {
+  if (!directionsService) {
+    directionsService = new window.google.maps.DirectionsService();
+  }
+  var request = {origin, destination, travelMode};
+  directionsService.route(request, function(response, status) {
+    if (status === 'OK') {
+      dispatch({
+        type: FETCH_ITINERARY,
+        data: response
+      });
+    }
+  });
+}

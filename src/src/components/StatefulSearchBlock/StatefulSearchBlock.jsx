@@ -6,10 +6,7 @@ import SearchBlock from 'ui-kit/src/components/SearchBlock/SearchBlock';
 
 const mapStateToProps = (state) => {
   return {
-    isGeolocationAvailable: navigator
-      && navigator.geolocation
-      && navigator.geolocation.getCurrentPosition
-      && true,
+    isGeolocationAvailable: state.shared.isGeolocationAvailable,
     title: state.shared.dataCdc
       ? state.shared.dataCdc.search.placeholder
       : '',

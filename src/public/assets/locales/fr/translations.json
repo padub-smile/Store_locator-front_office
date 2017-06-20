@@ -11,6 +11,12 @@
         "Dior boutiques": "Boutiques Dior",
         "Other shops": "Autres boutiques"
     },
+    "Itinerary": {
+        "Arrival": "Arrivée",
+        "Departure": "Départ",
+        "Follow the itinerary": "Suivre l'itinéraire",
+        "Itinerary": "Itinéraire"
+    },
     "SearchBlock": {
         "Search": "Rechercher"
     },

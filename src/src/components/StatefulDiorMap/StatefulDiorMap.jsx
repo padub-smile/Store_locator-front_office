@@ -19,6 +19,7 @@ const mapStateToProps = (state) => {
   props.center = state.pointOfSale.searchPosition;
   props.zoom = POINT_ZOOM_LEVEL;
   props.markers = state.pointOfSale.items;
+  props.itinerary = state.pointOfSale.itinerary;
   return props;
 };
 
