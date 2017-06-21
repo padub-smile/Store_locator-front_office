@@ -1,3 +1,4 @@
+import url from 'url';
 import R from 'ramda';
 
 import {
@@ -21,6 +22,9 @@ import { TRAVEL_MODES } from 'ui-kit/src/components/Itinerary/Itinerary';
 export const MAP_NOT_READY = 0;
 export const MAP_READY = 1;
 
+const parsedUrl = url.parse(window.location.href, true);
+let selectedId = parsedUrl.query.shop;
+
 const initialState = {
   allItems: [],
   currentAddress: '',
@@ -38,7 +42,7 @@ const initialState = {
   searchResultsDior: [],
   searchResultsOther: [],
   searchViewport: null,
-  searchValue: 'France',
+  searchValue: selectedId ? undefined : 'France',
   selectedId: null,
   travelMode: Object.keys(TRAVEL_MODES)[0],
   zoom: null
@@ -84,10 +88,15 @@ export function pointOfSale(state = initialState, action) {
       };
 
     case RECEIVE_POINTS_OF_SALE:
+      if (selectedId) {
+        state.selectedId = selectedId;
+        selectedId = null;
+      }
       return {
         ...state,
         allItems: action.data.items,
-        items: action.data.items
+        items: action.data.items,
+        selectedId: state.selectedId
       };
 
     case RECEIVE_SEARCH_RESULTS:
@@ -141,7 +150,6 @@ export function pointOfSale(state = initialState, action) {
       };
 
     case UPDATE_FILTERS:
-      console.log(action.data);
       let items = [];
       if (action.data.length > 0) {
         items = state.allItems
