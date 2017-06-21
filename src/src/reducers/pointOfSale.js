@@ -13,7 +13,8 @@ import {
   SEARCH,
   SELECT_POINTS_OF_SALE,
   SET_CURRENT_ADDRESS,
-  TOGGLE_ITINERARY
+  TOGGLE_ITINERARY,
+  UPDATE_FILTERS
 } from '../actions/pointOfSale'
 import { TRAVEL_MODES } from 'ui-kit/src/components/Itinerary/Itinerary';
 
@@ -21,6 +22,7 @@ export const MAP_NOT_READY = 0;
 export const MAP_READY = 1;
 
 const initialState = {
+  allItems: [],
   currentAddress: '',
   directionsDisplay: new window.google.maps.DirectionsRenderer(),
   items: [],
@@ -29,6 +31,7 @@ const initialState = {
   isItineraryDetailsOpen: false,
   isMapReady: MAP_NOT_READY,
   filters: {},
+  filtersSelected: [],
   markers: [],
   searchCount: 0,
   searchPosition: null,
@@ -83,6 +86,7 @@ export function pointOfSale(state = initialState, action) {
     case RECEIVE_POINTS_OF_SALE:
       return {
         ...state,
+        allItems: action.data.items,
         items: action.data.items
       };
 
@@ -134,6 +138,21 @@ export function pointOfSale(state = initialState, action) {
         isItineraryVisible: action.state,
         itinerary: action.state ? state.itinerary : null,
         selectedId: action.id
+      };
+
+    case UPDATE_FILTERS:
+      console.log(action.data);
+      let items = [];
+      if (action.data.length > 0) {
+        items = state.allItems
+          .filter(item => item[3] && item[3].length > 0 && R.intersection(item[3], action.data).length > 0);
+      } else {
+        items = state.allItems;
+      }
+      return {
+        ...state,
+        filtersSelected: action.data,
+        items
       };
 
     default:

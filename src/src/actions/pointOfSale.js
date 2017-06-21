@@ -135,3 +135,11 @@ export const CLOSE_ITINERARY_DETAILS = 'CLOSE_ITINERARY_DETAILS';
 export function closeItineraryDetails(dispatch) {
   dispatch({type: CLOSE_ITINERARY_DETAILS});
 }
+
+export const UPDATE_FILTERS = 'UPDATE_FILTERS';
+export function updateFilters(dispatch, filters) {
+  dispatch({
+    type: UPDATE_FILTERS,
+    data: filters
+  });
+}
