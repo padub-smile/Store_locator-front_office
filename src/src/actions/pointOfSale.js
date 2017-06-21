@@ -143,3 +143,11 @@ export function updateFilters(dispatch, filters) {
     data: filters
   });
 }
+
+export const TOGGLE_CATEGORY_FILTER = 'TOGGLE_CATEGORY_FILTER';
+export function toggleFilterCategory(dispatch, index) {
+  dispatch({
+    type: TOGGLE_CATEGORY_FILTER,
+    data: index
+  });
+}

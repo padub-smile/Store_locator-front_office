@@ -14,6 +14,7 @@ import {
   SEARCH,
   SELECT_POINTS_OF_SALE,
   SET_CURRENT_ADDRESS,
+  TOGGLE_CATEGORY_FILTER,
   TOGGLE_ITINERARY,
   UPDATE_FILTERS
 } from '../actions/pointOfSale'
@@ -24,9 +25,11 @@ export const MAP_READY = 1;
 
 const parsedUrl = url.parse(window.location.href, true);
 let selectedId = parsedUrl.query.shop;
+let filtersSelected = parsedUrl.query.filters;
 
 const initialState = {
   allItems: [],
+  categoryOpen: null,
   currentAddress: '',
   directionsDisplay: new window.google.maps.DirectionsRenderer(),
   items: [],
@@ -35,14 +38,14 @@ const initialState = {
   isItineraryDetailsOpen: false,
   isMapReady: MAP_NOT_READY,
   filters: {},
-  filtersSelected: [],
+  filtersSelected: filtersSelected ? filtersSelected.split(',') : [],
   markers: [],
   searchCount: 0,
   searchPosition: null,
   searchResultsDior: [],
   searchResultsOther: [],
   searchViewport: null,
-  searchValue: selectedId ? undefined : 'France',
+  searchValue: selectedId ? null : 'France',
   selectedId: null,
   travelMode: Object.keys(TRAVEL_MODES)[0],
   zoom: null
@@ -95,8 +98,7 @@ export function pointOfSale(state = initialState, action) {
       return {
         ...state,
         allItems: action.data.items,
-        items: action.data.items,
-        selectedId: state.selectedId
+        items: filterItems(state.filtersSelected, action.data.items)
       };
 
     case RECEIVE_SEARCH_RESULTS:
@@ -116,6 +118,14 @@ export function pointOfSale(state = initialState, action) {
       };
 
     case RECEIVE_FILTERS:
+      if (filtersSelected) {
+        action.data.universes
+          .forEach((univers, index) => {
+            if (univers.subUniverses.filter(subUnivers => subUnivers.id === state.filtersSelected[0]).length) {
+              state.categoryOpen = index;
+            }
+          });
+      }
       return {
         ...state,
         filters: action.data
@@ -141,6 +151,12 @@ export function pointOfSale(state = initialState, action) {
         searchValue: action.data
       };
 
+    case TOGGLE_CATEGORY_FILTER:
+      return {
+        ...state,
+        categoryOpen: action.data
+      };
+
     case TOGGLE_ITINERARY:
       return {
         ...state,
@@ -150,17 +166,10 @@ export function pointOfSale(state = initialState, action) {
       };
 
     case UPDATE_FILTERS:
-      let items = [];
-      if (action.data.length > 0) {
-        items = state.allItems
-          .filter(item => item[3] && item[3].length > 0 && R.intersection(item[3], action.data).length > 0);
-      } else {
-        items = state.allItems;
-      }
       return {
         ...state,
         filtersSelected: action.data,
-        items
+        items: filterItems(action.data, state.allItems)
       };
 
     default:
@@ -189,4 +198,12 @@ function distanceInKm(lat1, lng1, lat2, lng2) {
 
 function sortByDistance(a, b) {
   return a.distance - b.distance;
+}
+
+function filterItems(filters, items) {
+  if (filters && filters.length > 0) {
+    return items
+      .filter(item => item[3] && item[3].length > 0 && R.intersection(item[3], filters).length > 0);
+  }
+  return items;
 }
