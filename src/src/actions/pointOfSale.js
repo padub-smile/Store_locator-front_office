@@ -52,14 +52,6 @@ export function selectPointOfSale(dispatch, id) {
     data: id
   });
 }
-export const SEARCH = 'SEARCH';
-export function search(dispatch, viewport, position = null) {
-  dispatch({
-    type: SEARCH,
-    viewport,
-    position
-  });
-}
 
 export const MAP_IS_READY = 'MAP_IS_READY';
 export function mapIsReady(dispatch) {
@@ -76,10 +68,11 @@ export function updateVisibleMarkers(dispatch, markers, zoom) {
 }
 
 export const TOGGLE_ITINERARY = 'TOGGLE_ITINERARY';
-export function toggleItinerary(dispatch, id) {
+export function toggleItinerary(dispatch, id, state) {
   dispatch({
     type: TOGGLE_ITINERARY,
-    data: id
+    id,
+    state
   });
 }
 
@@ -100,11 +93,8 @@ export function setCurrentAddress(dispatch, address) {
 }
 
 export const FETCH_ITINERARY = 'FETCH_ITINERARY';
-let directionsService;
+const directionsService = new window.google.maps.DirectionsService();
 export function fetchItinerary(dispatch, origin, destination, travelMode) {
-  if (!directionsService) {
-    directionsService = new window.google.maps.DirectionsService();
-  }
   var request = {origin, destination, travelMode};
   directionsService.route(request, function(response, status) {
     if (status === 'OK') {
@@ -114,4 +104,34 @@ export function fetchItinerary(dispatch, origin, destination, travelMode) {
       });
     }
   });
+}
+
+export const SEARCH = 'SEARCH';
+const geocoder = new window.google.maps.Geocoder();
+export function search(dispatch, viewport, position = null) {
+  dispatch({
+    type: SEARCH,
+    viewport,
+    position
+  });
+  if (position) {
+    geocoder.geocode({'location': position}, (results, status) => {
+      if (status === 'OK') {
+        dispatch({
+          type: SET_CURRENT_ADDRESS,
+          data: results[0].formatted_address
+        });
+      }
+    });
+  }
+}
+
+export const OPEN_ITINERARY_DETAILS = 'OPEN_ITINERARY_DETAILS';
+export function openItineraryDetails(dispatch) {
+  dispatch({type: OPEN_ITINERARY_DETAILS});
+}
+
+export const CLOSE_ITINERARY_DETAILS = 'CLOSE_ITINERARY_DETAILS';
+export function closeItineraryDetails(dispatch) {
+  dispatch({type: CLOSE_ITINERARY_DETAILS});
 }

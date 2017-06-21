@@ -2,9 +2,11 @@ import R from 'ramda';
 
 import {
   CHANGE_TRAVEL_MODE,
+  CLOSE_ITINERARY_DETAILS,
   FETCH_ITINERARY,
   MAP_IS_READY,
   MARKERS_UPDATED,
+  OPEN_ITINERARY_DETAILS,
   RECEIVE_POINTS_OF_SALE,
   RECEIVE_SEARCH_RESULTS,
   RECEIVE_FILTERS,
@@ -20,9 +22,11 @@ export const MAP_READY = 1;
 
 const initialState = {
   currentAddress: '',
+  directionsDisplay: new window.google.maps.DirectionsRenderer(),
   items: [],
   itinerary: null,
   isItineraryVisible: false,
+  isItineraryDetailsOpen: false,
   isMapReady: MAP_NOT_READY,
   filters: {},
   markers: [],
@@ -33,7 +37,7 @@ const initialState = {
   searchViewport: null,
   searchValue: 'France',
   selectedId: null,
-  travelMode: TRAVEL_MODES[0],
+  travelMode: Object.keys(TRAVEL_MODES)[0],
   zoom: null
 };
 
@@ -43,6 +47,12 @@ export function pointOfSale(state = initialState, action) {
       return {
         ...state,
         travelMode: action.data
+      };
+
+    case CLOSE_ITINERARY_DETAILS:
+      return {
+        ...state,
+        isItineraryDetailsOpen: false
       };
 
     case FETCH_ITINERARY:
@@ -62,6 +72,12 @@ export function pointOfSale(state = initialState, action) {
         ...state,
         markers: action.markers,
         zoom: action.zoom
+      };
+
+    case OPEN_ITINERARY_DETAILS:
+      return {
+        ...state,
+        isItineraryDetailsOpen: true
       };
 
     case RECEIVE_POINTS_OF_SALE:
@@ -108,16 +124,16 @@ export function pointOfSale(state = initialState, action) {
     case SET_CURRENT_ADDRESS:
       return {
         ...state,
-        currentAddress: action.data
+        currentAddress: action.data,
+        searchValue: action.data
       };
 
     case TOGGLE_ITINERARY:
       return {
         ...state,
-        isItineraryVisible: state.selectedId === action.data
-          ? !state.isItineraryVisible
-          : true,
-        selectedId: action.data
+        isItineraryVisible: action.state,
+        itinerary: action.state ? state.itinerary : null,
+        selectedId: action.id
       };
 
     default:

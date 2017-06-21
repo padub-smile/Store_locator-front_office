@@ -14,7 +14,13 @@
     "Itinerary": {
         "Arrival": "Arrivée",
         "Departure": "Départ",
+        "Details": "Détails",
         "Follow the itinerary": "Suivre l'itinéraire",
+        "Itinerary": "Itinéraire"
+    },
+    "ItineraryPanel": {
+        "Arrival": "Arrivée",
+        "Departure": "Départ",
         "Itinerary": "Itinéraire"
     },
     "SearchBlock": {

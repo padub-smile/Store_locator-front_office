@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux'
 import { provideTranslate } from '@gandi/react-translate';
 
+import 'ui-kit/src/styles/ui-kit.css';
 import './index.css';
 import { fetchPointsOfSale, fetchFilters } from './actions/pointOfSale'
 import store from './app/appStore'

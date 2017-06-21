@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import debounce from 'debounce';
 
-import 'ui-kit/src/styles/ui-kit.css';
-
 import { updateDisplayType } from '../../actions/shared';
 import { DISPLAY_TYPE_MOBILE, DISPLAY_TYPE_DESKTOP } from '../../reducers/shared';
 
@@ -47,9 +45,9 @@ class App extends Component {
       document.body.classList.remove('no-overflow');
     }
 
-    let contentStyles = {maxWidth: '1400px', margin: 'auto', padding: '0 20px'};
-    let mapStyles = {maxWidth: '920px', height: '800px', marginLeft: '30%'};
-    let searchStyles = {maxWidth: '400px', width: '30%', float: 'left'};
+    let contentStyles = {maxWidth: '1400px', margin: 'auto', padding: '0 20px', display: 'flex'};
+    let searchStyles = {width: '460px'};
+    let mapStyles = {flex: 1};
     let filtersHeight = '593px';
     if (this.props.displayType === DISPLAY_TYPE_MOBILE) {
       contentStyles = {};
@@ -57,7 +55,6 @@ class App extends Component {
       searchStyles = {width: '100%'};
       filtersHeight = '752px';
     }
-
 
     return (
       <div>

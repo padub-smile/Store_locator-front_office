@@ -12,9 +12,15 @@
         "Other shops": "Other shops"
     },
     "Itinerary": {
-        "Arrival": "Arrivée",
-        "Departure": "Départ",
+        "Arrival": "Arrival",
+        "Departure": "Departure",
+        "Details": "Details",
         "Follow the itinerary": "Follow the itinerary",
+        "Itinerary": "Itinerary"
+    },
+    "ItineraryPanel": {
+        "Arrival": "Arrival",
+        "Departure": "Departure",
         "Itinerary": "Itinerary"
     },
     "SearchBlock": {
